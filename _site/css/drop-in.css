@@ -298,7 +298,7 @@ footer nav ul { list-style: none; }
 
 footer nav li {
   display: inline-block;
-  padding: 0 0.5rem 0 0.75rem;
+  padding: 0 0.5rem;
 }
 
 footer nav li:nth-of-type(1) { border-left: none; }

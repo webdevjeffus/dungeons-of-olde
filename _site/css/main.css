@@ -1,0 +1,7 @@
+.current {
+  border-bottom: 3px solid #888;
+}
+
+header nav li {
+  border: none;
+}
