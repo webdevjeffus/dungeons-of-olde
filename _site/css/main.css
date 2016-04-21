@@ -1,7 +1,29 @@
+main {
+  padding: 0;
+}
+
 header .current {
   border-bottom: 3px solid #888;
 }
 
 header nav li {
   border: none;
+}
+
+.sub-nav {
+  background-color: #bbb;
+  padding-top: 0.5rem;
+}
+
+.sub-nav ul {
+  margin: 0;
+}
+
+.sub-nav li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.content {
+  padding: 1rem;
 }

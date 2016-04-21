@@ -1,5 +1,15 @@
 ---
-layout: default
+layout: rules-layout
+category: rules
 ---
 
 <h1>Rules of the Game</h1>
+
+<ol>
+  {% include rules-links.html %}
+</ol>
+<!-- ol>
+  {% for section in site.categories.rules reversed %}
+    <li><a href="">{{section.title}}</a></li>
+  {% endfor %}
+</ol -->

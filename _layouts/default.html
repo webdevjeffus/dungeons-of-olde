@@ -43,7 +43,16 @@
   </header>
 
   <main>
-    {{content}}
+    {% if post.layout == rules-layout.html %}
+      <div class="sub-nav">
+        <ul>
+        {% include rules-links.html %}
+        </ul>
+      </div>
+    {% endif %}
+    <div class="content">
+      {{content}}
+    </div>
   </main>
 
   <footer>
