@@ -57,8 +57,7 @@ header nav input[type="submit"] {
 
 /* Borders */
 
-header nav li,
-footer nav li     { border-left: 0.125rem solid; }
+header nav li     { border-left: 0.125rem solid; }
 main section      { border-bottom: 2px solid; }
 main table        { border: 2px solid; }
 main th, main td  { border: 1px solid; }
@@ -101,8 +100,7 @@ header nav input[type="submit"]:hover,
 header nav input[type="submit"]:active { color: #f22; }
   /* brighter contrasting color; active links */
 
-header nav li,
-footer nav li { border-color: #888; }   /* this should match html background-color */
+header nav li { border-color: #888; }   /* this should match html background-color */
 
 main table,
 main th,
@@ -300,8 +298,6 @@ footer nav li {
   display: inline-block;
   padding: 0 0.5rem;
 }
-
-footer nav li:nth-of-type(1) { border-left: none; }
 
 footer nav input[type="submit"] {
   overflow: visible;
