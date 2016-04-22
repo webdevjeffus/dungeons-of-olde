@@ -1,6 +1,7 @@
 ---
-layout: rules-section-layout
-title: Movement and Action
+layout: rules-layout
+title: Action
+full-title: Movement and Action
 category: rules
 ---
 

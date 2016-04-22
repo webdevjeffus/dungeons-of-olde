@@ -1,16 +1,13 @@
 ---
 layout: rules-layout
 title: rules
+full-title: Rules of the Game
 category: rules
 ---
 
-<h1>Rules of the Game</h1>
-
 <ol>
-  {% include rules-links.html %}
-</ol>
-<!-- ol>
   {% for section in site.categories.rules reversed %}
-    <li><a href="">{{section.title}}</a></li>
+    <li><a href="{{site.baseurl}}{{section.url}}">{{section.full-title}}</a></li>
   {% endfor %}
-</ol -->
+</ol>
+
