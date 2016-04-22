@@ -25,6 +25,23 @@ header nav li {
   margin-left: 1rem;
 }
 
+.rules-prev-next {
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.rules-prev-next a {
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+.rules-prev-next .next {
+  text-align: right;
+  float: right;
+}
+
 .content {
   padding: 1rem;
 }
