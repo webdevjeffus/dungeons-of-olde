@@ -46,7 +46,7 @@
     {% if page.category == 'rules' %}
       <div class="sub-nav">
         <ul>
-          <li><a href="{{site.baseurl}}/rules.html" class="{% if page.title == 'rules' %}current{% endif %}">Rules:</a></li>
+          <li><a href="{{site.baseurl}}/rules.html" class="{% if page.layout contains 'rules' %}current{% endif %}">Rules:</a></li>
         {% include rules-links.html %}
         </ul>
       </div>

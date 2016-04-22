@@ -1,7 +1,7 @@
 ---
 layout: rules-section-layout
 title: Effect
-category: rules
+category: rules-stats
 ---
 
 As mentioned previously, a character rolls Check Dice to determine whether or not he manages to do something. Once he’s succeeded, he may need to roll his Effect Die to see how well he did it. Effect rolls come up most frequently when determining damage done by a successful attack against an opposing character in a fight, but they may be called for in other, less-violent circumstances as well.
