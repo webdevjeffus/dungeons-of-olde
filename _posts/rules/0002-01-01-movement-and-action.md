@@ -1,8 +1,10 @@
 ---
 layout: rules-layout
 title: Action
-full-title: Movement and Action
+full-title: Actions and Movement
 category: rules
 ---
 
-Every character needs to move around and do things. Here are the rules on all of that.
+<ol>
+  {% include actions-links.html %}
+</ol>
