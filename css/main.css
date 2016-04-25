@@ -45,3 +45,8 @@ header nav li {
 .content {
   padding: 1rem;
 }
+
+.table-sentence {
+  padding: 0.25rem 1rem;
+  text-align: left;
+}
