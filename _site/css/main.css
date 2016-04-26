@@ -1,3 +1,15 @@
+html {
+  background-image: url("../img/dungeon_wall_tile_01.png");
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+body {
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+  box-shadow: 4px 4px 16px #222;
+}
+
 main {
   padding: 0;
 }
