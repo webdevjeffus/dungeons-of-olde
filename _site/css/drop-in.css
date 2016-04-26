@@ -6,7 +6,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css);
 
 /* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic|Alegreya:700);
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic|Alegreya:700);*/
 
 
 /* UTILITY STYLES ************************************************************/
@@ -68,9 +68,9 @@ main input, main textarea, main button { border: 1px solid; }
 
 /* Fonts */
 
-html { font-family: 'Open Sans', sans-serif; }
+/*html { font-family: "Open Sans", sans-serif; }*/
 
-h1, h2, h3, h4 { font-family: 'Alegreya', serif; }
+/*h1, h2, h3, h4 { font-family: 'Alegreya', serif; }*/
 
 /* Colors */
 
@@ -266,7 +266,7 @@ main input[type="submit"]:last-child { margin-bottom: 0; }
 
 main table {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   border-collapse: collapse;
 }
 
