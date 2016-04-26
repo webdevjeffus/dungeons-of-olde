@@ -1,3 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic,700italic|Aclonica);
+
+html {
+  background-image: url("../img/dungeon_wall_tile_01.png");
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+html { font-family: "Vollkorn", serif; }
+h1, h2, h3, h4 { font-family: 'Aclonica', sans-serif; }
+
+body {
+  border-left: 2px solid #222;
+  border-right: 2px solid #222;
+  box-shadow: 4px 4px 16px #222;
+}
+
 main {
   padding: 0;
 }
@@ -7,9 +24,18 @@ main .current {
   border-bottom: 3px solid #888;
 }
 
+header h1 {
+  font-size: 3rem;
+}
+
 header nav li {
   border: none;
 }
+
+main h1 {margin-top: 1.25rem;}
+main h2 {margin-top: 1.25rem;}
+main h3 {margin-top: 1.25rem;}
+main h4 {margin-top: 1.25rem;}
 
 .sub-nav {
   background-color: #bbb;
