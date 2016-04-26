@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic,700italic|Aclonica);
+/*@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic,700italic|Aclonica);*/
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic,700italic|Macondo+Swash+Caps);
 
 html {
   background-image: url("../img/dungeon_wall_tile_01.png");
@@ -8,6 +9,7 @@ html {
 
 html { font-family: "Vollkorn", serif; }
 h1, h2, h3, h4 { font-family: 'Aclonica', sans-serif; }
+h1, h2, h3, h4 { font-family: 'Macondo Swash Caps', cursive; }
 
 body {
   border-left: 2px solid #222;
