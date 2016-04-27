@@ -48,10 +48,11 @@
     <div class="content">
       {{content}}
     </div>
+
   </main>
 
   <footer>
-    <nav>
+    <nav class="print-hide">
       <ul>
       <li>
         <a href="{{site.baseurl}}/index.html">Home</a>
@@ -59,7 +60,8 @@
       {% include nav-links.html %}
       </ul>
     </nav>
-    <p><em>Dungeons of Olde</em> is Copyright &copy;2016 by Jeff George<br>See more of Jeff's work at <a href="http://webdevjeff.us/">webdevjeff.us</a></p>
+    <p class="print-block"><em>Dungeons of Olde</em> is Copyright &copy;2016 by Jeff George</p>
+    <p class="print-hide">See more of Jeff's work at <a href="http://webdevjeff.us/">webdevjeff.us</a></p>
   </footer>
 
 
