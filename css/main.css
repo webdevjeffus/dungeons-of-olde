@@ -78,6 +78,10 @@ main h4 {margin-top: 1.25rem;}
   text-align: left;
 }
 
+.cell-width-85 {
+  width: 85%;
+}
+
 footer nav {
   margin-bottom: 0.5rem;
 }
