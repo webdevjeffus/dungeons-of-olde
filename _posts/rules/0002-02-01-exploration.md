@@ -19,49 +19,49 @@ The Exploration Mode Table lists common actions Heroes take while the game is in
     <th>Turns</th>
   </tr>
   <tr>
-    <td>
+    <td class="table-sentence">
       <p>Walk from one dungeon tile to the next (usually 4-5" on the map).</p>
     </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>
+    <td class="table-sentence">
       <p>Gear up for combat (put on helm, ready weapons and shield).</p>
     </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>
+    <td class="table-sentence">
       <p>Pick a typical lock or disarm a common trap.</p>
     </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>
+    <td class="table-sentence">
       <p>Search 4” of wall or 4 squares of floor or ceiling<br>for secret doors or other hidden features.</p>
     </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>
+    <td class="table-sentence">
       <p>Open an unlocked treasure chest and assess its contents.</p>
     </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>
+    <td class="table-sentence">
       <p>Climb a ladder or staircase from one dungeon level to the next.</p>
     </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>
+    <td class="table-sentence">
       <p>Sketch a few tiles’ worth of dungeon onto a map.</p>
     </td>
     <td>1</td>
   </tr>
   <tr>
-    <td>
+    <td class="table-sentence">
       <p>Cast an Exploration Mode spell<br>(e.g., Discern Enchantment, Commune with Spirits, Heal)</p>
     </td>
     <td>1</td>
