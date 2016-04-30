@@ -23,7 +23,7 @@ A character must begin the Action Phase in a standing position in order to be al
 Unused Free Steps may not be carried over from one turn to the next. Free Steps are reset to the character’s free step allowance during each Reset Phase, whether he used them in the previous Action Phase or not.
 
 ## Action Points
-In order to act, a character must spend one, two, or three Action Points. To do so, he moves his Action Marker down the Action Track by the number of AP spent. When his Action Marker reaches 0, he has no Action Points remaining; he may take no further actions during the current Round. The Round ends when all characters have spent all of their Action Points for the Round, or passed their opportunity to act in the final Round.
+In order to take any action in a Round other than Free Steps, a character must spend one, two, or three Action Points. To do so, he moves his Action Marker down the Action Track by the number of AP spent. When his Action Marker reaches 0, he has no Action Points remaining; he may take no further actions during the current Round. The Action Phase for the current turn ends when all characters have spent all of their Action Points for the Round, or passed their opportunity to act in the final Round.
 
 ### Actions and Action Points
 
