@@ -1,0 +1,155 @@
+---
+layout: rules-layout
+title: action phase
+full-title: Action Phase
+category: rules-Action
+---
+
+In the Action Phase of a turn, every character will have the opportunity to move and take at least one action. The Action Phase is conducted in Rounds; in each Round, each character has the opportunity to perform one action. Characters act in order of their current Action Point total, from highest to lowest. When it’s the Character’s turn in the current Round, he may choose to act, or to pass; he may not delay his action until later in the current Round. Of course, any AP he has left at the end of the current Round carry over into the next round, so he may get to act sooner in that Round than he could have in the current one.
+
+In order to do anything in Crisis Mode, he must have available and spend either Free Steps, Action Points, or both. At the end of each turn, during the Reset Phase, each character's Free Steps and Action Points are restored to full.
+
+## Free Steps
+Every character gets the opportunity to take a small number of Free Steps once each Action Phase, regardless of how many Action Points they have for the turn. For most medium-sized characters, including humans, elves, orcs and hobgoblins, the free step allowance is 2 squares; for smaller-than-human characters, including dwarves, Halflings, kobolds and goblins, the free step allowance is just 1 square. Creatures larger than humans may get extra free-step squares; their free-step allowance will be listed on their character card.
+
+A character may take his Free Steps in any round in which he still has Action Points available. Free Steps must be taken _before_ any other action in that Round, though a character doesn’t have to spend AP in order to take his Free Steps. If a character spends all his Action Points before taking his Free Steps, though, he forfeits his Free Steps for that Action Phase. For example, if Lunk has 2 AP when it's his turn to act in the current Round, and he has his Free Steps remaining, he may use his Free Steps to move two squares up to an enemy, and then spend his 2 AP to attack that foe. However, if he began the round adjacent to the enemy, and spent his 2 AP to attack, he would forfeit his Free Steps, and could not use them to back up two squares after the attack.
+
+Even if a character's Free Step allowance is greater than 1 square, he must take _all_ his Free Steps at once&mdash;he can't break them up and spend them in separate rounds.
+
+A character may take his Free Steps _before_ performing an Only action, but not afterwards.
+
+A character must begin the Action Phase in a standing position in order to be allotted Free Steps for the Round, and he loses them immediately if he sits, kneels, or falls prone.
+
+Unused Free Steps may not be carried over from one turn to the next. Free Steps are reset to the character’s free step allowance during each Reset Phase, whether he used them in the previous Action Phase or not.
+
+## Action Points
+In order to act, a character must spend one, two, or three Action Points. To do so, he moves his Action Marker down the Action Track by the number of AP spent. When his Action Marker reaches 0, he has no Action Points remaining; he may take no further actions during the current Round. The Round ends when all characters have spent all of their Action Points for the Round, or passed their opportunity to act in the final Round.
+
+### Actions and Action Points
+
+Anything the character does in Crisis Mode is considered an Action, and requires the expenditure of Action Points. The Action Table lists the most common Crisis Mode actions (that is, all the ones we’ve thought of so far…), along with the number of AP each one costs.
+
+**_Only Actions:_** If a character performs an action with an AP cost of “Only”, then that is the only action he can take in that Action Phase. Regardless of how many AP he had before performing this action, his AP Marker is immediately set to 0, where it remains until the next Reset Phase. Only actions must be literally the _only_ thing the character does in a turn; he may not take other actions first, and _then_ perform an Only action, regardless of how many Action Points he has that turn. (A character may take his Free Steps _before_ taking an only action, but not afterwards; see Free Steps, below.)
+
+**_X/Only Actions:_** Actions that show an AP cost of some number _X_, then “Only”, ordinarily cost _X_ number of AP to perform. For example, if Lunk has 5 AP this turn, he may pay 3 AP to perform an All-Out Attack&mdash;a **3/Only** action&mdash;in the first round. After doing so, he has 2 AP remaining to spend in subsequent rounds in the current turn. For his action in the next round, he might step one square (1 AP), and make a normal attack (also 1 AP), spending his remaining 2 AP.
+
+If a character wants to perform an X/Only action, but _begins_ the turn with fewer AP than the listed cost of X AP, he may perform that action as an _Only_ action for that turn. So if Lunk starts a turn with just 2 AP, he could perform still perform an All-Out Attack, this time as an Only action, using up all his AP for the turn in the process.
+
+Essentially, an X/Only action is _either_ X _or_ Only. If a character can afford X AP at the start of the turn, that action costs the full X AP, no matter when she attempts it. If she starts the turn with less than X AP, that character can take that action as her only action that turn; she may take no other actions before or after it, except for her Free Steps (again, see Free Steps, below).
+
+For example, Audacia starts an Action Phase with 4 AP. In the first round, she casts a Firebolt spell, which costs 2 AP, leaving her with 2 AP in the next Round. Before her next action, though, she takes 6 points of damage from a nasty enemy attack, which reduces her HP from 9 to 3. Feeling vulnerable, she thinks of quickly drinking the Healing Potion on her belt for her action in the next Round. Unfortunately, drinking a potion costs 3 AP, and she has only 2 remaining. She doesn’t have the option to drink the potion as an Only action in the current Action Phase, since she’s already acted this Phase. Lacking anything better to do, she spends her remaining 2  AP to run four squares away from the enemies, and hope they forget about her until next turn.
+
+Once the current Action Phase has ended, Audacia gets to roll her Cunning Effect die (a d6) for Action Points in the next Action Phase. She rolls a 1, limiting her options for the Turn. Fortunately, since drinking a potion is an X/Only action, she can drink the potion as an Only action in the first Round of the new Action Phase, immediately reducing her AP to 0, but healing 4 points of the damage she suffered in the previous turn.
+
+### Crisis Mode Action Table
+<table>
+  <tr>
+    <th>Action</th>
+    <th>AP Cost</th>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Step one square (No adjustment to Defense; may step up to 3 squares per Round at 1AP per square).</p>
+    </td>
+    <td>1 per square</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Run two squares (-3 to Defense until next Reset; may run up to 6 squares per Round at 1AP per 2 squares).</p>
+    </td>
+    <td>1 per 2 squares</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Rushed attack (Attack with -2 on Attack roll; -1 to Defense until next Reset).</p>
+    </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Normal attack (No adjustments to Attack or Defense).</p>
+    </td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Aimed attack (Attack with +1 on Attack roll; -1 to Defense until next Reset.)</p>
+    </td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>All-out attack (HTH only; attack with +2 on Attack roll; +4 on Damage roll; -3 to Defense until Reset).</p>
+    </td>
+    <td>3/Only</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Block (Reflex action; double shield Defense Adjustment vs. incoming attack).</p>
+    </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Counterattack (Reflex action; attack your attacker <em>before</em> he attacks you; -2 to Attack roll).</p>
+    </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Riposte (Reaction; attack your attacker <em>after</em> he attacks you; -1 to Attack roll per HP of damage received).</p>
+    </td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Administer emergency first aid (stop bleeding)</p>
+    </td>
+    <td>3/Only</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Cast spell</p>
+    </td>
+    <td>Per spell card</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Drink potion</p>
+    </td>
+    <td>3/Only</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Cast spell from scroll</p>
+    </td>
+    <td>3/Only</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Climb ladder or stairs one level (10 feet/1") up or down</p>
+    </td>
+    <td>2/Only</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Recover (Regain 1 Mana Point)</p>
+    </td>
+    <td>Only</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Rise from prone position</p>
+    </td>
+    <td>3/Only</td>
+  </tr>
+  <tr>
+    <td class="table-sentence">
+      <p>Rise from sitting or kneeling position</p>
+    </td>
+    <td>3/Only</td>
+  </tr>
+</table>
+
+## Reset Phase - RESUME EDITING HERE
+The players set the status markers on their character cards for the beginning of combat, and Game Master or Monster Wrangler does the same for any opposing characters. The final task of the Reset Phase is to roll for each character’s Action Points (AP) for the coming Action Phase. To set a character’s AP, roll his Modified Cunning Effect die. Thus, each character receives a number of Action Points per turn somewhere between 1 and his Modified Cunning; generally, the more Cunning a character is, the sooner and more often he’ll get to act, but with dice, you never know… Once you’ve rolled for the character’s Action Points, indicate result by placing an Action Marker on the Action Track on his character card, green side up.
