@@ -189,6 +189,3 @@ A Reflex Action is taken in anticipation of an enemy action; if it is successful
 
 ### Responses
 Responses are triggered by incoming attacks, but take place after them. There is no need to win an Opposed Attempt to perform a Response&mdash;a character with a Response ability who remains active and alert after an incoming attack, whether it hit or missed, may perform that Response if he chooses to do so, and has sufficient AP available to pay for it.
-
-## Reset Phase - RESUME EDITING HERE
-The players set the status markers on their character cards for the beginning of combat, and Game Master or Monster Wrangler does the same for any opposing characters. The final task of the Reset Phase is to roll for each character’s Action Points (AP) for the coming Action Phase. To set a character’s AP, roll his Modified Cunning Effect die. Thus, each character receives a number of Action Points per turn somewhere between 1 and his Modified Cunning; generally, the more Cunning a character is, the sooner and more often he’ll get to act, but with dice, you never know… Once you’ve rolled for the character’s Action Points, indicate result by placing an Action Marker on the Action Track on his character card, green side up.
