@@ -1,0 +1,73 @@
+- weapon:   Shortsword
+  check:    Brawn
+  category: Sword
+  1hBr:     6
+  2hBr:     4
+  damage:   1d6
+  size:     2
+
+- weapon:   Broadsword
+  check:    Brawn
+  category: Sword
+  1hBr:     8
+  2hBr:     6
+  damage:   1d8
+  size:     3
+
+- weapon:   Bastard Sword
+  check:    Brawn
+  category: Sword
+  1hBr:     10
+  2hBr:     8
+  damage:   1d10
+  size:     4
+
+- weapon:   Greatsword
+  check:    Brawn
+  category: Sword
+  1hBr:     12
+  2hBr:     10
+  damage:   1d12
+  size:     4
+
+
+
+- weapon:   Baton
+  check:    Brawn
+  category: Mace
+  1hBr:     4
+  2hBr:     2
+  damage:   1d4
+  size:     1
+
+- weapon:   Club
+  check:    Brawn
+  category: Mace
+  1hBr:     6
+  2hBr:     4
+  damage:   1d6
+  size:     2
+
+- weapon:   Mace
+  check:    Brawn
+  category: Mace
+  1hBr:     8
+  2hBr:     6
+  damage:   1d8
+  size:     3
+
+- weapon:   Warhammer
+  check:    Brawn
+  category: Mace
+  1hBr:     10
+  2hBr:     8
+  damage:   1d10
+  size:     4
+
+- weapon:   Morningstar
+  check:    Brawn
+  category: Mace
+  1hBr:     12
+  2hBr:     10
+  damage:   1d12
+  size:     4

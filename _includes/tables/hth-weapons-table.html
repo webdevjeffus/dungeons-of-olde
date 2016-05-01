@@ -1,0 +1,22 @@
+<table>
+  <tr>
+    <th>Weapon</th>
+    <th>Check</th>
+    <th>Category</th>
+    <th>1h Brawn<br>Minimum</th>
+    <th>2h Brawn<br>Minimum</th>
+    <th>Damage</th>
+    <th>Size</th>
+  </tr>
+  {% for weapon in site.data.hth-weapons %}
+    <tr>
+      <td>{{weapon.weapon}}</td>
+      <td>{{weapon.check}}</td>
+      <td>{{weapon.category}}</td>
+      <td>{{weapon.1hBr}}</td>
+      <td>{{weapon.2hBr}}</td>
+      <td>{{weapon.damage}}</td>
+      <td>{{weapon.size}}</td>
+    </tr>
+  {% endfor %}
+</table>
