@@ -1,5 +1,6 @@
 ---
 layout: default
+subtitle: The Table-top Dungeon-Crawling Game
 ---
 
 # Welcome to Dungeons of Olde!

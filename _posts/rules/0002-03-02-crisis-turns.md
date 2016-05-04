@@ -1,7 +1,7 @@
 ---
 layout: rules-layout
 title: crisis mode turns
-full-title: Crisis Mode Turns
+full-title: Crisis Mode Turn Sequence
 category: rules-Action
 ---
 
