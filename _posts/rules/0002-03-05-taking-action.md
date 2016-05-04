@@ -1,7 +1,7 @@
 ---
 layout: rules-layout
-title: taking action
-full-title: Taking Action
+title: action phase
+full-title: Action Phase
 category: rules-Action
 ---
 
