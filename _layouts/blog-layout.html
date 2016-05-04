@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+
+{% include blog-prev-next.html %}
+
+<h1>{{ page.full-title }}</h1>
+<p>{{ page.date | date: '%B %d, %Y' }}</p>
+
+{{content}}
+
+{% include blog-prev-next.html %}
