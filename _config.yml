@@ -1,2 +1,3 @@
 baseurl: /dungeons-of-olde
+include: ["CNAME"]
 exclude: ["README.md"]
