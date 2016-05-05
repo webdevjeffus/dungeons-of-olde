@@ -1,3 +1,3 @@
-baseurl: dungeonsofolde.com/
+baseurl: dungeonsofolde.com
 include: ["CNAME"]
 exclude: ["README.md"]
