@@ -11,3 +11,7 @@ layout: default
 {{content}}
 
 {% include blog-prev-next.html %}
+
+{% if page.comments %}
+  {% include disqus.html %}
+{% endif %}
