@@ -3,6 +3,7 @@ layout: blog-layout
 title: doo origins
 full-title: The Origins of Dungeons of Olde, Part 1
 category: blog
+comments: true
 ---
 
 _Dungeons of Olde_ is something that's been rolling around in the bottom of my brain for decades, floating up near the surface for a few days or weeks once every few years. It has more ancestors and influences than even I can name. In this first blog post on the _DoO_ development website, I'll try to trace the evolution of the idea that is now, finally, becoming a playable table-top game.

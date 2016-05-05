@@ -1,3 +1,4 @@
 baseurl: http://dungeonsofolde.com
+disqus_id: dungeonsofolde
 include: ["CNAME"]
 exclude: ["README.md"]

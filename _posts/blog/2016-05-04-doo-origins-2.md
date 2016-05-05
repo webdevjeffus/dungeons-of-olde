@@ -3,6 +3,7 @@ layout: blog-layout
 title: doo origins
 full-title: The Origins of Dungeons of Olde, Part 2
 category: blog
+comments: true
 ---
 
 _Note: This post concludes the brief overview of the origins of **Dungeons of Olde** which began in my first post to this blog. If you haven't read it yet, click the link above to **Part 1** to read the story from its beginning._
