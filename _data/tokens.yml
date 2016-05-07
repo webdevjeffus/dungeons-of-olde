@@ -1,0 +1,20 @@
+- title: "Tracking Tokens"
+  url: "{{site.baseurl}}/resources/doo-tokens.pdf"
+  description: "Tokens used on character cards to track characters stats, hit points, action points, mana points, defense adjustments, and status."
+
+- title: "Gear Cards, Level 1"
+  url: "{{site.baseurl}}/resources/doo-gear-1-face.pdf"
+  description: "Cards representing weapons and armor suitable for adventures on the first dungeon level. If possible, print these cards on light blue cardstock."
+
+- title: "Gear Cards, Level 1 (Back)"
+  url: "{{site.baseurl}}/resources/doo-gear-1-back.pdf"
+  description: "Optional backs for level 1 Gear cards, especially helpful if you print the Gear cards on white cardstock. Print on reverse side of <em>Gear Cards, Level 1</em>."
+
+- title: "Loot Cards, Level 1"
+  url: "{{site.baseurl}}/resources/doo-loot-1-face.pdf"
+  description: "Cards representing magical items and treasure suitable as rewards for adventures on the first dungeon level. If possible, print these cards on yellow cardstock."
+
+- title: "Loot Cards, Level 1 (Back)"
+  url: "{{site.baseurl}}/resources/doo-loot-1-back.pdf"
+  description: "Optional backs for level 1 Loot cards, especially helpful if you print the Loot cards on white cardstock. Print on reverse side of <em>Loot Cards, Level 1</em>."
+

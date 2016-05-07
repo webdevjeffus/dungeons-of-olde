@@ -1,0 +1,8 @@
+{% for card in site.data.char-cards %}
+  <li>
+    <p>
+      <a href="{{card.url}}" target="_blank">{{ card.title }}</a>
+    </p>
+    <p>{{card.description}}</p>
+  </li>
+{% endfor %}
