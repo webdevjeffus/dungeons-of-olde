@@ -1,0 +1,34 @@
+- type:       Padded
+  category:   Light
+  dmg-adj:    -1
+  brawn-min:  6
+  size-body:  2
+  size-helm:  1
+
+- type:       Leather Armor
+  category:   Light
+  dmg-adj:    -1
+  brawn-min:  6
+  size-body:  2
+  size-helm:  1
+
+- type:       Chainmail
+  category:   Medium
+  dmg-adj:    -3
+  brawn-min:  9
+  size-body:  4
+  size-helm:  2
+
+- type:       Scale
+  category:   Medium
+  dmg-adj:    -3
+  brawn-min:  9
+  size-body:  4
+  size-helm:  2
+
+- type:       Plate Armor
+  category:   Heavy
+  dmg-adj:    -5
+  brawn-min:  12
+  size-body:  6
+  size-helm:  2
