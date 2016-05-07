@@ -1,8 +1,8 @@
 <div class="rules-prev-next">
   {% if page.previous.url and page.previous.category contains 'rules' %}
-    <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">&laquo{{page.previous.full-title}}</a>
+    <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">&laquo {{page.previous.full-title}}</a>
   {% endif %}
   {% if page.next.url and page.next.category contains 'rules' %}
-    <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.full-title}}&raquo</a>
+    <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.full-title}} &raquo</a>
   {% endif %}
 </div>
