@@ -1,3 +1,3 @@
 - title: "Blank Hero Card"
-  url: "{{site.baseurl}}/resources/doo-blank-char.pdf"
+  resource-url: "{{site.baseurl}}/resources/doo-blank-char.pdf"
   description: "A blank character card for player characters. Use stat tokens, from the Tracking Tokens set, to record character stats."
