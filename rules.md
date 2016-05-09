@@ -3,6 +3,8 @@ layout: rules-layout
 title: rules
 full-title: Rules of the Game
 category: rules
+description: "Rules of play for "
+keywords: "rpg rules, "
 ---
 
 <ol>

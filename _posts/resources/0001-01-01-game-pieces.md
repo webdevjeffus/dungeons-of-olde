@@ -5,7 +5,7 @@ full-title: Game Components
 category: resources
 ---
 
-This page presents the game tokens and cards necessary for play, as downloadable .PDF files.
+This page presents the game tokens and cards necessary for play, as downloadable .PDF files. While _Dungeons of Olde_ is in development and playtest, these resources will be kept in separate, single-page documents, so that when a file is updated, it isn't necessary to download and reprint the entire set.
 
 ## Character Cards
 This section currently includes only a blank character card, which can be used with tokens to track any character. In the future, this section will also include templates for common adventurer and adversary archetypes, formatted as playable cards.
