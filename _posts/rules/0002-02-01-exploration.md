@@ -3,6 +3,8 @@ layout: rules-layout
 title: exploration mode
 full-title: Exploration Mode
 category: rules-Action
+description: "Exploration Mode rules for "
+keywords: "rpg actions, rpg exploration, tabletop rpg rules, "
 ---
 
 Exploration Mode is how the game runs when things are calm or even cautious, and characters are exploring the dungeon environment. In Exploration Mode, figure that each turn lasts about a minute, and gives a character enough time to cross one dungeon tile (usually 4 squares) slowly enough to look around each square as he passes, or to perform one specific task, like picking a lock or climbing up or down a ladder. Figure that each turn in Exploration Mode is roughly one minute long&mdash;more or less.
