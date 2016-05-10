@@ -2,7 +2,7 @@
 layout: rules-layout
 title: ending crisis Mode
 full-title: Ending Crisis Mode
-category: rules-Action
+category: rules-action
 description: "Rules for ending a Crisis Mode encounter in "
 keywords: "rpg encounters, rpg combat, tabletop rpg rules, "
 ---

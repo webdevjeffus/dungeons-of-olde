@@ -2,7 +2,7 @@
 layout: rules-layout
 title: crisis mode turns
 full-title: Crisis Mode Turn Sequence
-category: rules-Action
+category: rules-action
 description: "Turn sequence rules for Crisis Mode encounters in "
 keywords: "rpg turns, rpg combat, rpg encounters, tabletop rpg rules, "
 ---

@@ -2,7 +2,7 @@
 layout: rules-layout
 title: exploration mode
 full-title: Exploration Mode
-category: rules-Action
+category: rules-action
 description: "Exploration Mode rules for "
 keywords: "rpg actions, rpg exploration, tabletop rpg rules, "
 ---

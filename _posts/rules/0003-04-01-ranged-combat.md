@@ -1,8 +1,8 @@
 ---
 layout: rules-layout
-title: Ranged Combat
+title: ranged combat
 full-title: Ranged Combat
-category: rules-Combat
+category: rules-combat
 description: "Ranged combat rules for "
 keywords: "rpg ranged combat, tabletop rpg combat, tabletop rpg rules, "
 ---

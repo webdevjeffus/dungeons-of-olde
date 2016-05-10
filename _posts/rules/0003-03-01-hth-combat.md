@@ -2,7 +2,7 @@
 layout: rules-layout
 title: hth combat
 full-title: Hand-to-Hand Combat
-category: rules-Combat
+category: rules-combat
 description: "Hand-to-hand combat rules for "
 keywords: "rpg weapons, rpg combat, tabletop rpg combat, tabletop rpg rules, "
 ---
