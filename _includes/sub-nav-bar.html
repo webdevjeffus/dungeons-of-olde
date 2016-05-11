@@ -1,27 +1,25 @@
+{% if page.category contains 'rules' %}
+  {% assign page_category = 'rules' %}
+{% elsif page.category contains 'resources' %}
+  {% assign page_category = 'resources' %}
+{% else %}
+  {% assign page_category = null %}
+{% endif %}
+
+{% unless page_category == null %}
   <div class="sub-nav">
     <ul>
-      {% if page.category contains 'rules' %}
+      {% if page.category contains page_category %}
         <li>
-          <a href="{{site.baseurl}}/rules.html"
-            class="{% if page.title == 'rules'%}
+          <a href="{{site.baseurl}}/{{ page_category }}.html"
+            class="{% if page.title == page_category %}
               current
             {% endif %}">
-            Rules:
+            {{ page_category | capitalize }}:
           </a>
         </li>
-        {% include rules-links.html %}
-      {% endif %}
-
-      {% if page.category contains 'resources' %}
-        <li>
-          <a href="{{site.baseurl}}/resources.html"
-            class="{% if page.title == 'resources' %}
-              current
-            {% endif %}">
-            Resources:
-          </a>
-        </li>
-        {% include resources-links.html %}
+        {% include {{page_category}}-links.html %}
       {% endif %}
     </ul>
   </div>
+{% endunless %}
