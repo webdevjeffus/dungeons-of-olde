@@ -24,8 +24,8 @@ This section includes tokens and small-sized cards (e.g. Gear, Skill and Loot ca
   {% include components/tokens.html %}
 </ul>
 
-## Printable Dungeon Tiles
+## Printable Dungeon Tiles&mdash;Coming soon!
 This section will eventually include printable, modular dungeon tiles specifically designed for use with the _Dungeons of Olde_ random dungeon-generating system, but suitable for use with any table-top fantasy game.
 
-## Printable Miniatures
+## Printable Miniatures&mdash;Down the line
 This section will eventually include printable miniatures suitable for _Dungeons of Olde_ and other table-top fantasy games.
