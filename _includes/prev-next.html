@@ -1,12 +1,7 @@
-{% if page.category contains 'rules' %}
-  {% assign page_category = 'rules' %}
-{% elsif page.category contains 'resources' %}
-  {% assign page_category = 'resources' %}
-{% elsif page.category contains 'blog' %}
-  {% assign page_category = 'blog' %}
-{% else %}
-  {% assign page_category = null %}
-{% endif %}
+{% capture page_category %}
+  {% include functions/set-page-category.html %}
+{% endcapture %}
+{% assign page_category = page_category | strip %}
 
 {% unless page_category == null %}
   <div class="prev-next">

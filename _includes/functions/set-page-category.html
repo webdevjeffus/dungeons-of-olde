@@ -1,0 +1,11 @@
+{% if page.category contains 'rules' %}
+  {% assign page_category = 'rules' %}
+{% elsif page.category contains 'resources' %}
+  {% assign page_category = 'resources' %}
+{% elsif page.category contains 'blog' %}
+  {% assign page_category = 'blog' %}
+{% else %}
+  {% assign page_category = null %}
+{% endif %}
+
+{{ page_category }}
