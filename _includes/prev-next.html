@@ -1,0 +1,19 @@
+{% if page.category contains 'rules' %}
+  {% assign page_category = 'rules' %}
+{% elsif page.category contains 'resources' %}
+  {% assign page_category = 'resources' %}
+{% else %}
+  {% assign page_category = null %}
+{% endif %}
+
+{% unless page_category == null %}
+  <div class="rules-prev-next">
+    {% if page.previous.url and page.previous.category contains page_category %}
+      <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">&laquo {{page.previous.full-title}}</a>
+    {% endif %}
+
+    {% if page.next.url and page.next.category contains page_category %}
+      <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.full-title}} &raquo</a>
+    {% endif %}
+  </div>
+{% endunless %}
