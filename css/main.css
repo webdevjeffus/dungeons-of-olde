@@ -38,9 +38,12 @@ main h2 {margin-top: 1.25rem;}
 main h3 {margin-top: 1.25rem;}
 main h4 {margin-top: 1.25rem;}
 
+main h1:first-of-type {margin-top: 0.5rem;}
+
 .sub-nav {
   background-color: #bbb;
   padding-top: 0.5rem;
+  height: 2.5rem;
 }
 
 .sub-nav ul {
