@@ -2,7 +2,7 @@
 layout: blog-layout
 title: doo origins
 full-title: The Origins of Dungeons of Olde, Part 2
-category: blog
+category: blog_posts
 description: "Part 1 of a blog post on the origins of "
 keywords: "game development, tabletop game development, "
 comments: true
