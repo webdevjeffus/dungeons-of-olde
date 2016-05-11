@@ -38,9 +38,12 @@ main h2 {margin-top: 1.25rem;}
 main h3 {margin-top: 1.25rem;}
 main h4 {margin-top: 1.25rem;}
 
+main h1:first-of-type {margin-top: 0.5rem;}
+
 .sub-nav {
   background-color: #bbb;
   padding-top: 0.5rem;
+  height: 2.5rem;
 }
 
 .sub-nav ul {
@@ -52,19 +55,19 @@ main h4 {margin-top: 1.25rem;}
   margin-left: 1rem;
 }
 
-.rules-prev-next {
+.prev-next {
   display: block;
   width: auto;
   overflow: hidden;
 }
 
-.rules-prev-next a {
+.prev-next a {
   display: block;
   width: 50%;
   float: left;
 }
 
-.rules-prev-next .next {
+.prev-next .next {
   text-align: right;
   float: right;
 }

@@ -1,0 +1,16 @@
+{% capture page_category %}
+  {% include functions/set-page-category.html %}
+{% endcapture %}
+{% assign page_category = page_category | strip %}
+
+{% unless page_category == null %}
+  <div class="prev-next">
+    {% if page.previous.url and page.previous.category contains page_category %}
+      <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">&laquo {{page.previous.full-title}}</a>
+    {% endif %}
+
+    {% if page.next.url and page.next.category contains page_category %}
+      <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.full-title}} &raquo</a>
+    {% endif %}
+  </div>
+{% endunless %}

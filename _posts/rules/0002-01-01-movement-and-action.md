@@ -1,6 +1,7 @@
 ---
 layout: rules-layout
-title: Action
+title: action
+nav-tab: Action
 full-title: Actions and Movement
 category: rules
 description: "Movement and action rules for  "

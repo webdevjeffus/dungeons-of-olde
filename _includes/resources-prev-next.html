@@ -1,8 +1,0 @@
-<div class="resources-prev-next">
-  {% if page.previous.url and page.previous.category contains 'resources' %}
-    <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">&laquo {{page.previous.full-title}}</a>
-  {% endif %}
-  {% if page.next.url and page.next.category contains 'resources' %}
-    <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.full-title}} &raquo</a>
-  {% endif %}
-</div>

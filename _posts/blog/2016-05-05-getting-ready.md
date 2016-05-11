@@ -2,7 +2,7 @@
 layout: blog-layout
 title: getting ready
 full-title: Getting ready for company
-category: blog
+category: blog_posts
 description: "A blog post on the current state of "
 keywords: "game development, tabletop game development, "
 comments: true

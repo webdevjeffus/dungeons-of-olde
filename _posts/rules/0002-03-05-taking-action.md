@@ -2,7 +2,7 @@
 layout: rules-layout
 title: action phase
 full-title: Action Phase
-category: rules-Action
+category: rules-action
 description: "Action Phase rules for Crisis Mode turns in "
 keywords: "rpg actions, rpg combat, tabletop rpg rules, "
 ---
