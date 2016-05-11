@@ -1,0 +1,27 @@
+  <div class="sub-nav">
+    <ul>
+      {% if page.category contains 'rules' %}
+        <li>
+          <a href="{{site.baseurl}}/rules.html"
+            class="{% if page.title == 'rules'%}
+              current
+            {% endif %}">
+            Rules:
+          </a>
+        </li>
+        {% include rules-links.html %}
+      {% endif %}
+
+      {% if page.category contains 'resources' %}
+        <li>
+          <a href="{{site.baseurl}}/resources.html"
+            class="{% if page.title == 'resources' %}
+              current
+            {% endif %}">
+            Resources:
+          </a>
+        </li>
+        {% include resources-links.html %}
+      {% endif %}
+    </ul>
+  </div>

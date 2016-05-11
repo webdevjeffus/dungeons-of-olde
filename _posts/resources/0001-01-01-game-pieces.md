@@ -1,6 +1,7 @@
 ---
 layout: resources-layout
 title: components
+nav-tab: Components
 full-title: Game Components
 category: resources
 description: "Free downloadable miniatures and game pieces for "
