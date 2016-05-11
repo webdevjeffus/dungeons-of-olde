@@ -7,7 +7,7 @@
 {% endif %}
 
 {% unless page_category == null %}
-  <div class="rules-prev-next">
+  <div class="prev-next">
     {% if page.previous.url and page.previous.category contains page_category %}
       <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">&laquo {{page.previous.full-title}}</a>
     {% endif %}
