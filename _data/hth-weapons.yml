@@ -117,7 +117,7 @@
 
 
 - weapon:   Belt Knife
-  check:    Cunning
+  check:    Finesse
   category: Knife
   1hBr:     2
   2hBr:     n/a
@@ -125,7 +125,7 @@
   size:     1
 
 - weapon:   Dagger
-  check:    Cunning
+  check:    Finesse
   category: Knife
   1hBr:     4
   2hBr:     n/a
@@ -133,7 +133,7 @@
   size:     1
 
 - weapon:   Sax (or Saex)
-  check:    Cunning
+  check:    Finesse
   category: Knife
   1hBr:     6
   2hBr:     n/a
@@ -143,7 +143,7 @@
 
 
 - weapon:   Dagger
-  check:    Cunning
+  check:    Finesse
   category: Fencing
   1hBr:     4
   2hBr:     n/a
@@ -151,7 +151,7 @@
   size:     1
 
 - weapon:   Shortsword
-  check:    Cunning
+  check:    Finesse
   category: Fencing
   1hBr:     6
   2hBr:     n/a
@@ -159,7 +159,7 @@
   size:     2
 
 - weapon:   Backsword
-  check:    Cunning
+  check:    Finesse
   category: Fencing
   1hBr:     6
   2hBr:     n/a
@@ -167,7 +167,7 @@
   size:     2
 
 - weapon:   Rapier
-  check:    Cunning
+  check:    Finesse
   category: Fencing
   1hBr:     8
   2hBr:     n/a
@@ -177,7 +177,7 @@
 
 
 - weapon:   Javelin
-  check:    Cunning
+  check:    Finesse
   category: Spear
   1hBr:     6
   2hBr:     4
@@ -185,7 +185,7 @@
   size:     3
 
 - weapon:   Spear
-  check:    Cunning
+  check:    Finesse
   category: Spear
   1hBr:     8
   2hBr:     6
@@ -193,7 +193,7 @@
   size:     4
 
 - weapon:   Pike
-  check:    Cunning
+  check:    Finesse
   category: Spear
   1hBr:     10
   2hBr:     8
