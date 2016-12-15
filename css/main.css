@@ -25,7 +25,7 @@ main .current {
   border-bottom: 3px solid #888;
 }
 
-header h1 {
+body>header h1 {
   font-size: 3rem;
 }
 
@@ -42,8 +42,8 @@ main h1:first-of-type {margin-top: 0.5rem;}
 
 .sub-nav {
   background-color: #bbb;
-  padding-top: 0.5rem;
-  height: 2.5rem;
+/*  padding-top: 0.6rem;*/
+  height: 2.4rem;
 }
 
 .sub-nav ul {
@@ -71,11 +71,11 @@ main h1:first-of-type {margin-top: 0.5rem;}
   text-align: right;
   float: right;
 }
-
+/*
 .content {
   padding: 1rem;
 }
-
+*/
 .table-sentence {
   padding: 0.25rem 1rem;
   text-align: left;
@@ -85,9 +85,9 @@ main h1:first-of-type {margin-top: 0.5rem;}
   width: 85%;
 }
 
-footer nav {
+/*footer nav {
   margin-bottom: 0.5rem;
-}
+}*/
 
 .headroom {
   margin-top: 1rem;
