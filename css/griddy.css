@@ -1,0 +1,485 @@
+/*! griddy.css v1.1 | MIT License | github.com/webdevjeffus/griddy */
+
+/* griddy.css v1.0+ is compatible with drop-in.css v2.0+ */
+/* drop-in.css instantly styles any web app MVP */
+/* github/webdevjeffus/drop-in-css */
+
+/* RESET CLASSES *****************************************************\
+\* Restore commented styles if NOT using with drop-in.css ************/
+
+/* Reset from http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+/*
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+*/
+
+
+/* Resets from HTML5Boilerplate */
+/*
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video { vertical-align: middle; }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea { resize: vertical; }
+*/
+
+
+/* Reset: Griddy resets */
+
+body,
+section,
+article,
+aside,
+header,
+main,
+footer,
+nav { padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p, img {
+  margin: 0;
+  padding: 0.6rem 0;
+}
+
+img { width: 100%; }
+
+/* END RESETS ********************************************************/
+
+
+
+/* GRID SYSTEM STYLING ***********************************************\
+\* Used on all devices ***********************************************/
+
+body {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.row { padding: 0.6rem; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* SMART PHONE STYLING ***********************************************\
+\* Devices under 680px; fluid container between 320 and 400px ********/
+
+html { font-size: 12px; }
+
+.container {
+  min-width: 320px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Column-width classes; specify columns to span at phone width */
+.ph-col-1  { width:   8.333%; float: left;}
+.ph-col-2  { width:  16.667%; float: left;}
+.ph-col-3  { width:  25%;     float: left;}
+.ph-col-4  { width:  33.333%; float: left;}
+.ph-col-5  { width:  41.667%; float: left;}
+.ph-col-6  { width:  50%;     float: left;}
+.ph-col-7  { width:  58.333%; float: left;}
+.ph-col-8  { width:  66.667%; float: left;}
+.ph-col-9  { width:  75%;     float: left;}
+.ph-col-10 { width:  83.333%; float: left;}
+.ph-col-11 { width:  91.667%; float: left;}
+.ph-col-12 { width: 100%;}
+
+.box.ph-col-1  { width:   6.333%; float: left; }
+.box.ph-col-2  { width:  14.667%; float: left; }
+.box.ph-col-3  { width:  23%;     float: left; }
+.box.ph-col-4  { width:  31.333%; float: left; }
+.box.ph-col-5  { width:  39.667%; float: left; }
+.box.ph-col-6  { width:  48%;     float: left; }
+.box.ph-col-7  { width:  56.333%; float: left; }
+.box.ph-col-8  { width:  64.667%; float: left; }
+.box.ph-col-9  { width:  73%;     float: left; }
+.box.ph-col-10 { width:  81.333%; float: left; }
+.box.ph-col-11 { width:  89.667%; float: left; }
+.box.ph-col-12 { width:  98%; }
+
+/* Insert block element (e.g. image, quote) into text */
+.ph-ins-25,
+.ph-ins-33,
+.ph-ins-50 {
+  float: right;
+  padding-left: 1.2rem;
+}
+
+.ph-ins-25 { width: 25%; }
+.ph-ins-33 { width: 33%; }
+.ph-ins-50 { width: 50%; }
+
+/* Hide element at phone width */
+.ph-hide-inl,
+.ph-hide-blk,
+.ph-hide-ib { display: none; }
+
+
+/* TABLET STYLING ****************************************************\
+\* Devices of 680-959px; fixed container width of 680px **************/
+
+@media only screen and (min-width: 680px) {
+
+  html { font-size: 14px; }
+
+  .container {
+    width: 680px;
+    max-width: 680px;
+  }
+
+  /* Column-width classes; specify columns to span at tablet width */
+  .tab-col-1  { width:   8.333%; float: left; }
+  .tab-col-2  { width:  16.667%; float: left; }
+  .tab-col-3  { width:  25%;     float: left; }
+  .tab-col-4  { width:  33.333%; float: left; }
+  .tab-col-5  { width:  41.667%; float: left; }
+  .tab-col-6  { width:  50%;     float: left; }
+  .tab-col-7  { width:  58.333%; float: left; }
+  .tab-col-8  { width:  66.667%; float: left; }
+  .tab-col-9  { width:  75%;     float: left; }
+  .tab-col-10 { width:  83.333%; float: left; }
+  .tab-col-11 { width:  91.667%; float: left; }
+  .tab-col-12 { width: 100%; }
+
+  .box.tab-col-1  { width:   6.333%; float: left; }
+  .box.tab-col-2  { width:  14.667%; float: left; }
+  .box.tab-col-3  { width:  23%;     float: left; }
+  .box.tab-col-4  { width:  31.333%; float: left; }
+  .box.tab-col-5  { width:  39.667%; float: left; }
+  .box.tab-col-6  { width:  48%;     float: left; }
+  .box.tab-col-7  { width:  56.333%; float: left; }
+  .box.tab-col-8  { width:  64.667%; float: left; }
+  .box.tab-col-9  { width:  73%;     float: left; }
+  .box.tab-col-10 { width:  81.333%; float: left; }
+  .box.tab-col-11 { width:  89.667%; float: left; }
+  .box.tab-col-12 { width:  98%; }
+
+
+  /* Deactivate insertion of an element at phone width */
+  .ph-ins-25,
+  .ph-ins-33,
+  .ph-ins-50 {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+  }
+
+  /* Insert block element (e.g. image, quote) into text */
+  .tab-ins-12,
+  .tab-ins-17,
+  .tab-ins-25,
+  .tab-ins-33,
+  .tab-ins-50,
+  .tab-ins-62,
+  .tab-ins-67,
+  .tab-ins-75 {
+    float: right;
+    padding-left: 1.2rem;
+  }
+
+  .tab-ins-12 { width: 12.5%; }
+  .tab-ins-17 { width: 16.7%; }
+  .tab-ins-25 { width: 25%;   }
+  .tab-ins-33 { width: 33%;   }
+  .tab-ins-50 { width: 50%;   }
+  .tab-ins-62 { width: 62.5%; }
+  .tab-ins-67 { width: 66.7%; }
+  .tab-ins-75 { width: 75%;   }
+
+  /* Reveal element hidden at phone width for tablet and computer widths */
+  .ph-hide-inl  { display: inline; }
+  .ph-hide-blk  { display: block;  }
+  .ph-hide-ib   { display: none;   }
+
+
+  /* Hide element at tablet width */
+  .tab-hide-inl,
+  .tab-hide-blk,
+  .tab-hide-ib { display: none; }
+
+}  /* END TABLET Media Query */
+
+
+/* COMPUTER (small monitor) STYLING **********************************\
+\* Devices 960-1120px; fixed container width of 960px ****************/
+
+@media only screen and (min-width: 960px) {
+
+  html { font-size: 16px; }
+
+  .container {
+    width: 960px;
+    max-width: 960px;
+  }
+
+  /* Column-width classes; specify columns to span at tablet width */
+  .cmp-col-1  { width:   8.333%; float: left; }
+  .cmp-col-2  { width:  16.667%; float: left; }
+  .cmp-col-3  { width:  25%;     float: left; }
+  .cmp-col-4  { width:  33.333%; float: left; }
+  .cmp-col-5  { width:  41.667%; float: left; }
+  .cmp-col-6  { width:  50%;     float: left; }
+  .cmp-col-7  { width:  58.333%; float: left; }
+  .cmp-col-8  { width:  66.667%; float: left; }
+  .cmp-col-9  { width:  75%;     float: left; }
+  .cmp-col-10 { width:  83.333%; float: left; }
+  .cmp-col-11 { width:  91.667%; float: left; }
+  .cmp-col-12 { width: 100%; }
+
+  .box.cmp-col-1  { width:   6.333%; float: left; }
+  .box.cmp-col-2  { width:  14.667%; float: left; }
+  .box.cmp-col-3  { width:  23%;     float: left; }
+  .box.cmp-col-4  { width:  31.333%; float: left; }
+  .box.cmp-col-5  { width:  39.667%; float: left; }
+  .box.cmp-col-6  { width:  48%;     float: left; }
+  .box.cmp-col-7  { width:  56.333%; float: left; }
+  .box.cmp-col-8  { width:  64.667%; float: left; }
+  .box.cmp-col-9  { width:  73%;     float: left; }
+  .box.cmp-col-10 { width:  81.333%; float: left; }
+  .box.cmp-col-11 { width:  89.667%; float: left; }
+  .box.cmp-col-12 { width:  98%; }
+
+  /* Deactivate element-insertion classes for smaller screenwidths */
+  .ph-ins-25,
+  .ph-ins-33,
+  .ph-ins-50,
+  .tab-ins-12,
+  .tab-ins-17,
+  .tab-ins-25,
+  .tab-ins-33,
+  .tab-ins-50,
+  .tab-ins-62,
+  .tab-ins-67,
+  .tab-ins-75 {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+  }
+
+  /* Insert block (e.g. image, quote) into text */
+  .cmp-ins-12,
+  .cmp-ins-17,
+  .cmp-ins-25,
+  .cmp-ins-33,
+  .cmp-ins-50,
+  .cmp-ins-62,
+  .cmp-ins-67,
+  .cmp-ins-75 {
+    float: right;
+    padding-left: 1.2rem;
+  }
+
+  .cmp-ins-12 { width: 12.5%; }
+  .cmp-ins-17 { width: 16.7%; }
+  .cmp-ins-25 { width: 25%;   }
+  .cmp-ins-33 { width: 33%;   }
+  .cmp-ins-50 { width: 50%;   }
+  .cmp-ins-62 { width: 62.5%; }
+  .cmp-ins-67 { width: 66.7%; }
+  .cmp-ins-75 { width: 75%;   }
+
+  /* Restore elements hidden at phone and tablet widths */
+  .ph-hide-inl, .tab-hide-inl  { display: inline; }
+  .ph-hide-blk, .tab-hide-blk  { display: block;  }
+  .ph-hide-ib,  .tab-hide-ib   { display: inline-block; }
+
+  /* Hide element at computer widths */
+  .cmp-hide-inl,
+  .cmp-hide-blk,
+  .cmp-hide-ib { display: none; }
+
+}  /* END COMPUTER (Small Monitor) Media Query */
+
+
+/* COMPUTER (large monitor) STYLING **********************************\
+\* Devices over 1120px; fixed container width of 1120px **************/
+
+@media only screen and (min-width: 1200px) {
+
+  html { font-size: 19px; }
+
+  .container {
+    width: 1200px;
+    max-width: 1200px;
+  }
+
+} /* END COMPUTER (Desktop) Media Querie */
+
+
+
+/* HELPER CLASSES ****************************************************\
+\* Apply to elements to fine-tune layout *****************************/
+
+/* Gutters */
+
+/* Normal Gutters - .gtr
+    Generally, apply .gtr to parent.row and all child.col elements;
+    Use .gtr-2x when parent element does not have .row class */
+.gtr {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.gtr-2x {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+/* Single-side Gutters - .gtr-l and .gtr-r
+    Applies gutter spacing only to indicated side of element */
+.gtr-l {padding-left: 0.6rem; }
+.gtr-r {padding-right: 0.6rem; }
+
+.gtr-l-2x {padding-left: 1.2rem; }
+.gtr-r-2x {padding-right: 1.2rem; }
+
+
+/* Boxes */
+
+/* Boxed Element - .box
+    Automatically handles gutters and padding for boxed elements,
+    such as sidebars.
+    Use .box in place of .gtr on child elements within row. */
+.box {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin: 0.6rem 1%;
+}
+
+.box:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.box h1,
+.box h2,
+.box h3,
+.box h4,
+.box h5,
+.box h6 { display: inline-block; }
+
+.box img { padding-top: 0.6rem; }
+
+.box img:first-child { padding-top: 1.2rem; }
+
+
+/* Vertical Whitespace */
+
+/* Headroom - .hdrm
+    Add or remove space above element - usually <h_> or <p> */
+.hdrm-2x    { padding-top: 2.4rem; }
+.hdrm-more  { padding-top: 1.8rem; }
+.hdrm       { padding-top: 1.2rem; }
+.hdrm-half  { padding-top: 0.6rem; }
+.hdrm-none  {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* Footroom - .ftrm
+    Add or remove space below element - usually <h_> or <p> */
+.ftrm-2x    { padding-bottom: 2.4rem; }
+.ftrm-more  { padding-bottom: 1.8rem; }
+.ftrm       { padding-bottom: 1.2rem; }
+.ftrm-half  { padding-bottom: 0.6rem; }
+.ftrm-none  {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* Headroom and Footroom Margins - .hdrm-mar and .ftrm-mar
+    Increase or decrease MARGIN space above or below element.
+    Does not affect padding.
+    Most commonly used on items with the .box class. */
+.hdrm-mar-2x   { margin-top: 2.4rem; }
+.hdrm-mar-more { margin-top: 1.8rem; }
+.hdrm-mar      { margin-top: 1.2rem;}
+.hdrm-mar-less { margin-top: 0.5rem; }
+.hdrm-mar-none { margin-top: 0; }
+
+.ftrm-mar-2x   { margin-bottom: 2.4rem; }
+.ftrm-mar-more { margin-bottom: 1.8rem; }
+.ftrm-mar      { margin-bottom: 1.2rem;}
+.ftrm-mar-less { margin-bottom: 0.5rem; }
+.ftrm-mar-none { margin-bottom: 0; }
+
+
+/* Miscellaneous Helpers */
+
+/* Bleed - .bleed
+    Apply to elements with no margin, such as full-width images. */
+.bleed {
+  margin: 0;
+  padding: 0;
+}
+
+/* Clearfix - .clearfix
+    From https://css-tricks.com/snippets/css/clear-fix/
+    Note: Clearfix is included in .row class, above.
+    Included here for use on elements without .row. */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* No Border - .no-border
+    Remove borders from element - usually a section element. */
+.no-border { border: none; }
+section.no-border {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Reference Point - .ref-pt
+    Makes parent element reference point for
+    child element with position: absolute; */
+.ref-pt { position: relative; }
+
+.hidden { display: none; }
+
+.txt-ctr { text-align: center; }
+
+/* Browser Upgrade - .browserupgrade
+    From H5BP; used in 'Outdated Browser Warning' in index.html */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}

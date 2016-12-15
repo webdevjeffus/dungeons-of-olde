@@ -2,10 +2,14 @@
 layout: default
 ---
 
-{% include prev-next.html %}
+<div class="gtr">
 
-<h1>{{ page.full-title }}</h1>
+  {% include prev-next.html %}
 
-{{content}}
+  <h1>{{ page.full-title }}</h1>
 
-{% include prev-next.html %}
+  {{content}}
+
+  {% include prev-next.html %}
+
+</div>
