@@ -7,7 +7,7 @@ description: "Exploration Mode rules for "
 keywords: "rpg actions, rpg exploration, tabletop rpg rules, "
 ---
 
-_Note: These rules for Exploration Mode were written when the game was envisioned as a tile-based, dungeon-delving skirmish game. If it is being played as a full roleplaying game, non-combat time will probably be handled less formally than described in this section. Depending on the direction the game takes during playtesting, this section may or may not be rewritten to better fit the genre in which the final game lands&mdash;tile-based dungeon skirmish, or full-on RPG._
+_**Note:** These rules for Exploration Mode were written when the game was envisioned as a tile-based, dungeon-delving skirmish game. If it is being played as a full roleplaying game, non-combat time will probably be handled less formally than described in this section. Depending on the direction the game takes during playtesting, this section may or may not be rewritten to better fit the genre in which the final game lands&mdash;tile-based dungeon skirmish, or full-on RPG._
 
 Exploration Mode is how the game runs when things are calm or even cautious, and characters are exploring the dungeon environment. In Exploration Mode, figure that each turn lasts about a minute, and gives a character enough time to cross one dungeon tile (usually 4 or 6 squares on a side) slowly enough to look around each square as he passes, or to perform one specific task, like picking a lock or climbing up or down a ladder. Figure that each turn in Exploration Mode is roughly one minute long&mdash;more or less.
 
