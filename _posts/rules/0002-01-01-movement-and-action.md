@@ -8,6 +8,6 @@ description: "Movement and action rules for  "
 keywords: "rpg actions, rpg combat, tabletop rpg rules, "
 ---
 
-<ol>
+<ol class="ftrm">
   {% include actions-links.html %}
 </ol>
