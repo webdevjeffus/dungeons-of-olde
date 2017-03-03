@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th>Stat value</th>
+    <th>Check dice</th>
+    <th>Effect die</th>
+  </tr>
+  {% for stat in site.data.stats %}
+    <tr>
+      <td>{{stat.value}}</td>
+      <td>{{stat.check}}</td>
+      <td>{{stat.effect}}</td>
+    </tr>
+  {% endfor %}
+</table>
