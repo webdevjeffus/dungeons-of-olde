@@ -93,6 +93,14 @@ main h1:first-of-type {margin-top: 0.5rem;}
   margin-top: 1rem;
 }
 
+.bulleted {
+  list-style: disc outside;
+}
+
+.bulleted>li {
+  margin-left: 1.2rem;
+}
+
 
 /* Formatting for print */
 
