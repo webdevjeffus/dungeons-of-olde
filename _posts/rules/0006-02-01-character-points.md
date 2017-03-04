@@ -1,8 +1,8 @@
 ---
 layout: rules-layout
-title: stats
+title: characters
 full-title: Character Points
-category: rules-chars
+category: rules-characters
 description: "Character points rules in "
 keywords: "rpg character, rpg rules, tabletop rpg rules "
 ---
