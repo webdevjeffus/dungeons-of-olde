@@ -12,7 +12,7 @@ keywords: "game development, tabletop game development, rpg game development, "
     <li>
       <p>
         <a href="{{site.baseurl}}{{post.url}}">{{post.full-title}}</a> &bull; {{ post.date | date: '%B %d, %Y' }}
-      <p>
+      </p>
     </li>
   {% endfor %}
 </ul>
