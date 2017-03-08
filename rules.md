@@ -9,7 +9,9 @@ keywords: "rpg rules, "
 
 <ol>
   {% for section in site.categories.rules reversed %}
-    <li><a href="{{site.baseurl}}{{section.url}}">{{section.full-title}}</a></li>
+    <li>
+      <a href="{{site.baseurl}}{{section.url}}">{{section.full-title}}</a>
+    </li>
   {% endfor %}
 </ol>
 
