@@ -1,22 +1,16 @@
-{% capture page_category %}
-  {% include functions/set-page-category.html %}
+{% capture sub-nav-category %}
+  {% include functions/set-sub-nav-category.html %}
 {% endcapture %}
-{% assign page_category = page_category | strip %}
+{% if sub-nav-category %}
+  {% assign sub-nav-category = sub-nav-category | strip %}
+{% endif %}
 
-{% unless page_category == null %}
+{% unless sub-nav-category == 'none' %}
+
   <div class="sub-nav">
     <ul>
-      {% if page.category contains page_category %}
-        <li>
-          <a href="{{site.baseurl}}/{{ page_category }}.html"
-            class="{% if page.title == page_category %}
-              current
-            {% endif %}">
-            {{ page_category | capitalize }}:
-          </a>
-        </li>
-        {% include {{page_category}}-links.html %}
-      {% endif %}
+        {% include {{sub-nav-category}}-links.html %}
     </ul>
   </div>
+
 {% endunless %}
