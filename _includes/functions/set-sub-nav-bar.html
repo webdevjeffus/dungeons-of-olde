@@ -1,0 +1,16 @@
+{% if page.category contains 'rules' %}
+  {% assign sub-nav-bar = 'rules' %}
+
+{% elsif page.category contains 'resources' %}
+  {% assign sub-nav-bar = 'resources' %}
+
+{% comment %}
+  {% elsif page.category contains 'blog' %}
+    {% assign sub-nav-bar = 'blog' %}
+{% endcomment %}
+
+{% else %}
+  {% assign sub-nav-bar = 'none' %}
+{% endif %}
+
+{{ sub-nav-bar }}

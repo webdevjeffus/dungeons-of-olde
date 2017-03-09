@@ -1,13 +1,13 @@
-{% capture sub-nav-category %}
-  {% include functions/set-sub-nav-category.html %}
+{% capture sub-nav-bar %}
+  {% include functions/set-sub-nav-bar.html %}
 {% endcapture %}
 
-{% assign sub-nav-category = sub-nav-category | strip %}
+{% assign sub-nav-bar = sub-nav-bar | strip %}
 
-{% unless sub-nav-category == 'none' %}
+{% unless sub-nav-bar == 'none' %}
   <div class="sub-nav">
     <ul>
-      {% include {{sub-nav-category}}-links.html %}
+      {% include {{sub-nav-bar}}-links.html %}
     </ul>
   </div>
 {% endunless %}
