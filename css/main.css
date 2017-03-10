@@ -110,6 +110,10 @@ table {
   margin-left: 1.2rem;
 }
 
+.lower-alpha>li {
+  list-style-type: lower-alpha;
+}
+
 .txt-ctr { text-align: center; }
 .txt-lft { text-align: left; }
 
