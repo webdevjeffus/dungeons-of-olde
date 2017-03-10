@@ -1,0 +1,23 @@
+<table>
+  <tr>
+    <th colspan="4">Partial Shields Table</th>
+  </tr>
+  <tr>
+    <th>Type</th>
+    <th>Defense Adj.</th>
+    <th>Brawn Min.</th>
+    <th>Spellcasting Adj.</th>
+    <!-- th>Size</th -->
+  </tr>
+  {% for shield in site.data.shields %}
+    {% if shield.summary %}
+      <tr>
+        <td>{{shield.shield}}</td>
+        <td>{{shield.def-adj}}</td>
+        <td>{{shield.brawn-min}}</td>
+        <td>{{shield.spell-adj}}</td>
+        <!-- td>{{shield.size}}</td -->
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>
