@@ -204,7 +204,7 @@
   1hBr:     6
   2hBr:     4
   damage:   1d6
-  size:     3
+  size:     2
 
 - weapon:   Spear
   check:    Finesse
