@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <th colspan="7">Partial Weapons Table</th>
+    <th colspan="7">Partial Melee Weapons Table</th>
   </tr>
   <tr>
     <th>Weapon</th>
@@ -16,7 +16,8 @@
     {% if weapon.category == "Sword" or
           weapon.category == "Axe" or
           weapon.category == "Knife" or
-          weapon.category == "Spear" %}
+          weapon.category == "Spear"
+      %}
       <tr>
         <td>{{weapon.weapon}}</td>
         <td>{{weapon.check}}</td>
