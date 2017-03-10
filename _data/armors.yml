@@ -4,6 +4,7 @@
   brawn-min:  6
   size-body:  2
   size-helm:  1
+  summary:    false
 
 - type:       Leather Armor
   category:   Light
@@ -11,6 +12,7 @@
   brawn-min:  6
   size-body:  2
   size-helm:  1
+  summary:    true
 
 - type:       Chainmail
   category:   Medium
@@ -18,6 +20,7 @@
   brawn-min:  9
   size-body:  4
   size-helm:  2
+  summary:    true
 
 - type:       Scale
   category:   Medium
@@ -25,6 +28,7 @@
   brawn-min:  9
   size-body:  4
   size-helm:  2
+  summary:    false
 
 - type:       Plate Armor
   category:   Heavy
@@ -32,3 +36,4 @@
   brawn-min:  12
   size-body:  6
   size-helm:  2
+  summary:    true
