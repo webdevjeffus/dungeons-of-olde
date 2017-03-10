@@ -1,0 +1,89 @@
+- weapon:   Shortbow
+  category: Bow
+  range:    6
+  limit:    8x
+  hands:    2
+  brawn:    4
+  damage:   1d6
+  size:     2
+
+- weapon:   Hunting Bow
+  category: Bow
+  range:    8
+  limit:    8x
+  hands:    2
+  brawn:    6
+  damage:   1d8
+  size:     2
+
+- weapon:   Longbow
+  category: Bow
+  range:    12
+  limit:    8x
+  hands:    2
+  brawn:    10
+  damage:   1d12
+  size:     3
+
+- weapon:   Crossbow
+  category: Crossbow
+  range:    10
+  limit:    4x
+  hands:    2
+  brawn:    4
+  damage:   1d8
+  size:     3
+
+- weapon:   Arbalest
+  category: Crossbow
+  range:    10
+  limit:    4x
+  hands:    2
+  brawn:    6
+  damage:   1d10
+  size:     4
+
+- weapon:   Sling
+  category: Sling
+  range:    6
+  limit:    4x
+  hands:    2
+  brawn:    4
+  damage:   1d6
+  size:     1
+
+- weapon:   Throwing Knife
+  category: Thrown
+  range:    4
+  limit:    2x
+  hands:    1
+  brawn:    4
+  damage:   1d4
+  size:     1
+
+- weapon:   Throwing Axe
+  category: Thrown
+  range:    4
+  limit:    2x
+  hands:    1
+  brawn:    6
+  damage:   1d6
+  size:     2
+
+- weapon:   Javelin
+  category: Thrown
+  range:    8
+  limit:    4x
+  hands:    1
+  brawn:    6
+  damage:   1d6
+  size:     2
+
+- weapon:   Spear
+  category: Thrown
+  range:    6
+  limit:    4x
+  hands:    1
+  brawn:    8
+  damage:   1d8
+  size:     4

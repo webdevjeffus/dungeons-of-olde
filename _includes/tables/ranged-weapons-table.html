@@ -1,0 +1,27 @@
+<table>
+  <tr>
+    <th colspan="7">Ranged Weapons Table</th>
+  </tr>
+  <tr>
+    <th>Weapon</th>
+    <th>Skill</th>
+    <th>Range<br>(Spaces)</th>
+    <th>Range<br>Limit</th>
+    <th>Hands</th>
+    <th>Brawn<br>Minimum</th>
+    <th>Damage</th>
+    <!-- th>Size</th -->
+  </tr>
+  {% for weapon in site.data.ranged-weapons %}
+      <tr>
+        <td>{{weapon.weapon}}</td>
+        <td>{{weapon.category}}</td>
+        <td>{{weapon.range}}</td>
+        <td>{{weapon.limit}}</td>
+        <td>{{weapon.hands}}</td>
+        <td>{{weapon.brawn}}</td>
+        <td>{{weapon.damage}}</td>
+        <!-- td>{{weapon.size}}</td -->
+      </tr>
+  {% endfor %}
+</table>
