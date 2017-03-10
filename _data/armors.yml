@@ -30,10 +30,18 @@
   size-helm:  2
   summary:    false
 
-- type:       Plate Armor
+- type:       Plate-and-Mail
   category:   Heavy
   dmg-adj:    -5
   brawn-min:  12
-  size-body:  6
+  size-body:  5
   size-helm:  2
   summary:    true
+
+- type:       Full Plate
+  category:   Heavy
+  dmg-adj:    -6
+  brawn-min:  12
+  size-body:  6
+  size-helm:  2
+  summary:    false
