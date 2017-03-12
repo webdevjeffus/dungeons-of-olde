@@ -1,0 +1,21 @@
+<table>
+  <tr>
+    <th colspan="4">Skill Packages</th>
+  </tr>
+  <tr>
+    <th>Set</th>
+    <th>Skills</th>
+  </tr>
+  {% for package in site.data.skill-packages %}
+    <tr>
+      <td>{{package.name}}</td>
+      <td>
+        <ul>
+          {% for skill in package.skills %}
+            <li>{{skill}}</li>
+          {% endfor %}
+        </ul>
+      </td>
+    </tr>
+  {% endfor %}
+</table>

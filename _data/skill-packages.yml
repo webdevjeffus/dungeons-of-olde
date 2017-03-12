@@ -1,0 +1,51 @@
+- name: Priest
+  skills:
+    - "Axes, Knives, Maces, Quarterstaff, Spears, Swords (Choose one)"
+    - "Shield or Journeyman Rank with any single Skill"
+    - "Ministry set"
+    - "Divinity (rules TBD)"
+
+- name: Ranger
+  skills:
+    - "Axes, Knives, Maces, Spears, or Swords (Choose one)"
+    - "Ranged Combat set"
+    - "Survival set"
+    - "Stealth set or Animal Handler set"
+    - "Journeyman Rank with any single Skill"
+
+- name: Rogue
+  skills:
+    - Streetfighting set
+    - Stealth set
+    - Grace set
+    - Journeyman Rank with any single Skill
+
+- name: Templar
+  skills:
+    - "Axes, Maces, or Swords (Choose one)"
+    - "Shield"
+    - "Might set"
+    - "Ministry set"
+    - "Journeyman Rank with any single Skill"
+
+- name: Troubador
+  skills:
+    - Swashbuckling set
+    - Grace set
+    - Influence set
+    - "Profession: Performer (Choose musician, singer, actor, storyteller, etc.)"
+    - Journeyman Rank with any single Skill
+
+- name: Warrior
+  skills:
+    - Melee Combat set
+    - "Bows, Crossbows or Thrown Weapons (Choose one)"
+    - "Might set"
+    - "Journeyman Rank with any single Skill"
+
+- name: Wizard
+  skills:
+    - "Knife, Quarterstaff, or Sword (Choose one)"
+    - Scholarship set
+    - Wizardry (rules TBD)
+
