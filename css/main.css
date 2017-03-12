@@ -189,4 +189,9 @@ main td {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 11px;
   }
+
+  main table.wide {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 10px;
+  }
 }
