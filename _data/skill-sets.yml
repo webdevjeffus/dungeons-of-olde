@@ -1,4 +1,4 @@
-- name:     Melee Weapons
+- name:     Melee Combat
   skills:
     - Axes
     - Knives
@@ -9,7 +9,7 @@
   cost:     4
   num-rank: 3
 
-- name:     Ranged Weapons
+- name:     Ranged Combat
   skills:
     - Bows
     - Crossbows
@@ -46,33 +46,58 @@
 
 - name:     Survival
   skills:
-    - Tracking
+    - Alertness
+    - Camouflage
     - Foraging
     - Pathfinding
-    - Camoflage
-    - Alertness
+    - Tracking
   cost:     3
   num-rank: 3
 
-- name:     Delinquency
+- name:     Stealth
   skills:
+    - Alertness
+    - Camouflage
     - Disable
     - Escape
-    - Evade
     - Murder
+    - Pursuit
     - Sleight-of-hand
-    - Stealth
+    - Sneak
   cost:     3
   num-rank: 4
 
-- name:     Power
+- name:     Ministry
+  skills:
+    - Entertainment
+    - Healing
+    - Literacy
+    - Persuasion
+    - "Profession: Minister"
+  cost:     3
+  num-rank: 2
+
+- name:     Scholarship
+  skills:
+    - Literacy
+    - Any five related fields of Knowledge
+  cost:     3
+  num-rank: 3
+
+- name:     Linguistics
+  skills:
+    - Any five languages
+  cost:     3
+  num-rank: 2
+
+- name:     Might
   skills:
     - Burst
     - Climb
     - Endure
     - Leap
     - Lift/Shift
-    - Pursue
+    - Pursuit
     - Ride
     - Swim
   cost:     4
@@ -80,11 +105,10 @@
 
 - name:     Grace
   skills:
-    - Balance
     - Climb
     - Dodge
+    - Pursuit
     - Ride
-    - Pursue
     - Swim
     - Tumble
   cost:     4
@@ -95,8 +119,8 @@
     - Alertness
     - Healing
     - Insight
-    - Literacy
     - Investigation
+    - Literacy
     - Research
     - Trivia
   cost:     4
