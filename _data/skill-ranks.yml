@@ -1,0 +1,34 @@
+- title:        Untrained
+  adj:          -2
+  total-cost:   0
+  upgrade-cost: 0
+
+- title:        Apprentice
+  adj:          0
+  total-cost:   1
+  upgrade-cost: 1
+
+- title:        Journeyman
+  adj:          +1
+  total-cost:   2
+  upgrade-cost: 1
+
+- title:        Foreman
+  adj:          +2
+  total-cost:   4
+  upgrade-cost: 2
+
+- title:        Master
+  adj:          +3
+  total-cost:   6
+  upgrade-cost: 2
+
+- title:        Grand Master
+  adj:          +4
+  total-cost:   9
+  upgrade-cost: 3
+
+- title:        Legendary Master
+  adj:          +5
+  total-cost:   12
+  upgrade-cost: 3
