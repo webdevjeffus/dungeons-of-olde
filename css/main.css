@@ -33,12 +33,18 @@ header nav li {
   border: none;
 }
 
-main h1 {margin-top: 1.25rem;}
-main h2 {margin-top: 1.25rem;}
-main h3 {margin-top: 1.25rem;}
-main h4 {margin-top: 1.25rem;}
+main h1 {margin-top: 1.2rem;}
+main h2 {margin-top: 1.2rem;}
+main h3 {margin-top: 1.2rem;}
+main h4 {margin-top: 1.2rem;}
 
 main h1:first-of-type {margin-top: 0.5rem;}
+
+main h5,
+main h6 {
+  margin-top: 0.6rem;
+  padding-bottom: 0;
+}
 
 .sub-nav {
   background-color: #bbb;
