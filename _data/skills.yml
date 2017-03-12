@@ -1,0 +1,316 @@
+- name:       Alertness
+  stats:
+    - Savvy
+  desc:       General perception
+  untrained:  Common
+
+- name:       Axes
+  stats:
+    - Brawn
+  desc:       Combat skill
+  untrained:  Penalty
+
+- name:       Bows
+  stats:
+    - Finesse
+  desc:       Ranged combat skill
+  untrained:  Penalty
+
+- name:       Brawling
+  stats:
+    - Brawn
+  desc:       Combat skill
+  untrained:  Penalty
+
+- name:       Burst
+  stats:
+    - Brawn
+    - Nerve
+  desc:       Summon a burst of power or energy in an emergency situation
+  untrained:  Penalty
+
+- name:       Camouflage
+  stats:
+    - Savvy
+  desc:       Hide creatures or items using natural cover or find creatures or items so hidden
+  untrained:  Penalty
+
+- name:       Climb
+  stats:
+    - Brawn
+    - Finesse
+  desc:       Scale vertical surfaces
+  untrained:  Penalty
+
+- name:       Command
+  stats:
+    - Nerve
+  desc:       Direct trained animals in pressure situations
+  untrained:  Penalty
+
+- name:       Crossbows
+  stats:
+    - Finesse
+  desc:       Ranged combat skill
+  untrained:  Penalty
+
+- name:       Deception
+  stats:
+    - Nerve
+  desc:       Tell a convincing falsehood
+  untrained:  Penalty
+
+- name:       Disable
+  stats:
+    - Savvy
+  desc:       Disable mechanical devices such as traps or locks
+  untrained:  Penalty
+
+- name:       Disguise
+  stats:
+    - Nerve
+  desc:       Pass oneself off as someone else
+  untrained:  Penalty
+
+- name:       Dodge
+  stats:
+    - Finesse
+  desc:       Avoid being struck in combat
+  untrained:  Penalty
+
+- name:       Drive
+  stats:
+    - Nerve
+  desc:       Guide a vehicle drawn by animals
+  untrained:  Penalty
+
+- name:       Endure
+  stats:
+    - Brawn
+    - Nerve
+  desc:       Endure hardship beyond the capacity of ordinary folk
+  untrained:  Penalty
+
+- name:       Escape
+  stats:
+    - Finesse
+  desc:       Escape from restraints
+  untrained:  Penalty
+
+- name:       Entertain
+  stats:
+    - Nerve
+  desc:       Hold the attention of a crowd
+  untrained:  Penalty
+
+- name:       Fencing
+  stats:
+   - Finesse
+  desc:       Combat skill
+  untrained:  Penalty
+
+- name:       Forage
+  stats:
+   - Savvy
+  desc:       Find food and water in the wilderness
+  untrained:  Penalty
+
+- name:       Healing
+  stats:
+    - Savvy
+  desc:       Minister to the sick or injured to aid their recovery
+  untrained:  Penalty
+
+- name:       Insight
+  stats:
+    - Savvy
+  desc:       "Accurately anticipate the intentions, motivations, or plans of another person"
+  untrained:  Penalty
+
+- name:       Intimidate
+  stats:
+    - Nerve
+  desc:       "Cause another person to become fearful or lose confidence, usually with the intent of coercing them"
+  untrained:  Penalty
+
+- name:       Investigation
+  stats:
+    - Savvy
+  desc:       Search for clues and make deductions based on those clues
+  untrained:  Penalty
+
+- name:       Knives
+  stats:
+    - Finesse
+  desc:       Combat skill
+  untrained:  Penalty
+
+- name:       Knowledge
+  stats:
+    - Savvy
+  desc:       "Familiarity with a specified field of knowledge; the narrower the field, the deeper the knowledge will be"
+  untrained:  Unusable
+
+- name:       Language
+  stats:
+    - Savvy
+  desc:       "Fluency in a specified language. Apprentice Rank gives fluency equal to a native-speaking peasant; higher Ranks indicate more eloquence and vocabulary. All characters receive their native tongue as a Common Skill."
+  untrained:  Unusable
+
+- name:       Leap
+  stats:
+    - Brawn
+  desc:       Make an exceptionally long or high jump
+  untrained:  Common
+
+- name:       Lift/Shift
+  stats:
+    - Brawn
+  desc:       Carry or push a heavy load
+  untrained:  Common
+
+- name:       Literacy
+  stats:
+    - Savvy
+  desc:       Read and write any language the character speaks
+  untrained:  Unusable
+
+- name:       Long Guns
+  stats:
+    - Finesse
+  desc:       "Two-handed firearms; ignore if campaign does not include firearms"
+  untrained:  Penalty
+
+- name:       Maces
+  stats:
+    - Brawn
+  desc:       Combat skill
+  untrained:  Penalty
+
+- name:       Murder
+  stats:
+    - Finesse
+  desc:       Kill or knock out a completely-unaware victim with a single attack
+  untrained:  Penalty
+
+- name:       Negotiate
+  stats:
+    - Nerve
+  desc:       Conclude transactions in ways that are benificial to one or both parties
+  untrained:  Penalty
+
+- name:       Pathfinding
+  stats:
+    - Savvy
+  desc:       Find and follow the safest route through difficult terrain
+  untrained:  Penalty
+
+- name:       Persuade
+  stats:
+    - Nerve
+  desc:       Win others to your point of view
+  untrained:  Penalty
+
+- name:       Pistols
+  stats:
+    - Finesse
+  desc:       "Single-handed firearms; ignore if campaign does not include firearms"
+  untrained:  Penalty
+
+- name:       Pursuit
+  stats:
+    - Finesse
+  desc:       Close in on a quarry or open distance from a pursuer in an active chase
+  untrained:  Penalty
+
+- name:       Profession
+  stats:
+    - Savvy
+  desc:       "Competence in a mundane craft, trade, or occupation"
+  untrained:  Unusable
+
+- name:       Quarterstaff
+  stats:
+    - Finesse
+  desc:       Combat skill
+  untrained:  Penalty
+
+- name:       Research
+  stats:
+    - Savvy
+  desc:       "Know or find out where useful information is likely to be found, and locate such information within large collections"
+  untrained:  Penalty
+
+- name:       Ride
+  stats:
+    - Brawn
+    - Finesse
+  desc:       Control a riding animal while remaining mounted
+  untrained:  Penalty
+
+- name:       Shields
+  stats:
+    - Brawn
+  desc:       Combat skill
+  untrained:  Penalty
+
+- name:       Sleight-of-hand
+  stats:
+    - Finesse
+  desc:       Manual trickery and misdirection such as picking a pocket or lifting a purse unnoticed
+  untrained:  Penalty
+
+- name:       Sneak
+  stats:
+    - Finesse
+  desc:       Move without attracting attention
+  untrained:  Penalty
+
+- name:       Spears
+  stats:
+    - Finesse
+  desc:       Combat skill
+  untrained:  Penalty
+
+- name:       Swim
+  stats:
+    - Brawn
+    - Finesse
+  desc:       Travel through or across deep water without drowning
+  untrained:  Penalty
+
+- name:       Thrown Weapons
+  stats:
+    - Finesse
+  desc:       Ranged combat skill
+  untrained:  Penalty
+
+- name:       Tracking
+  stats:
+    - Savvy
+  desc:       Find and follow a trail left by another
+  untrained:  Penalty
+
+- name:       Train
+  stats:
+    - Nerve
+  desc:       Train an animal to follow commands
+  untrained:  Unusable
+
+- name:       Trivia
+  stats:
+    - Savvy
+  desc:       "Recall obscure and seemingly random facts, gathered through voracious and eccentric reading and listening habits"
+  untrained:  Unusable
+
+- name:       Tumble
+  stats:
+    - Finesse
+  desc:       "Stay on your feet in tricky situations, or land gracefully when falling"
+  untrained:  Penalty
+
+- name:       Veterinarian
+  stats:
+    - Savvy
+  desc:       Provide healing to animals
+  untrained:  Penalty

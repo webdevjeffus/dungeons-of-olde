@@ -1,0 +1,23 @@
+<table>
+  <tr>
+    <th colspan="4">Skills</th>
+  </tr>
+  <tr>
+    <th>Skill</th>
+    <th>Check<br>Stat</th>
+    <th>Description</th>
+    <th class="gtr">Untrained<br>Use</th>
+  </tr>
+  {% for skill in site.data.skills %}
+    <tr>
+      <td>{{skill.name}}</td>
+      <td>
+        {% for stat in skill.stats %}
+          {{stat}}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </td>
+      <td class="table-sentence">{{skill.desc}}</td>
+      <td>{{skill.untrained}}</td>
+    </tr>
+  {% endfor %}
+</table>
