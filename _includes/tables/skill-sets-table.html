@@ -1,0 +1,23 @@
+<table>
+  <tr>
+    <th colspan="4">Skill Sets</th>
+  </tr>
+  <tr>
+    <th>Set</th>
+    <th>Skills</th>
+    <th>Cost</th>
+    <th>Number<br>for Rank</th>
+  </tr>
+  {% for set in site.data.skill-sets %}
+    <tr>
+      <td>{{set.name}}</td>
+      <td>
+        {% for skill in set.skills %}
+          {{skill}}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </td>
+      <td>{{set.cost}}</td>
+      <td>{{set.num-rank}}</td>
+    </tr>
+  {% endfor %}
+</table>

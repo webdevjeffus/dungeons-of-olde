@@ -1,0 +1,115 @@
+- name:     Melee Weapons
+  skills:
+    - Axes
+    - Knives
+    - Maces
+    - Shields
+    - Spears
+    - Swords
+  cost:     4
+  num-rank: 3
+
+- name:     Ranged Weapons
+  skills:
+    - Bows
+    - Crossbows
+    - Long Guns
+    - Pistols
+  cost:     2
+  num-rank: 2
+
+- name:     Streetfighting
+  skills:
+    - Brawling
+    - Knives
+    - Thrown Weapons
+  cost:     2
+  num-rank: 2
+
+- name:     Swashbuckling
+  skills:
+    - Fencing
+    - Knives
+    - Swords
+  cost:     2
+  num-rank: 3
+
+- name:     Animal Handling
+  skills:
+    - Command
+    - Drive
+    - Ride
+    - Train
+    - Veterinarian
+  cost:     3
+  num-rank: 3
+
+- name:     Survival
+  skills:
+    - Tracking
+    - Foraging
+    - Pathfinding
+    - Camoflage
+    - Alertness
+  cost:     3
+  num-rank: 3
+
+- name:     Delinquency
+  skills:
+    - Disable
+    - Escape
+    - Evade
+    - Murder
+    - Sleight-of-hand
+    - Stealth
+  cost:     3
+  num-rank: 4
+
+- name:     Power
+  skills:
+    - Burst
+    - Climb
+    - Endure
+    - Leap
+    - Lift/Shift
+    - Pursue
+    - Ride
+    - Swim
+  cost:     4
+  num-rank: 3
+
+- name:     Grace
+  skills:
+    - Balance
+    - Climb
+    - Dodge
+    - Ride
+    - Pursue
+    - Swim
+    - Tumble
+  cost:     4
+  num-rank: 3
+
+- name:     Acumen
+  skills:
+    - Alertness
+    - Healing
+    - Insight
+    - Literacy
+    - Investigation
+    - Research
+    - Trivia
+  cost:     4
+  num-rank: 3
+
+- name:     Influence
+  skills:
+    - Deception
+    - Disguise
+    - Entertain
+    - Intimidate
+    - Negotiate
+    - Persuade
+  cost:     3
+  num-rank: 3
+
