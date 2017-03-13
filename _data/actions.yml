@@ -1,0 +1,110 @@
+- name: Attack
+  desc: Melee or Ranged Attack
+  cost: 2
+  sets:
+    - core
+
+- name: Panic Attack
+  desc: "Melee only; -2 to Attack Check; Temporary -1 to Defense"
+  cost: 1
+  sets:
+    - adv
+
+- name: Melee Attack
+  desc: "Melee only; no Adjustments"
+  cost: 2
+  sets:
+    - adv
+
+- name: All-Out Attack
+  desc: "Melee only; +2 to Attack Check; +4 to Damage; Temporary -3 to Defense"
+  cost: 3/Only
+  sets:
+    - adv
+
+- name: Snapshot
+  desc: "Ranged only; -2 to Attack Check; Temporary -1 to Defense"
+  cost: 1
+  sets:
+    - adv
+
+- name: Shot
+  desc: "Ranged only; Temporary -1 to Defense"
+  cost: 2
+  sets:
+    - adv
+
+- name: Aimed Shot
+  desc: "Ranged only; Temporary -3 to Defense"
+  cost: 3
+  sets:
+    - adv
+
+- name: Shield Block
+  desc: "Melee only; Temporary +2 to Defense; Requires equipped Shield and Journeyman Shield skill"
+  cost: 2
+  sets:
+    - core
+
+- name: Shield Block
+  desc: "Melee-only Reflex action; On a successful Shield vs. Weapon Challenge, doubles Shield's Defense Adjustment against blocked attack; Requires equipped Shield and Journeyman Shield skill"
+  cost: 1
+  sets:
+    - adv
+
+- name: Parry
+  desc: "Melee-only Reflex action; On a successful Weapon vs. Weapon, defender blocks incoming attack; Temporary -2 on all subsequent Attack Checks; Requires equipped axe, mace, sword, spear or fencing weapon, and Foreman Rank with equipped weapon"
+  cost: 1
+  sets:
+    - adv
+
+- name: Counterattack
+  desc: "Melee-only Reflex action; Attack your opponent <em>before</em> he attacks you; -2 to Attack Check; Requires equipped axe, mace, sword, spear or fencing weapon, and Master Rank with equipped weapon"
+  cost: 2
+  sets:
+    - adv
+
+- name: Riposte
+  desc: "Melee-only Response action; Attack your attacker <em>after</em> his attack on you is resolved; -1 to Attack Check per HP of damage taken; Requires equipped Fencing weapon and Journeyman Fencing skill"
+  cost: 1
+  sets:
+    - adv
+
+- name: Cast Spell
+  desc: "Cast a known magical spell or divine blessing"
+  cost: 2
+  sets:
+    - core
+
+- name: Use item or device
+  desc: "Use a magical or technological device to cast a spell-like effect; includes potions and scrolls"
+  cost: 3/Only
+  sets:
+    - core
+
+- name: Use item or device
+  desc: "Use a magical or technological device to cast a spell-like effect; includes potions and scrolls; Adjustments and AP cost according to item instructions"
+  cost: See item notes
+  sets:
+    - adv
+
+- name: Administer First Aid
+  desc: Stop an ally's bleeding or dying; Requires successful Healing Check (see Healing rules)
+  cost: 3/Only
+  sets:
+    - core
+    - adv
+
+- name: Recover
+  desc: Rest and recover 2 Mana <em>or</em> Faith Points
+  cost: 3/Only
+  sets:
+    - core
+    - adv
+
+- name: Flop
+  desc: "Hastily throw self to sitting, kneeling or prone position; May be used after any Movement"
+  cost: 0
+  sets:
+    - core
+    - adv
