@@ -36,6 +36,7 @@ permalink: /core-rules/characters/
 </table>
 
 <p>Starting heroes created under the <em>Dungeons of Olde</em> Core Rules choose from the following Stat Arrays. The values in each set may be assigned to the Primary Stats in any order. Secondary Stats are then derived from the assigned Primary Stat values.</p>
+
 <table id="stat-arrays">
   <tr>
     <th colspan="3">Starting Stat Arrays</th>
@@ -75,3 +76,14 @@ permalink: /core-rules/characters/
 
 {% include tables/skill-packages-table.html %}
 
+<h5 id="character-points">Character Points</h5>
+<p>Starting characters are built, and experienced characters are improved, using Character Points (CP). The optional <strong>Crunchy Characters</strong> rules provide a complete system for customizing starting characters from scratch using Character Points. Though starting Core Rules characters are created using Stat Arrays and Skill Packages, these prepared arrays and packages were constructed using the Character Point system. Because of this, Core Rules and Crunchy characters are balanced against each other, and there is no reason not to mix them in your campaign if you have some players who prefer convenience, and others who prefer customization.</p>
+
+<p>Once a hero enters play, his player will have the opportunity to improve his capabilities by spending additional Character Points to upgrade his Stats and Skills. These additional CP are earned through play, as rewards for territory explored, monsters defeated, foes outsmarted, and objectives achieved, or as lessons from dramatic failures. Typically, heroes earn 1 CP for an ordinary two- to four-hour play session, with additional bonuses for major objectives achieved, like the completion of a multi-session storyline or other epic adventure. Complete guidelines for awarding Character Points are presented in the section of these rules covering gamemastering (still to come).</p>
+
+<h6>Spending Additional Character Points</h6>
+<p>Character points may be spent to improve Stats or Skills. The Stat Improvement table shows the cost to buy each additional Stat value as an upgrade from the previous value. So, if a hero with Finesse 6 wants to improve that Stat to a 7, he pays the Upgrade Cost on the "7" line of the table. The cost to upgrade each Stat is the same; no one Stat is more or less expensive than any other.</p>
+
+{% include tables/stats-table-upgrades.html %}
+
+<p>Character Points may also be spent to improve existing Skills, or to purchase new ones. New Skills may be purchased for 1 CP each, while the cost to buy higher <a href="{{site.baseurl}}/core-rules/skills/#skill-ranks">Skill Ranks</a> and entire <a href="{{site.baseurl}}/core-rules/skills/#skill-sets">Skill Sets</a> vary.</p>

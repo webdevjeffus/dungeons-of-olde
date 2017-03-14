@@ -13,62 +13,62 @@
 - value:   3
   check:  2d3
   effect: 1d3
-  total:  -5
-  inc:    -3
+  total:  -5 CP
+  inc:    "&mdash;"
 
 - value:   4
   check:  2d4
   effect: 1d4
-  total:  -2
-  inc:    -2
+  total:  -2 CP
+  inc:    3 CP
 
 - value:   5
   check:  2d6-1
   effect: 1d4+1
-  total:  0
-  inc:    0
+  total:  0 CP
+  inc:    2 CP
 
 - value:   6
   check:  2d6
   effect: 1d6
-  total:  1
-  inc:    1
+  total:  1 CP
+  inc:    1 CP
 
 - value:   7
   check:  2d8-1
   effect: 1d6+1
-  total:  3
-  inc:    2
+  total:  3 CP
+  inc:    2 CP
 
 - value:   8
   check:  2d8
   effect: 1d8
-  total:  5
-  inc:    2
+  total:  5 CP
+  inc:    2 CP
 
 - value:   9
   check:  2d10-1
   effect: 1d8+1
-  total:  8
-  inc:    3
+  total:  8 CP
+  inc:    3 CP
 
 - value:   10
   check:  2d10
   effect: 1d10
-  total:  11
-  inc:    3
+  total:  11 CP
+  inc:    3 CP
 
 - value:   11
   check:  2d12-1
   effect: 1d10+1
-  total:  15
-  inc:    4
+  total:  15 CP
+  inc:    4 CP
 
 - value:   12
   check:  2d12
   effect: 1d12
-  total:  20
-  inc:    5
+  total:  20 CP
+  inc:    5 CP
 
 - value:   13
   check:  2d12+1
