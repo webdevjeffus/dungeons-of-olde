@@ -132,6 +132,20 @@ main td {
   display: inline-block;
 }
 
+div.warning {
+  padding: 1.2rem;
+  margin: 1.2rem 0;
+  border: 2px solid rgb(224, 112, 112);
+  background: rgb(255, 198, 128);
+  font-family: Arial, sans-serif;
+}
+
+.warning h2 {
+  margin-top: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
 
 
 /* Formatting for print */
