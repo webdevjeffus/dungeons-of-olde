@@ -1,10 +1,13 @@
 <table>
   <tr>
+    <th colspan="4">Shields</th>
+  </tr>
+  <tr>
     <th>Shield Type</th>
-    <th>Defense<br>Adj.</th>
+    <th>Defense<br>Adjustment</th>
     <th>Brawn<br>Min.</th>
     <th>Spellcasting<br>Adjustment</th>
-    <th>Size</th>
+    <!-- th>Size</th -->
   </tr>
   {% for shield in site.data.shields %}
     <tr>
@@ -12,7 +15,7 @@
       <td>{{shield.def-adj}}</td>
       <td>{{shield.brawn-min}}</td>
       <td>{{shield.spell-adj}}</td>
-      <td>{{shield.size}}</td>
+      <!-- td>{{shield.size}}</td -->
     </tr>
   {% endfor %}
 </table>

@@ -34,9 +34,9 @@
   summary:    true
 
 - shield:     Pavise
-  def-adj:    "+4"
+  def-adj:    "+3"
   brawn-min:  10
-  spell-adj:  -4
+  spell-adj:  -3
   size:       8
   summary:    false
 
