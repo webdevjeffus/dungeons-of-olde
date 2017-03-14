@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th colspan="3">Condition Durations</th>
+  </tr>
+  <tr>
+    <th>Duration</th>
+    <th>Lasts</th>
+    <th>Removed</th>
+  </tr>
+  {% for duration in site.data.condition-durations %}
+    <tr>
+      <td class="table-sentence">{{duration.name | capitalize }}</td>
+      <td class="table-sentence">{{duration.lasts | capitalize }}</td>
+      <td class="table-sentence">{{duration.removed | capitalize }}</td>
+    </tr>
+  {% endfor %}
+</table>

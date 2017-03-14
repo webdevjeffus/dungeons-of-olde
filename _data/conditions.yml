@@ -1,0 +1,79 @@
+- name: bleeding
+  effects:
+    - "Lose 1 HP each Reset Phase in combat"
+    - "Lose 1 HP each minute in narrative play"
+    - "May be removed with successful First Aid Check (Easy if character is bruised, Moderate if wounded or incapacitated)"
+
+- name: blinded
+  effects:
+    - "-5 on Attack and Defense Checks"
+    - "May not make visual Alertness Checks"
+    - "Must make Finesse Check to avoid tripping if moving faster than 1 space per Round in unfamiliar area; Check is Easy if area is clear, Moderate or harder if terrain is cluttered or uneven"
+
+- name: dazed
+  effects:
+    - "May not make attacks or cast spells"
+    - "May move 1 space per Round"
+    - "-2 on Defense Checks"
+
+- name: deafened
+  effects:
+    - "May not make Alertness Checks for sounds"
+    - "-2 on Defense Checks against attacks from behind"
+
+- name: exhausted
+  effects:
+    - "-3 on Finesse rolls for Action Points"
+    - "-2 on any Checks for physical Challenges, including Attack and Defense"
+
+- name: fatigued
+  effects:
+    - "-2 on Finesse rolls for Action Points"
+
+- name: frightened
+  effects:
+    - "-2 on all Checks, including Attack and Defense"
+    - "Must flee from source of fear at best possible speed"
+
+- name: incapacitated
+  effects:
+    - "Falls prone if possible"
+    - "May not move or take any action"
+    - "No Defense Roll; attackers roll an Easy Attack Check to hit stunned defender"
+
+- name: prone (conscious)
+  effects:
+    - "-3 on Attack and Defense Checks in melee combat"
+    - "+2 on Attack Checks with crossbows and guns; -3 on Attack Checks with bows and thrown weapons"
+    - "+3 on Defense Checks against ranged attacks"
+
+- name: prone (unconscious)
+  effects:
+    - "Attackers roll a Moderate Attack Check to hit prone defender"
+
+- name: restrained
+  effects:
+    - "May not move"
+    - "Rolls Finesse for Action Points during Reset, but may not take any action that requires movement; may cast spells that do not require gestures"
+    - "No Defense Check; attackers roll an Easy Attack Check to hit restrained defender"
+
+- name: rooted
+  effects:
+    - "May not make any Movement or take Free Steps"
+
+- name: slowed
+  effects:
+    - "-3 on Finesse roll for Action Points (minimum 1 AP)"
+
+- name: silenced
+  effects:
+    - "Makes no sound when moving or attempting to speak"
+    - "+3 on Sneak Checks, unless character is clearly visible to observers"
+    - "May not cast spells that require incantations"
+
+- name: stunned
+  effects:
+    - "May not move or take any actions"
+    - "No Defense Roll; attackers roll an Easy Attack Check to hit stunned Defender"
+    - "May be guided guided by an ally to sit, lie prone, or walk 1 space per Round, at an AP cost of 2 per round to guiding character"
+
