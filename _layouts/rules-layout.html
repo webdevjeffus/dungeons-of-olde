@@ -6,7 +6,7 @@ layout: default
 
   {% include prev-next.html %}
 
-  <h1>{{ page.full-title }}</h1>
+  <h1 id="{{ page.title | slugify }}">{{ page.full-title }}</h1>
 
   {{content}}
 
