@@ -4,15 +4,18 @@ layout: default
 
 {% include prev-next.html %}
 
+<section class="gtr no-border">
 <h1>{{ page.full-title }}</h1>
 <p>{{ page.date | date: '%B %d, %Y' }}</p>
 
 {{content}}
 
-<div class="hdrm-half"></div>
+</section>
 
 {% include prev-next.html %}
 
-{% if page.comments %}
-  {% include disqus.html %}
-{% endif %}
+<section class="gtr">
+  {% if page.comments %}
+    {% include disqus.html %}
+  {% endif %}
+</section>

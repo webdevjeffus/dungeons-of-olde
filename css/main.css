@@ -161,6 +161,13 @@ div.warning {
 }
 
 
+/* Media query to tweak position of sidebar on larger screens */
+
+@media only screen and (min-width: 680px) {
+  main aside.box { margin-top: -3.25rem;}
+}
+
+
 
 /* Formatting for print */
 
@@ -230,5 +237,13 @@ div.warning {
   main table.wide {
     font-family: "Arial Narrow", Arial, sans-serif;
     font-size: 10px;
+  }
+
+  main aside.box {
+    border: 2px solid #444;
+    padding: 1.2rem;
+    page-break-inside: avoid; /* For Firefox. */
+    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
+    break-inside: avoid; /* For standard browsers like IE. :-) */
   }
 }
