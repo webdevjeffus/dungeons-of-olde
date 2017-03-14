@@ -109,6 +109,10 @@ main td {
   margin-top: 1rem;
 }
 
+main li {
+  line-height: 1.25;
+}
+
 .bulleted {
   list-style: disc outside;
 }
