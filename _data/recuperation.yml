@@ -1,0 +1,11 @@
+- circumstances:  "Resting comfortably, warm, dry, and well fed"
+  challenge:      Easy (CR 6)
+
+- circumstances:  "Resting under field conditions, such as a tent in the wilderness"
+  challenge:      "Moderate (CR 9)"
+
+- circumstances:  "Resting under difficult conditions, such as hidden in a cave"
+  challenge:      "Hard (CR 12)"
+
+- circumstances:  "Prevented from resting at all, perhaps fleeing pursuit or being forced into physical labor"
+  challenge:      "Heroic (CR 15)"

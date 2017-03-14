@@ -1,0 +1,8 @@
+- patient:  "Bruised (half of maxHP or more)"
+  challenge:  "Easy (CR 6)"
+
+- patient:  "Wounded (1 HP or more)"
+  challenge:  "Moderate (CR 9)"
+
+- patient:  "Incapacitated (0 or negative HP)"
+  challenge: "Hard (CR 12)"

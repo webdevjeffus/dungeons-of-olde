@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th colspan="2">Recuperation Table</th>
+  </tr>
+  <tr>
+    <th>Circumstances of Recuperation</th>
+    <th>Challenge</th>
+  </tr>
+  {% for recup in site.data.recuperation %}
+    <tr>
+      <td class="table-sentence">{{recup.circumstances}}</td>
+      <td>{{recup.challenge}}</td>
+    </tr>
+  {% endfor %}
+</table>
