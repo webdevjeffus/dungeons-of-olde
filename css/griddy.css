@@ -82,8 +82,9 @@ body {
   margin: 0 auto;
 }
 
-.row { padding: 0.6rem; }
+.row { padding: 0.6rem 0; }
 
+section:after,
 .row:after {
   content: "";
   display: table;
@@ -379,6 +380,10 @@ body {
   padding-right: 1.2rem;
   margin: 0.6rem 1%;
 }
+
+/*aside.box {
+  margin-right: -0.6rem;
+}*/
 
 .box:after {
   content: "";

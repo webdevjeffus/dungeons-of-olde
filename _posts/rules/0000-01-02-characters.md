@@ -71,7 +71,7 @@ permalink: /core-rules/characters/
 <h6 id="stat-dice">Stat Dice</h6>
 <p>Each of a character's Primary Stats has an associated die, with a number of sides, or <a href="#die-rank">Die Rank</a>, equal to the value of that Stat. Thus, if a hero has Savvy 6, his Savvy die is a d6. Secondary Stats are only used to track a hero's state of health and energy, and therefore have no associated dice.</p>
 
-<h5 id="skill-packages">Skills</h5>
+<h5 id="skill-packages">Skill Packages</h5>
 <p>Each hero created under the <em>Dungeons of Olde</em> Core Rules chooses one Skill Package from the following table. More information on <a href="{{site.baseurl}}/core-rules/skills/#skills">Skills</a>, including the contents of the various Skill Sets, is included in the Skills section of the Core Rules.</p>
 
 {% include tables/skill-packages-table.html %}

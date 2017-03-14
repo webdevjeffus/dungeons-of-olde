@@ -4,7 +4,7 @@
 {% assign page_category = page_category | strip %}
 
 
-<div class="prev-next">
+<div class="prev-next gtr">
   {% if page.previous.url and page.previous.category contains page_category %}
     <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">&laquo; {{page.previous.full-title}}</a>
   {% endif %}

@@ -16,9 +16,9 @@ body {
   box-shadow: 4px 4px 16px #222;
 }
 
-main {
+/*main {
   padding: 0;
-}
+}*/
 
 header .current,
 main .current {
@@ -38,13 +38,19 @@ main h2 {margin-top: 1.2rem;}
 main h3 {margin-top: 1.2rem;}
 main h4 {margin-top: 1.2rem;}
 
-main h1:first-of-type {margin-top: 0.5rem;}
+main h1:first-of-type { margin-top: 0.5rem; }
 
 main h5,
 main h6 {
   margin-top: 0.6rem;
   padding-bottom: 0;
 }
+
+main aside h2:first-child,
+main aside h3:first-child,
+main aside h4:first-child,
+main aside h5:first-child,
+main aside h6:first-child { margin-top: 0; }
 
 .sub-nav {
   background-color: #bbb;
@@ -71,6 +77,10 @@ main h6 {
   display: block;
   width: 50%;
   float: left;
+}
+
+.prev-next:last-child {
+  padding-top: 1.2rem;
 }
 
 .prev-next .next {
