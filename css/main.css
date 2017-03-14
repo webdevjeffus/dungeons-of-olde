@@ -177,7 +177,7 @@ div.warning {
 
   header p,
   header nav,
-  .rules-prev-next,
+  .prev-next,
   .sub-nav,
   .print-hide { display: none;}
 
@@ -212,6 +212,9 @@ div.warning {
   main table {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 11px;
+    page-break-inside: avoid; /* For Firefox. */
+    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
+    break-inside: avoid; /* For standard browsers like IE. :-) */
   }
 
   main table.wide {
