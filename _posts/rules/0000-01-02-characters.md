@@ -1,10 +1,10 @@
 ---
 layout: rules-layout
-title: one-page
-full-title: One-Page Dungeons of Olde
+title: characters
+full-title: Characters
 category: rules-core
-description: "Core mechanics in "
-keywords: "rpg stats, rpg rules, tabletop rpg rules "
+description: "Core character rules for "
+keywords: "rpg stats, rpg characters, rpg rules, tabletop rpg rules "
 ---
 
 <p>This page summarizes the key mechanics that form the foundation of the <em>Dungeons of Olde</em> rule system. It is presented as a concise set of notes, without explanation or example, for quick reference. Fuller explanations of the Core Rules mechanics are presented on the pages that follow.</p>
