@@ -5,6 +5,7 @@ full-title: Challenges
 category: rules-core
 description: "Rules for attempting difficult tasks in "
 keywords: "rpg stats, rpg challenges, rpg rules, tabletop rpg rules "
+permalink: /core-rules/challenges/
 ---
 
 <p id="challenges">Any task where there is a chance of meaningful failure is resolved as a <strong>Challenge</strong>. The difficulty of the Challenge is expressed by its descriptive Rank, and a number, called the <span id="challenge-rating"><strong>Challenge Rating</strong></span>, or <strong>CR</strong>.</p>

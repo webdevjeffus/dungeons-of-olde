@@ -5,6 +5,7 @@ full-title: Characters
 category: rules-core
 description: "Core character rules for "
 keywords: "rpg stats, rpg characters, rpg rules, tabletop rpg rules "
+permalink: /core-rules/characters/
 ---
 
 <p id="characters">Player characters in <em>Dungeons of Olde</em> are often referred to as "heroes." Each hero has several Stats and Skills which determine his dungeon-delving abilities. Heroes created under the <em>Dungeons of Olde</em> Core Rules choose one <a href="#stat-arrays">Stat Array</a> and one <a href="#skill-packages">Skill Package</a>; heroes created under the <strong>Crunchy Characters</strong> rules option are built using a point-based system that allows players to customize their Stats and Skills. The Stat Arrays and Skill Packages in the Core Rules follow the Crunchy Characters point system, so there is no risk of imbalance if your party contains a mix of Core and Crunchy characters.</p>
