@@ -1,22 +1,13 @@
-{% capture page_category %}
-  {% include functions/set-page-category.html %}
+{% capture sub-nav-bar %}
+  {% include functions/set-sub-nav-bar.html %}
 {% endcapture %}
-{% assign page_category = page_category | strip %}
 
-{% unless page_category == null %}
+{% assign sub-nav-bar = sub-nav-bar | strip %}
+
+{% unless sub-nav-bar == 'none' %}
   <div class="sub-nav">
     <ul>
-      {% if page.category contains page_category %}
-        <li>
-          <a href="{{site.baseurl}}/{{ page_category }}.html"
-            class="{% if page.title == page_category %}
-              current
-            {% endif %}">
-            {{ page_category | capitalize }}:
-          </a>
-        </li>
-        {% include {{page_category}}-links.html %}
-      {% endif %}
+      {% include {{sub-nav-bar}}-links.html %}
     </ul>
   </div>
 {% endunless %}

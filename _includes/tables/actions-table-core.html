@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th colspan="2">Core Actions Table</th>
+  </tr>
+  <tr>
+    <th>Action</th>
+    <th>AP Cost</th>
+  </tr>
+  {% for action in site.data.actions %}
+    {% if action.sets contains "core" %}
+      <tr>
+        <td class="table-sentence">
+          <strong>{{action.name}}</strong> &mdash; {{action.desc}}
+        </td>
+        <td>{{action.cost}}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>

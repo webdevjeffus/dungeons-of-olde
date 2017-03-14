@@ -1,0 +1,139 @@
+- name:     Melee Combat
+  skills:
+    - Axes
+    - Knives
+    - Maces
+    - Shields
+    - Spears
+    - Swords
+  cost:     4
+  num-rank: 3
+
+- name:     Ranged Combat
+  skills:
+    - Bows
+    - Crossbows
+    - Long Guns
+    - Pistols
+  cost:     2
+  num-rank: 2
+
+- name:     Streetfighting
+  skills:
+    - Brawling
+    - Knives
+    - Thrown Weapons
+  cost:     2
+  num-rank: 2
+
+- name:     Swashbuckling
+  skills:
+    - Fencing
+    - Knives
+    - Swords
+  cost:     2
+  num-rank: 3
+
+- name:     Animal Handling
+  skills:
+    - Command
+    - Drive
+    - Ride
+    - Train
+    - Veterinarian
+  cost:     3
+  num-rank: 3
+
+- name:     Survival
+  skills:
+    - Alertness
+    - Camouflage
+    - Foraging
+    - Pathfinding
+    - Tracking
+  cost:     3
+  num-rank: 3
+
+- name:     Stealth
+  skills:
+    - Alertness
+    - Camouflage
+    - Disable
+    - Escape
+    - Murder
+    - Pursuit
+    - Sleight-of-hand
+    - Sneak
+  cost:     3
+  num-rank: 4
+
+- name:     Ministry
+  skills:
+    - Entertainment
+    - Healing
+    - Literacy
+    - Persuasion
+    - "Profession: Minister"
+  cost:     3
+  num-rank: 2
+
+- name:     Scholarship
+  skills:
+    - Literacy
+    - Any five related fields of Knowledge
+  cost:     3
+  num-rank: 3
+
+- name:     Linguistics
+  skills:
+    - Any five languages
+  cost:     3
+  num-rank: 2
+
+- name:     Might
+  skills:
+    - Burst
+    - Climb
+    - Endure
+    - Leap
+    - Lift/Shift
+    - Pursuit
+    - Ride
+    - Swim
+  cost:     4
+  num-rank: 3
+
+- name:     Grace
+  skills:
+    - Climb
+    - Dodge
+    - Pursuit
+    - Ride
+    - Swim
+    - Tumble
+  cost:     4
+  num-rank: 3
+
+- name:     Acumen
+  skills:
+    - Alertness
+    - Healing
+    - Insight
+    - Investigation
+    - Literacy
+    - Research
+    - Trivia
+  cost:     4
+  num-rank: 3
+
+- name:     Influence
+  skills:
+    - Deception
+    - Disguise
+    - Entertain
+    - Intimidate
+    - Negotiate
+    - Persuade
+  cost:     3
+  num-rank: 3
+

@@ -33,12 +33,18 @@ header nav li {
   border: none;
 }
 
-main h1 {margin-top: 1.25rem;}
-main h2 {margin-top: 1.25rem;}
-main h3 {margin-top: 1.25rem;}
-main h4 {margin-top: 1.25rem;}
+main h1 {margin-top: 1.2rem;}
+main h2 {margin-top: 1.2rem;}
+main h3 {margin-top: 1.2rem;}
+main h4 {margin-top: 1.2rem;}
 
 main h1:first-of-type {margin-top: 0.5rem;}
+
+main h5,
+main h6 {
+  margin-top: 0.6rem;
+  padding-bottom: 0;
+}
 
 .sub-nav {
   background-color: #bbb;
@@ -76,6 +82,16 @@ main h1:first-of-type {margin-top: 0.5rem;}
   padding: 1rem;
 }
 */
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main th,
+main td {
+  padding: 0.3em 0.5em;
+}
+
 .table-sentence {
   padding: 0.25rem 1rem;
   text-align: left;
@@ -93,13 +109,47 @@ main h1:first-of-type {margin-top: 0.5rem;}
   margin-top: 1rem;
 }
 
+main li {
+  line-height: 1.25;
+}
+
 .bulleted {
   list-style: disc outside;
+}
+
+.bulleted.circle {
+  list-style: circle outside;
 }
 
 .bulleted>li {
   margin-left: 1.2rem;
 }
+
+.lower-alpha>li {
+  list-style-type: lower-alpha;
+}
+
+.txt-ctr { text-align: center; }
+.txt-lft { text-align: left; }
+
+.no-break {
+  display: inline-block;
+}
+
+div.warning {
+  padding: 1.2rem;
+  margin: 1.2rem 0;
+  border: 2px solid rgb(224, 112, 112);
+  background: rgb(255, 198, 128);
+  font-family: Arial, sans-serif;
+}
+
+.warning h2 {
+  margin-top: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
 
 
 /* Formatting for print */
@@ -107,6 +157,11 @@ main h1:first-of-type {margin-top: 0.5rem;}
 @media print {
   html {
     font-size: 12px;
+    width: auto;
+  }
+
+  body {
+    width: 100%;
   }
 
   html,
@@ -159,5 +214,8 @@ main h1:first-of-type {margin-top: 0.5rem;}
     font-size: 11px;
   }
 
-
+  main table.wide {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 10px;
+  }
 }

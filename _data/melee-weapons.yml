@@ -1,0 +1,225 @@
+- weapon:   Shortsword
+  check:    Brawn
+  category: Sword
+  reach:    "0-1"
+  1hBr:     6
+  2hBr:     4
+  damage:   1d6
+  size:     2
+
+- weapon:   Broadsword
+  check:    Brawn
+  category: Sword
+  reach:    "1"
+  1hBr:     8
+  2hBr:     6
+  damage:   1d8
+  size:     3
+
+- weapon:   Bastard Sword
+  check:    Brawn
+  category: Sword
+  reach:    "1"
+  1hBr:     10
+  2hBr:     8
+  damage:   1d10
+  size:     4
+
+- weapon:   Greatsword
+  check:    Brawn
+  category: Sword
+  reach:    "1-2"
+  1hBr:     12
+  2hBr:     10
+  damage:   1d12
+  size:     4
+
+
+
+- weapon:   Baton
+  check:    Brawn
+  category: Mace
+  reach:    "0-1"
+  1hBr:     4
+  2hBr:     2
+  damage:   1d4
+  size:     1
+
+- weapon:   Club
+  check:    Brawn
+  category: Mace
+  reach:    "1"
+  1hBr:     6
+  2hBr:     4
+  damage:   1d6
+  size:     2
+
+- weapon:   Mace
+  check:    Brawn
+  category: Mace
+  reach:    "1"
+  1hBr:     8
+  2hBr:     6
+  damage:   1d8
+  size:     3
+
+- weapon:   Warhammer
+  check:    Brawn
+  category: Mace
+  reach:    "1"
+  1hBr:     10
+  2hBr:     8
+  damage:   1d10
+  size:     4
+
+- weapon:   Morningstar
+  check:    Brawn
+  category: Mace
+  reach:    "1-2"
+  1hBr:     12
+  2hBr:     10
+  damage:   1d12
+  size:     4
+
+
+
+- weapon:   Hatchet
+  check:    Brawn
+  category: Axe
+  reach:    "1"
+  1hBr:     4
+  2hBr:     2
+  damage:   1d4
+  size:     1
+
+- weapon:   Battle Axe
+  check:    Brawn
+  category: Axe
+  reach:    "1"
+  1hBr:     6
+  2hBr:     4
+  damage:   1d6
+  size:     2
+
+- weapon:   Broad Axe
+  check:    Brawn
+  category: Axe
+  reach:    "1"
+  1hBr:     8
+  2hBr:     6
+  damage:   1d8
+  size:     3
+
+- weapon:   Sparth Axe
+  check:    Brawn
+  category: Axe
+  reach:    "1"
+  1hBr:     10
+  2hBr:     8
+  damage:   1d10
+  size:     4
+
+- weapon:   Poleaxe
+  check:    Brawn
+  category: Axe
+  reach:    "1-2"
+  1hBr:     12
+  2hBr:     10
+  damage:   1d12
+  size:     4
+
+
+
+- weapon:   Belt Knife
+  check:    Finesse
+  category: Knife
+  reach:    "0-1"
+  1hBr:     2
+  2hBr:     n/a
+  damage:   1d3
+  size:     1
+
+- weapon:   Dagger
+  check:    Finesse
+  category: Knife
+  reach:    "0-1"
+  1hBr:     4
+  2hBr:     n/a
+  damage:   1d4
+  size:     1
+
+- weapon:   Sax (or Saex)
+  check:    Finesse
+  category: Knife
+  reach:    "0-1"
+  1hBr:     6
+  2hBr:     n/a
+  damage:   1d6
+  size:     2
+
+
+
+- weapon:   Dagger
+  check:    Finesse
+  category: Fencing
+  reach:    "0-1"
+  1hBr:     4
+  2hBr:     n/a
+  damage:   1d4
+  size:     1
+
+- weapon:   Shortsword
+  check:    Finesse
+  category: Fencing
+  reach:    "0-1"
+  1hBr:     6
+  2hBr:     n/a
+  damage:   1d6
+  size:     2
+
+- weapon:   Backsword
+  check:    Finesse
+  category: Fencing
+  reach:    "0-1"
+  1hBr:     6
+  2hBr:     n/a
+  damage:   1d6
+  size:     2
+
+- weapon:   Rapier
+  check:    Finesse
+  category: Fencing
+  reach:    "1-2"
+  1hBr:     8
+  2hBr:     n/a
+  damage:   1d8
+  size:     3
+
+
+
+- weapon:   Javelin
+  check:    Finesse
+  category: Spear
+  reach:    "0-1"
+  1hBr:     6
+  2hBr:     4
+  damage:   1d6
+  size:     2
+
+- weapon:   Spear
+  check:    Finesse
+  category: Spear
+  reach:    "1-2"
+  1hBr:     8
+  2hBr:     6
+  damage:   1d8
+  size:     4
+
+- weapon:   Pike
+  check:    Finesse
+  category: Spear
+  reach:    "1-3"
+  1hBr:     10
+  2hBr:     8
+  damage:   1d8
+  size:     5

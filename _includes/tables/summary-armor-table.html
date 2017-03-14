@@ -1,0 +1,21 @@
+<table>
+  <tr>
+    <th colspan="4">Partial Armor Table</th>
+  </tr>
+  <tr>
+    <th>Type</th>
+    <th>Category</th>
+    <th>Damage Penalty</th>
+    <th>Brawn Minimum</th>
+  </tr>
+  {% for armor in site.data.armors %}
+    {% if armor.summary %}
+      <tr>
+        <td>{{armor.type}}</td>
+        <td>{{armor.category}}</td>
+        <td>{{armor.dmg-adj}}</td>
+        <td>{{armor.brawn-min}}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>

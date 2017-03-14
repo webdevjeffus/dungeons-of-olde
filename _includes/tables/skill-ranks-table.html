@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th colspan="4">Skill Ranks</th>
+  </tr>
+  <tr>
+    <th>Rank Title</th>
+    <th>Adjustment</th>
+    <th>Total Cost</th>
+    <th>Upgrade Cost</th>
+  </tr>
+  {% for rank in site.data.skill-ranks %}
+    <tr>
+      <td>{{rank.title}}</td>
+      <td>{{rank.adj}}</td>
+      <td>{{rank.total-cost}}</td>
+      <td>{{rank.upgrade-cost}}</td>
+    </tr>
+  {% endfor %}
+</table>

@@ -1,0 +1,5 @@
+{% if page.category contains section.title %}
+  current
+{% elsif page.title == section.title and page.category != "rules-core" %}
+  current
+{% endif %}

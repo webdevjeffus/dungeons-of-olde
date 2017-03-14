@@ -1,21 +1,15 @@
 <table>
   <tr>
-    <th colspan="5">Hero Stats</th>
+    <th colspan="5">Stat Improvement</th>
   </tr>
   <tr>
     <th>Stat value</th>
-    <th>Check dice</th>
-    <th>Effect die</th>
-    <th>Creation Cost</th>
     <th>Upgrade Cost</th>
   </tr>
   {% for stat in site.data.stats %}
     {% if stat.total != "&mdash;" %}
       <tr>
         <td>{{stat.value}}</td>
-        <td>{{stat.check}}</td>
-        <td>{{stat.effect}}</td>
-        <td>{{stat.total}}</td>
         <td>{{stat.inc}}</td>
       </tr>
     {% endif %}

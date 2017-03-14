@@ -8,6 +8,8 @@ description: "Free downloadable miniatures and game pieces for "
 keywords: "printable miniatures, free printable miniatures,  "
 ---
 
+{% include outdated-warning.html %}
+
 This page presents the game tokens and cards necessary for play, as downloadable .PDF files. While _Dungeons of Olde_ is in development and playtest, these resources will be kept in separate, single-page documents, so that when a file is updated, it isn't necessary to download and reprint the entire set.
 
 ## Character Cards

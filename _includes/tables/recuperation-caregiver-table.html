@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th colspan="2">Caregiver's Effect Table</th>
+  </tr>
+  <tr>
+    <th>Status of Patient</th>
+    <th>Challenge</th>
+  </tr>
+  {% for recup in site.data.recuperation %}
+    <tr>
+      <td>{{recup.circumstances}}</td>
+      <td>{{recup.challenge}}</td>
+    </tr>
+  {% endfor %}
+</table>

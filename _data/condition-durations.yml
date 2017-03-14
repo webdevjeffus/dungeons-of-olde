@@ -1,0 +1,11 @@
+- name:     temporary
+  lasts:    "about one minute"
+  removed:  "during the next Reset Phase"
+
+- name:     persistent
+  lasts:    "several minutes"
+  removed:  "after a successful Recovery Check, attempted each Reset Phase"
+
+- name:     permanent
+  lasts:    "indefinitely"
+  removed:  "when specified conditions are met"

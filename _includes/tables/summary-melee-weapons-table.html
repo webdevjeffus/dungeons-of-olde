@@ -1,0 +1,33 @@
+<table class="wide">
+  <tr>
+    <th colspan="7">Partial Melee Weapons Table</th>
+  </tr>
+  <tr>
+    <th>Weapon</th>
+    <th>Check<br>Stat</th>
+    <th>Skill</th>
+    <th>Reach<br>(Spaces)</th>
+    <th>1h Brawn<br>Minimum</th>
+    <th>2h Brawn<br>Minimum</th>
+    <th>Damage</th>
+    <!-- th>Size</th -->
+  </tr>
+  {% for weapon in site.data.melee-weapons %}
+    {% if weapon.category == "Sword" or
+          weapon.category == "Axe" or
+          weapon.category == "Knife" or
+          weapon.category == "Spear"
+      %}
+      <tr>
+        <td>{{weapon.weapon}}</td>
+        <td>{{weapon.check}}</td>
+        <td>{{weapon.category}}</td>
+        <td>{{weapon.reach}}</td>
+        <td>{{weapon.1hBr}}</td>
+        <td>{{weapon.2hBr}}</td>
+        <td>{{weapon.damage}}</td>
+        <!-- td>{{weapon.size}}</td -->
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>

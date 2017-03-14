@@ -1,0 +1,62 @@
+- name: Step
+  desc: Move up to 3 spaces per Round at 1 AP/spaces
+  cost: 1 per space
+  sets:
+    - core
+    - adv
+
+- name: Run
+  desc: Temporary -1 to Defense per AP spent Running; may Run up to 6 spaces per Round at 1 AP per 2 spaces
+  cost: 1 per 2 spaces
+  sets:
+    - adv
+
+- name: Climb
+  desc: Move up or down one level (10' or 3 meters) by stairs or ladder
+  cost: 2
+  sets:
+    - core
+
+- name: Climb
+  desc: "Move up or down one level by stairs or ladder; AP cost 1 with successful Tumbling Check (must have Apprentice Tumbling or better)"
+  cost: 2
+  sets:
+    - adv
+
+- name: Drop
+  desc: "Move to a sitting, kneeling, or prone position; May be followed by an Action"
+  cost: 1
+  sets:
+    - core
+
+- name: Drop
+  desc: "Move to a sitting, kneeling, or prone position; May be followed by an Action; AP cost 0 with successful Tumbling Check (must have Apprentice Tumbling or better)"
+  cost: 1
+  sets:
+    - adv
+
+- name: Rise
+  desc: "Stand from a sitting, kneeling, or prone position; May be followed by an Action"
+  cost: "2/Only"
+  sets:
+    - core
+
+- name: Rise
+  desc: "Stand from a sitting or kneeling position; May be followed by an Action; AP cost 0 with successful Tumbling Check (must have Apprentice Tumbling or better)"
+  cost: 1
+  sets:
+    - adv
+
+- name: Stand
+  desc: "Stand from a prone position; AP cost 1 and may be combined with an Action with successful Tumbling Check (must have Apprentice Tumbling or better)"
+  cost: "3/Only"
+  sets:
+    - adv
+
+- name: Leap
+  desc: "Make a long or high jump according to the rules for the Leap skill"
+  cost: 1
+  sets:
+    - core
+    - adv
+

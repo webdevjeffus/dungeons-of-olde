@@ -1,11 +1,20 @@
+{% comment %}
+
+CALLED IN PREV-NEXT.HTML
+
+{% endcomment %}
+
 {% if page.category contains 'rules' %}
   {% assign page_category = 'rules' %}
+
 {% elsif page.category contains 'resources' %}
   {% assign page_category = 'resources' %}
+
 {% elsif page.category contains 'blog' %}
   {% assign page_category = 'blog' %}
+
 {% else %}
-  {% assign page_category = null %}
+  {% assign page_category = 'none' %}
 {% endif %}
 
 {{ page_category }}

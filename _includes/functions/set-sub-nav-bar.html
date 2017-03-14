@@ -1,0 +1,26 @@
+{% comment %}
+
+CALLED IN SUB-NAV-BAR.HTML IN PLACE OF SET-PAGE-CATEGORY.HTML
+TO PREVENT SUB-NAV-BAR FROM APPEARING UNNECESSARILY ON BLOG PAGES;
+CAN BE REPLACED WITH SET-PAGE-CATEGORY.HTML IF SUB-NAV-BAR
+BECOMES USEFUL ON BLOG PAGES
+
+{% endcomment %}
+
+
+{% if page.category contains 'rules' %}
+  {% assign sub-nav-bar = 'rules' %}
+
+{% elsif page.category contains 'resources' %}
+  {% assign sub-nav-bar = 'resources' %}
+
+{% comment %}
+  {% elsif page.category contains 'blog' %}
+    {% assign sub-nav-bar = 'blog' %}
+{% endcomment %}
+
+{% else %}
+  {% assign sub-nav-bar = 'none' %}
+{% endif %}
+
+{{ sub-nav-bar }}
