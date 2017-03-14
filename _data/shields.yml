@@ -1,47 +1,47 @@
 - shield:     Buckler
-  def-adj:    +1
+  def-adj:    "+1"
   brawn-min:  6
   spell-adj:  -1
   size:       2
   summary:    false
 
 - shield:     Roundel
-  def-adj:    +1
+  def-adj:    "+1"
   brawn-min:  6
   spell-adj:  -1
   size:       2
   summary:    true
 
 - shield:     Targe
-  def-adj:    +2
+  def-adj:    "+2"
   brawn-min:  8
   spell-adj:  -2
   size:       4
   summary:    false
 
 - shield:     Heater
-  def-adj:    +2
+  def-adj:    "+2"
   brawn-min:  8
   spell-adj:  -2
   size:       4
   summary:    true
 
 - shield:     Kite
-  def-adj:    +3
+  def-adj:    "+3"
   brawn-min:  10
   spell-adj:  -3
   size:       6
   summary:    true
 
 - shield:     Pavise
-  def-adj:    +4
+  def-adj:    "+4"
   brawn-min:  10
   spell-adj:  -4
   size:       8
   summary:    false
 
 - shield:     Tower
-  def-adj:    +4
+  def-adj:    "+4"
   brawn-min:  12
   spell-adj:  -4
   size:       8
