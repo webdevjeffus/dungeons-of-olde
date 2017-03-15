@@ -8,6 +8,7 @@ keywords: "rpg stats, rpg characters, rpg rules, tabletop rpg rules "
 permalink: /core-rules/characters/
 ---
 
+
 <p>Player characters in <em>Dungeons of Olde</em> are often referred to as "heroes." Each hero has several Stats and Skills which determine his dungeon-delving abilities. Heroes created under the <em>Dungeons of Olde</em> Core Rules choose one <a href="#stat-arrays">Stat Array</a> and one <a href="#skill-packages">Skill Package</a>; heroes created under the <strong>Crunchy Characters</strong> rules option are built using a <a href="#character-points">point-based system</a>.</p>
 
 <h5 id="stats">Stats</h5>
@@ -75,6 +76,8 @@ permalink: /core-rules/characters/
 <p>Each hero created under the <em>Dungeons of Olde</em> Core Rules chooses one Skill Package from the following table. More information on skills, including the contents of the various Skill Sets, is included in the <a href="{{site.baseurl}}/core-rules/skills/#skills">Skills</a> section of the Core Rules.</p>
 
 {% include tables/skill-packages-table.html %}
+
+<img src="{{site.baseurl}}/img/pd-knight-headshot-500x414.png" class="ph-ins-50 tab-ins-33 cmp-ins-33 flip mar-l" alt="Historic woodcut of a knight" title="Historic woodcut of a knight - Public domain">
 
 <h5 id="character-points">Character Points</h5>
 <p>Starting characters are built, and experienced characters are improved, using Character Points (CP). The optional <strong>Crunchy Characters</strong> rules provide a complete system for creating customized characters from scratch using Character Points. Though starting Core Rules characters are created using Stat Arrays and Skill Packages, these prepared arrays and packages were designed using the Character Point system. Because of this, Core Rules and Crunchy characters are balanced against each other, and may be played side-by-side in your campaign if you have some players who prefer convenience, and others who prefer customization.</p>

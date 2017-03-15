@@ -368,6 +368,11 @@ section:after,
 .gtr-l-2x {padding-left: 1.2rem; }
 .gtr-r-2x {padding-right: 1.2rem; }
 
+/* Side margins */
+
+.mar-l { margin-left: 1.2rem; }
+.mar-r { margin-right: 1.2rem; }
+
 
 /* Boxes */
 
@@ -380,10 +385,6 @@ section:after,
   padding-right: 1.2rem;
   margin: 0.6rem 1%;
 }
-
-/*aside.box {
-  margin-right: -0.6rem;
-}*/
 
 .box:after {
   content: "";

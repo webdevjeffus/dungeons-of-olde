@@ -161,6 +161,11 @@ div.warning {
   font-family: Arial, sans-serif;
 }
 
+.flip {
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
 
 /* Media query to tweak position of sidebar on larger screens */
 
