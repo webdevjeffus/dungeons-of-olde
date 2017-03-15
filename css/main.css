@@ -100,8 +100,8 @@ table {
 main th,
 main td { padding: 0.3em 0.5em; }
 
-main th:last-child,
-main td:last-child { padding-bottom: 0.6rem; }
+main th li:last-child,
+main td li:last-child { padding-bottom: 0.6rem; }
 
 .table-sentence {
   padding: 0.25rem 1rem;
@@ -164,6 +164,11 @@ div.warning {
 .flip {
   transform: scaleX(-1);
   filter: FlipH;
+}
+
+.border-thin {
+  border: 1px solid #222;
+  padding: 0;
 }
 
 
