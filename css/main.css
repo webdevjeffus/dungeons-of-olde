@@ -98,9 +98,10 @@ table {
 }
 
 main th,
-main td {
-  padding: 0.3em 0.5em;
-}
+main td { padding: 0.3em 0.5em; }
+
+main th:last-child,
+main td:last-child { padding-bottom: 0.6rem; }
 
 .table-sentence {
   padding: 0.25rem 1rem;

@@ -1,16 +1,16 @@
 - name: Priest
   skills:
-    - "Axes, Knives, Maces, Quarterstaff, Spears, Swords (Choose one)"
-    - "Shield or Journeyman Rank with any single Skill"
+    - "Axes, Knives, Maces, Quarterstaff, Spears <em>or</em> Swords (Choose one)"
+    - "Shield <em>or</em> Journeyman Rank with any single Skill (Choose one)"
     - "Ministry set"
-    - "Divinity (rules TBD)"
+    - "Faith (rules TBD)"
 
 - name: Ranger
   skills:
-    - "Axes, Knives, Maces, Spears, or Swords (Choose one)"
+    - "Axes, Knives, Maces, Spears, <em>or</em> Swords (Choose one)"
     - "Ranged Combat set"
     - "Survival set"
-    - "Stealth set or Animal Handler set"
+    - "Stealth set <em>or</em> Animal Handler set (Choose one)"
     - "Journeyman Rank with any single Skill"
 
 - name: Rogue
@@ -22,13 +22,13 @@
 
 - name: Templar
   skills:
-    - "Axes, Maces, or Swords (Choose one)"
+    - "Axes, Maces, <em>or</em> Swords (Choose one)"
     - "Shield"
     - "Might set"
     - "Ministry set"
     - "Journeyman Rank with any single Skill"
 
-- name: Troubador
+- name: Troubadour
   skills:
     - Swashbuckling set
     - Grace set
@@ -39,13 +39,13 @@
 - name: Warrior
   skills:
     - Melee Combat set
-    - "Bows, Crossbows or Thrown Weapons (Choose one)"
+    - "Bows, Crossbows <em>or</em> Thrown Weapons (Choose one)"
     - "Might set"
     - "Journeyman Rank with any single Skill"
 
 - name: Wizard
   skills:
-    - "Knife, Quarterstaff, or Sword (Choose one)"
+    - "Knife, Quarterstaff, <em>or</em> Sword (Choose one)"
     - Scholarship set
     - Wizardry (rules TBD)
 
