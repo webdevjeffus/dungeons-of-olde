@@ -171,6 +171,10 @@ div.warning {
   padding: 0;
 }
 
+.first-img {
+  margin-top: -3rem;
+}
+
 
 /* Media query to tweak position of sidebar on larger screens */
 
