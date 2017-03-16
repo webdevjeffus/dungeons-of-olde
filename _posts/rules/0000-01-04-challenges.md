@@ -8,7 +8,9 @@ keywords: "rpg stats, rpg challenges, rpg rules, tabletop rpg rules "
 permalink: /core-rules/challenges/
 ---
 
-<img src="{{site.baseurl}}/img/potionmaker-JoyceMaureira-400x198.jpg" srcset="{{site.baseurl}}/img/potionmaker-JoyceMaureira-800x395.jpg 800w, {{site.baseurl}}/img/potionmaker-JoyceMaureira-1200x592.jpg 1200w" class="ph-col-12 border-thin" alt="An alchemist preparing potions" title="Potionmaker - Public domain image by Joyce Maureira">
+<div class="ph-col-12">
+<img src="{{site.baseurl}}/img/potionmaker-JoyceMaureira-400x198.jpg" srcset="{{site.baseurl}}/img/potionmaker-JoyceMaureira-800x395.jpg 800w, {{site.baseurl}}/img/potionmaker-JoyceMaureira-1200x592.jpg 1200w" class="border-thin" alt="An alchemist preparing potions" title="Potionmaker - Public domain image by Joyce Maureira">
+</div>
 
 
 <h2 id="challenge-rating">Challenge Ratings</h2>
@@ -27,7 +29,9 @@ permalink: /core-rules/challenges/
 <p>Certain skills, items or other circumstances may adjust the result of a Check roll. <a href="{{site.baseurl}}/core-rules/dice/#adjustments">Adjustments</a> may add to or subtract from the result of the Check roll, and are applied once only, after any exploding dice have been resolved.</p>
 <p>Note that <a href="{{site.baseurl}}/core-rules/dice/#modifying-dice">Modifications</a> change the <a href="{{site.baseurl}}/core-rules/dice/#die-rank">Die Rank</a> of the dice to be rolled, and are applied <em>before</em> the dice are thrown. Adjustments, on the other hand, change the <em>result</em> of the roll, and are applied <em>after</em> the dice are thrown and totalled.</p>
 
-<img src="{{site.baseurl}}/img/rivals-DavidLewisJohnson-250x216.jpg" srcset="{{site.baseurl}}/img/rivals-DavidLewisJohnson-400x345.jpg 400w, {{site.baseurl}}/img/rivals-DavidLewisJohnson-700x603.jpg 700w, {{site.baseurl}}/img/rivals-DavidLewisJohnson-1000x861.jpg 1000w" size="50vw" class="ph-ins-50 tab-ins-33 cmp-ins-33 border-thin mar-l ftrm-mar" alt="Rivals by David Lewis Johnson" title="Rivals - Public domain image by David Lewis Johnson">
+<div class="ph-ins-50 tab-ins-33 cmp-ins-33 ftrm-mar">
+<img src="{{site.baseurl}}/img/rivals-DavidLewisJohnson-250x216.jpg" srcset="{{site.baseurl}}/img/rivals-DavidLewisJohnson-400x345.jpg 400w, {{site.baseurl}}/img/rivals-DavidLewisJohnson-700x603.jpg 700w, {{site.baseurl}}/img/rivals-DavidLewisJohnson-1000x861.jpg 1000w" size="50vw" class="border-thin" alt="Rivals by David Lewis Johnson" title="Rivals - Public domain image by David Lewis Johnson">
+</div>
 
 <h6 id="opposed-attempts">Opposed Attempts</h6>
 <p>A challenge that pits one character directly against another requires an <strong>opposed attempt</strong>. The character making the opposed attempt is called the <span id="instigator"><strong>instigator</strong></span>, while the character resisting the attempt is the <span id="target"><strong>target</strong></span>.</p>

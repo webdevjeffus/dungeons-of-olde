@@ -77,7 +77,9 @@ permalink: /core-rules/characters/
 
 {% include tables/skill-packages-table.html %}
 
-<img src="{{site.baseurl}}/img/pd-knight-headshot-500x414.png" class="ph-ins-50 tab-ins-33 cmp-ins-33 flip mar-l" alt="Historic woodcut of a knight" title="Historic woodcut of a knight - Public domain">
+<div class="ph-ins-50 tab-ins-50 cmp-ins-33">
+<img src="{{site.baseurl}}/img/pd-knight-headshot-500x414.png" class=" flip" alt="Historic woodcut of a knight" title="Historic woodcut of a knight - Public domain">
+</div>
 
 <h5 id="character-points">Character Points</h5>
 <p>Starting characters are built, and experienced characters are improved, using Character Points (CP). The optional <strong>Crunchy Characters</strong> rules provide a complete system for creating customized characters from scratch using Character Points. Though starting Core Rules characters are created using Stat Arrays and Skill Packages, these prepared arrays and packages were designed using the Character Point system. Because of this, Core Rules and Crunchy characters are balanced against each other, and may be played side-by-side in your campaign if you have some players who prefer convenience, and others who prefer customization.</p>
