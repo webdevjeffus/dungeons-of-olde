@@ -106,7 +106,7 @@
 - name:       Fencing
   stats:
    - Finesse
-  desc:       Combat skill
+  desc:       "Combat skill; includes use of Bucklers, but not larger shields"
   untrained:  Penalty
 
 - name:       Forage
@@ -251,7 +251,7 @@
 - name:       Shields
   stats:
     - Brawn
-  desc:       Combat skill
+  desc:       "Combat skill; -2 penalty for untrained use of a shield applies to all Attack checks"
   untrained:  Penalty
 
 - name:       Sleight-of-hand
