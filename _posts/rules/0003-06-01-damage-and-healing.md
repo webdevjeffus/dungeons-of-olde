@@ -7,6 +7,8 @@ description: "Rules for taking and healing damage in "
 keywords: "hit points, rpg combat, tabletop rpg combat, tabletop rpg rules, "
 ---
 
+{% include outdated-warning.html %}
+
 _Section reserved for rules governing taking and healing damage._
 
 Every character in _Dungeons of Olde_ has a Hit Point stat, a secondary statistic based on Brawn and Nerve. When a character is injured, the amount of damage done by the injury is deducted from his current Hit Points, and when his current Hit Point value reaches zero or less, that character is incapacitated and at least temporarily out of play. A character may recover Hit Points in several ways, including the application of natural first aid or magical healing. This section of the rules details how characters take damage and recover from it in _Dungeons of Olde._
