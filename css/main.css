@@ -180,7 +180,19 @@ div.warning {
 
 @media only screen and (min-width: 680px) {
   main aside.box { margin-top: -3.25rem;}
+
+  body>header {
+    background-image: url("../img/masthead-map-1200.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position: right bottom;
+    border-bottom: 2px solid #222;
+  }
+
 }
+
+
 
 
 
