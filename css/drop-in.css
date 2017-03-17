@@ -265,7 +265,7 @@ main section:last-of-type {
   border: none;
 }
 
-main article {
+/*main article {
   width: 65%;
   float: left;
 }
@@ -276,7 +276,7 @@ main aside {
   padding: 0.6rem 1.2rem;
   margin: 0.6rem 0;
   font-size: 0.8rem;
-}
+}*/
 
 /* Forms - use of em instead of rem is deliberate in this section */
 

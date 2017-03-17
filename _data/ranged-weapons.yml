@@ -30,7 +30,7 @@
   range:    10
   limit:    4x
   hands:    2
-  brawn:    4
+  brawn:    "4/8"
   damage:   1d8
   size:     3
 
@@ -39,7 +39,7 @@
   range:    10
   limit:    4x
   hands:    2
-  brawn:    6
+  brawn:    "6/10"
   damage:   1d10
   size:     4
 

@@ -8,7 +8,8 @@ keywords: "rpg stats, rpg characters, rpg rules, tabletop rpg rules "
 permalink: /core-rules/characters/
 ---
 
-<p>Player characters in <em>Dungeons of Olde</em> are often referred to as "heroes." Each hero has several Stats and Skills which determine his dungeon-delving abilities. Heroes created under the <em>Dungeons of Olde</em> Core Rules choose one <a href="#stat-arrays">Stat Array</a> and one <a href="#skill-packages">Skill Package</a>; heroes created under the <strong>Crunchy Characters</strong> rules option are built using a point-based system that allows players to customize their Stats and Skills. The Stat Arrays and Skill Packages in the Core Rules follow the Crunchy Characters point system, so there is no risk of imbalance if your party contains a mix of Core and Crunchy characters.</p>
+
+<p>Player characters in <em>Dungeons of Olde</em> are often referred to as "heroes." Each hero has several Stats and Skills which determine his dungeon-delving abilities. Heroes created under the <em>Dungeons of Olde</em> Core Rules choose one <a href="#stat-arrays">Stat Array</a> and one <a href="#skill-packages">Skill Package</a>; heroes created under the <strong>Crunchy Characters</strong> rules option are built using a <a href="#character-points">point-based system</a>.</p>
 
 <h5 id="stats">Stats</h5>
 <table>
@@ -35,7 +36,7 @@ permalink: /core-rules/characters/
   </tr>
 </table>
 
-<p>Starting heroes created under the <em>Dungeons of Olde</em> Core Rules choose from the following Stat Arrays. The values in each set may be assigned to the Primary Stats in any order. Secondary Stats are then derived from the assigned Primary Stat values.</p>
+<p>Starting heroes created under the <em>Dungeons of Olde</em> Core Rules choose one Stat Array from the following selection. The values in each array may be assigned to the four Primary Stats in any order. Secondary Stats are then derived from the assigned Primary Stat values. Mana and Faith Points are only important to spellcasters; non-magical heroes may ignore them.</p>
 
 <table id="stat-arrays">
   <tr>
@@ -69,20 +70,24 @@ permalink: /core-rules/characters/
 <table>
 
 <h6 id="stat-dice">Stat Dice</h6>
-<p>Each of a character's Primary Stats has an associated die, with a number of sides, or <a href="#die-rank">Die Rank</a>, equal to the value of that Stat. Thus, if a hero has Savvy 6, his Savvy die is a d6. Secondary Stats are only used to track a hero's state of health and energy, and therefore have no associated dice.</p>
+<p>Each of a character's Primary Stats has an associated die, with a number of sides, or <a href="#die-rank">Die Rank</a>, equal to the value of that stat. Thus, if a hero has Savvy 6, his Savvy die is a d6. Secondary Stats are only used to track a hero's state of health and energy, and therefore have no associated dice.</p>
 
-<h5 id="skill-packages">Skills</h5>
-<p>Each hero created under the <em>Dungeons of Olde</em> Core Rules chooses one Skill Package from the following table. More information on <a href="{{site.baseurl}}/core-rules/skills/#skills">Skills</a>, including the contents of the various Skill Sets, is included in the Skills section of the Core Rules.</p>
+<h5 id="skill-packages">Skill Packages</h5>
+<p>Each hero created under the <em>Dungeons of Olde</em> Core Rules chooses one Skill Package from the following table. More information on skills, including the contents of the various Skill Sets, is included in the <a href="{{site.baseurl}}/core-rules/skills/#skills">Skills</a> section of the Core Rules.</p>
 
 {% include tables/skill-packages-table.html %}
 
-<h5 id="character-points">Character Points</h5>
-<p>Starting characters are built, and experienced characters are improved, using Character Points (CP). The optional <strong>Crunchy Characters</strong> rules provide a complete system for customizing starting characters from scratch using Character Points. Though starting Core Rules characters are created using Stat Arrays and Skill Packages, these prepared arrays and packages were constructed using the Character Point system. Because of this, Core Rules and Crunchy characters are balanced against each other, and there is no reason not to mix them in your campaign if you have some players who prefer convenience, and others who prefer customization.</p>
+<div class="ph-ins-50 tab-ins-50 cmp-ins-33">
+<img src="{{site.baseurl}}/img/pd-knight-headshot-500x414.png" class=" flip" alt="Historic woodcut of a knight" title="Historic woodcut of a knight - Public domain">
+</div>
 
-<p>Once a hero enters play, his player will have the opportunity to improve his capabilities by spending additional Character Points to upgrade his Stats and Skills. These additional CP are earned through play, as rewards for territory explored, monsters defeated, foes outsmarted, and objectives achieved, or as lessons from dramatic failures. Typically, heroes earn 1 CP for an ordinary two- to four-hour play session, with additional bonuses for major objectives achieved, like the completion of a multi-session storyline or other epic adventure. Complete guidelines for awarding Character Points are presented in the section of these rules covering gamemastering (still to come).</p>
+<h5 id="character-points">Character Points</h5>
+<p>Starting characters are built, and experienced characters are improved, using Character Points (CP). The optional <strong>Crunchy Characters</strong> rules provide a complete system for creating customized characters from scratch using Character Points. Though starting Core Rules characters are created using Stat Arrays and Skill Packages, these prepared arrays and packages were designed using the Character Point system. Because of this, Core Rules and Crunchy characters are balanced against each other, and may be played side-by-side in your campaign if you have some players who prefer convenience, and others who prefer customization.</p>
+
+<p>Once a hero enters play, he earns additional Character Points as rewards for territory explored, monsters defeated, foes outsmarted, and objectives achieved, or as lessons from dramatic failures. Typically, heroes earn 1 CP for an ordinary two- to four-hour play session, with additional bonuses for major objectives achieved, like the completion of a multi-session storyline or other epic adventure. Complete guidelines for awarding Character Points are presented in the section of these rules covering gamemastering (still to come).</p>
 
 <h6>Spending Additional Character Points</h6>
-<p>Character points may be spent to improve Stats or Skills. The Stat Improvement table shows the cost to buy each additional Stat value as an upgrade from the previous value. So, if a hero with Finesse 6 wants to improve that Stat to a 7, he pays the Upgrade Cost on the "7" line of the table. The cost to upgrade each Stat is the same; no one Stat is more or less expensive than any other.</p>
+<p>Character points through play may be spent to improve Stats or Skills. The Stat Improvement table shows the cost to buy each additional Stat value as an upgrade from the previous value. So, if a hero with Finesse 6 wants to improve that Stat to a 7, he pays the Upgrade Cost on the "7" line of the table. The cost to upgrade each Stat is the same; no one Stat is more or less expensive than any other.</p>
 
 {% include tables/stats-table-upgrades.html %}
 

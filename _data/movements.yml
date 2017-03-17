@@ -1,12 +1,12 @@
 - name: Step
-  desc: Move up to 3 spaces per Round at 1 AP/spaces
+  desc: Move up to 3 spaces per round at 1 AP/space
   cost: 1 per space
   sets:
     - core
     - adv
 
 - name: Run
-  desc: Temporary -1 to Defense per AP spent Running; may Run up to 6 spaces per Round at 1 AP per 2 spaces
+  desc: Temporary -1 to Defense per AP spent Running; may Run up to 6 spaces per round at 1 AP per 2 spaces
   cost: 1 per 2 spaces
   sets:
     - adv

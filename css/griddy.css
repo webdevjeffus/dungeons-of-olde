@@ -82,8 +82,9 @@ body {
   margin: 0 auto;
 }
 
-.row { padding: 0.6rem; }
+.row { padding: 0.6rem 0; }
 
+section:after,
 .row:after {
   content: "";
   display: table;
@@ -366,6 +367,11 @@ body {
 
 .gtr-l-2x {padding-left: 1.2rem; }
 .gtr-r-2x {padding-right: 1.2rem; }
+
+/* Side margins */
+
+.mar-l { margin-left: 1.2rem; }
+.mar-r { margin-right: 1.2rem; }
 
 
 /* Boxes */

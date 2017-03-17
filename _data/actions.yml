@@ -11,7 +11,7 @@
     - adv
 
 - name: Melee Attack
-  desc: "Melee only; no Adjustments"
+  desc: "Melee only; no adjustments"
   cost: 2
   sets:
     - adv
@@ -41,13 +41,13 @@
     - adv
 
 - name: Shield Block
-  desc: "Melee only; Temporary +2 to Defense; Requires equipped Shield and Journeyman Shield skill"
+  desc: "Melee only; Temporary +2 to Defense; Requires equipped shield and Journeyman Shield skill"
   cost: 2
   sets:
     - core
 
 - name: Shield Block
-  desc: "Melee-only Reflex action; On a successful Shield vs. Weapon Challenge, doubles Shield's Defense Adjustment against blocked attack; Requires equipped Shield and Journeyman Shield skill"
+  desc: "Melee-only Reflex action; On a successful Shield vs. Weapon Challenge, doubles Shield's Defense adjustment against blocked attack; Requires equipped shield and Journeyman Shield skill"
   cost: 1
   sets:
     - adv
@@ -103,7 +103,7 @@
     - adv
 
 - name: Flop
-  desc: "Hastily throw self to sitting, kneeling or prone position; May be used after any Movement"
+  desc: "Hastily throw self to sitting, kneeling or prone position; May be used after any movement"
   cost: 0
   sets:
     - core

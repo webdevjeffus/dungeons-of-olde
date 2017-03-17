@@ -16,9 +16,9 @@ body {
   box-shadow: 4px 4px 16px #222;
 }
 
-main {
+/*main {
   padding: 0;
-}
+}*/
 
 header .current,
 main .current {
@@ -38,13 +38,19 @@ main h2 {margin-top: 1.2rem;}
 main h3 {margin-top: 1.2rem;}
 main h4 {margin-top: 1.2rem;}
 
-main h1:first-of-type {margin-top: 0.5rem;}
+main h1:first-of-type { margin-top: 0.5rem; }
 
 main h5,
 main h6 {
   margin-top: 0.6rem;
   padding-bottom: 0;
 }
+
+main aside h2:first-child,
+main aside h3:first-child,
+main aside h4:first-child,
+main aside h5:first-child,
+main aside h6:first-child { margin-top: 0; }
 
 .sub-nav {
   background-color: #bbb;
@@ -73,6 +79,10 @@ main h6 {
   float: left;
 }
 
+.prev-next:last-child {
+  padding-top: 1.2rem;
+}
+
 .prev-next .next {
   text-align: right;
   float: right;
@@ -88,9 +98,10 @@ table {
 }
 
 main th,
-main td {
-  padding: 0.3em 0.5em;
-}
+main td { padding: 0.3em 0.5em; }
+
+main th li:last-child,
+main td li:last-child { padding-bottom: 0.6rem; }
 
 .table-sentence {
   padding: 0.25rem 1rem;
@@ -150,6 +161,27 @@ div.warning {
   font-family: Arial, sans-serif;
 }
 
+.flip {
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
+.border-thin {
+  border: 1px solid #222;
+  padding: 0;
+}
+
+.first-img {
+  margin-top: -3rem;
+}
+
+
+/* Media query to tweak position of sidebar on larger screens */
+
+@media only screen and (min-width: 680px) {
+  main aside.box { margin-top: -3.25rem;}
+}
+
 
 
 /* Formatting for print */
@@ -177,7 +209,7 @@ div.warning {
 
   header p,
   header nav,
-  .rules-prev-next,
+  .prev-next,
   .sub-nav,
   .print-hide { display: none;}
 
@@ -212,10 +244,21 @@ div.warning {
   main table {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 11px;
+    page-break-inside: avoid; /* For Firefox. */
+    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
+    break-inside: avoid; /* For standard browsers like IE. :-) */
   }
 
   main table.wide {
     font-family: "Arial Narrow", Arial, sans-serif;
     font-size: 10px;
+  }
+
+  main aside.box {
+    border: 2px solid #444;
+    padding: 1.2rem;
+    page-break-inside: avoid; /* For Firefox. */
+    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
+    break-inside: avoid; /* For standard browsers like IE. :-) */
   }
 }
