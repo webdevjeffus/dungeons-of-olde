@@ -5,6 +5,7 @@ full-title: Development Blog
 category: blog
 description: "Game developer's blog for "
 keywords: "game development, tabletop game development, rpg game development, "
+permalink: "/blog/"
 ---
 
 <ul>

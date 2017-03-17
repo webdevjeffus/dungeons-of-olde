@@ -5,6 +5,7 @@ full-title: Rules of the Game
 category: rules
 description: "Rules of play for "
 keywords: "rpg rules, "
+permalink: /rules/
 ---
 
 <ol>

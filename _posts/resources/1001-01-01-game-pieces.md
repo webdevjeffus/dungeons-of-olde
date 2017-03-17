@@ -6,6 +6,7 @@ full-title: Game Components
 category: resources
 description: "Free downloadable miniatures and game pieces for "
 keywords: "printable miniatures, free printable miniatures,  "
+published: false
 ---
 
 {% include outdated-warning.html %}
