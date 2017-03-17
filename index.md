@@ -12,7 +12,7 @@ subtitle: The Table-top Dungeon-Crawling Game
 <p>Before you is <em>Dungeons of Olde</em>, a versatile tabletop roleplaying game that opens a door into any fantastic world you can imagine. You can play it as an open-ended, old school dungeon-crawler; an extra-crunchy, classic-era campaigner; or a modern, rules-light story-teller. You can play it as a traditional, game-mastered RPG; a solo or cooperative questing board game; or a head-to-head skirmisher pitting two or more player-controlled forces against one another. This website provides rules and additional resources to facilitate all these styles of play.</p>
 
 <h2>
-  <a href="{{site.baseurl}}/rules.html" title="Go to the DoO Rules">Rules</a>
+  <a href="{{site.baseurl}}/rules/" title="Go to the DoO Rules">Rules</a>
 </h2>
 <p>The basic <em>Dungeons of Olde</em> mechanics can support a wide variety of RPG formats, though at its most basic level, the game plays as an old-school dungeon crawl run by a traditional gamemaster. Additional rules and conventions are (or will be) provided to adapt the game for other styles of play, and can be mixed and matched to suit the tastes of the players around the table. Here are some of the options that are (or will be) available:</p>
 
@@ -26,20 +26,20 @@ subtitle: The Table-top Dungeon-Crawling Game
 <p>The <strong>As-Yet-Unnamed Narrative Option</strong> offers guidelines on playing <em>Dungeons of Olde</em> as a modern collaborative storytelling game, moving the action off the tabletop and into the shared imaginings of the players and their game master.</p>
 
 <h2>
-  <a href="{{site.baseurl}}/resources.html" title="Enhance your game with DoO Resources">Resources</a>
+  <a href="{{site.baseurl}}/resources/" title="Enhance your game with DoO Resources">Resources</a>
 </h2>
-In the <em>Dungeons of Olde</em> Resources section, you'll (eventually...) find a variety of play aids to enhance your <em>Dungeons of Olde</em> gaming. Planned resources include:
+In the Resources section, you'll find a variety of play aids to enhance your <em>Dungeons of Olde</em> gaming. Our 2.5d printable papercraft tile system is already available. Plans for additional resources include:
 
 <ul class="bulleted">
   <li>Reference material, including a monster cyclopedia, a catalog of adventuring gear, game-mastering guidelines, and printable reference sheets.</li>
   <li>Printable game components intended principally for "Deus est Machina" play (without a GM), including character, loot, spell and skill cards, as well as tracking tokens.</li>
-  <li>A complete system of geomorphic papercraft 2.5D dungeon tiles, offered in PDF format for home printing.</li>
+  <li><em><a href="{{site.baseurl}}/resources/miniatures/" title="Check out the Dungeons of Olde papercraft miniatures!">Dungeons of Olde Terrain Tiles</a></em>, a complete system of geomorphic papercraft 2.5D dungeon terrain, offered in PDF format for home printing.</li>
 </ul>
 
 <p>As the rule system stabilizes through playtest, we'll begin to post PDF versions of the complete rules in the Resources section for convenient printing. In the meantime, all the pages in the Rules section have special print-only formatting, so you can print each page directly from the browser by right-clicking the page and selecting the Print option. Printing the rules directly from the website assures that you are always printing the very latest iteration of the game.</p>
 
 <h2>
-  <a href="{{site.baseurl}}/blog.html" title="Follow our progress in the DoO Blog">Blog</a>
+  <a href="{{site.baseurl}}/blog/" title="Follow our progress in the DoO Blog">Blog</a>
 </h2>
 <p>The <em>Dungeons of Olde</em> blog traces my thinking as both the game and the website progress. I'll blog about my design decisions and the philosophy and priorities underlying them, and respond to input from whatever player community develops. I'll also write about the technology underlying the <em>Dungeons of Olde</em> website, since the project began at least in part as an excuse to learn the <a href="http://jekyllrb.com/" target="_blank" title="Discover Jekyll">Jekyll static site generator</a>. I'll continue to improve the site's code as well as its content, and the blog will be where I tell you <em>why</em> I did whatever I did. And finally, I may muse on topics related to tabletop roleplaying as well as fantasy and science fiction literature, both in print and on screen. In fairness, the blog is likely to be the least active section of the <em>Dungeons of Olde</em> website, but additions there will be at least easy to find.</p>
 
