@@ -7,6 +7,8 @@ description: "Action Phase rules for Crisis Mode turns in "
 keywords: "rpg actions, rpg combat, tabletop rpg rules, "
 ---
 
+{% include outdated-warning.html %}
+
 In the Action Phase of a turn, every character will have the opportunity to move and take at least one action. The Action Phase is conducted in Rounds; in each Round, each character has the opportunity to perform one action. Characters act in order of their current Action Point total, from highest to lowest. When it’s the character’s turn to act in the current Round, he may choose to act, or to pass; he may not delay his action until later in the current Round. Of course, any AP he has left at the end of the current Round carry over into the next Round, so he may get to act sooner in that Round than he could have in the current one.
 
 In order to do anything in Crisis Mode, he must have available and spend either Free Steps, Action Points, or both. At the end of each turn, during the Reset Phase, each character's Free Steps and Action Points are restored to full.

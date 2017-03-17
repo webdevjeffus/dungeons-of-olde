@@ -7,6 +7,8 @@ description: "Hand-to-hand combat rules for "
 keywords: "rpg weapons, rpg combat, tabletop rpg combat, tabletop rpg rules, "
 ---
 
+{% include outdated-warning.html %}
+
 Hand-to-hand combat, or armed combat, is very similar to unarmed combat, or Brawling. In each attack, there is an Attacker who makes an Opposed Attempt to hit a Defender. If the attack hits, an Effect roll determines how much damage is done&mdash;just as in a Brawl. In this section, we'll focus on the ways armed Hand-to-Hand Combat differs from Brawling.
 
 ## Hand-to-Hand Weapons Table

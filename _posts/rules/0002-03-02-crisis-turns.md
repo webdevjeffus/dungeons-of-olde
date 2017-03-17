@@ -7,6 +7,8 @@ description: "Turn sequence rules for Crisis Mode encounters in "
 keywords: "rpg turns, rpg combat, rpg encounters, tabletop rpg rules, "
 ---
 
+{% include outdated-warning.html %}
+
 Once all characters are placed on the board, all character cards are prepped for play, and Action Points are set for all characters, the first turn of Crisis Mode begins. Each turn in Crisis Mode has two phases: an Action Phase, made up of several Rounds in which characters move, attack, defend, or take other actions; and a Reset Phase, in which players resolve end-of-turn game business, and get set up for the next turn.
 
 Each turn in Crisis Mode represents a handful of seconds&mdash;somewhere between 10 and 30 seconds, to be not-very-precise. All of that time is taken up by the Action Phase, when the characters' actions are carried out on the board. The Reset Phase is strictly a bookkeeping step for the players; it takes no time in the world of heroes and their opponents.
