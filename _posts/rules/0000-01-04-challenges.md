@@ -9,7 +9,7 @@ permalink: /core-rules/challenges/
 ---
 
 <div class="ph-col-12">
-<img src="{{site.baseurl}}/img/potionmaker-JoyceMaureira-400x198.jpg" srcset="{{site.baseurl}}/img/potionmaker-JoyceMaureira-800x395.jpg 800w, {{site.baseurl}}/img/potionmaker-JoyceMaureira-1200x592.jpg 1200w" class="border-thin" alt="An alchemist preparing potions" title="Potionmaker - Public domain image by Joyce Maureira">
+  <img src="{{site.baseurl}}/img/potionmaker-JoyceMaureira-400x198.jpg" srcset="{{site.baseurl}}/img/potionmaker-JoyceMaureira-800x395.jpg 800w, {{site.baseurl}}/img/potionmaker-JoyceMaureira-1200x592.jpg 1200w" class="border-thin" alt="An alchemist preparing potions" title="Potionmaker - Public domain image by Joyce Maureira">
 </div>
 
 
