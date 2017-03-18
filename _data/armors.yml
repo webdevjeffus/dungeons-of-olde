@@ -1,26 +1,29 @@
-- type:       Padded
+- type:       Leather
   category:   Light
   dmg-adj:    -1
-  brawn-min:  6
+  brawn-min:  5
   size-body:  2
   size-helm:  1
-  summary:    false
+  cost:       $15
+  core:    true
 
-- type:       Leather Armor
+- type:       Gambeson (Quilted)
   category:   Light
-  dmg-adj:    -1
-  brawn-min:  6
+  dmg-adj:    -2
+  brawn-min:  7
   size-body:  2
   size-helm:  1
-  summary:    true
+  cost:       $10
+  core:       true
 
-- type:       Chainmail
-  category:   Medium
-  dmg-adj:    -3
-  brawn-min:  9
-  size-body:  4
-  size-helm:  2
-  summary:    true
+- type:       Hardened
+  category:   Light
+  dmg-adj:    -2
+  brawn-min:  6
+  size-body:  2
+  size-helm:   1
+  cost:       $25
+  core:       false
 
 - type:       Scale
   category:   Medium
@@ -28,15 +31,35 @@
   brawn-min:  9
   size-body:  4
   size-helm:  2
-  summary:    false
+  cost:       $50
+  core:       true
+
+- type:       Chainmail
+  category:   Medium
+  dmg-adj:    -3
+  brawn-min:  8
+  size-body:  4
+  size-helm:  2
+  cost:       $75
+  core:       true
+
+- type:       Brigandine
+  category:   Medium
+  dmg-adj:    -4
+  brawn-min:  10
+  size-body:  5
+  size-helm:  2
+  cost:       $125
+  core:       false
 
 - type:       Plate-and-Mail
   category:   Heavy
   dmg-adj:    -5
-  brawn-min:  12
+  brawn-min:  11
   size-body:  5
   size-helm:  2
-  summary:    true
+  cost:       $150
+  core:       true
 
 - type:       Full Plate
   category:   Heavy
@@ -44,4 +67,5 @@
   brawn-min:  12
   size-body:  6
   size-helm:  2
-  summary:    false
+  cost:       $400
+  core:       false

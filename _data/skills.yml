@@ -260,6 +260,12 @@
   desc:       Manual trickery and misdirection such as picking a pocket or lifting a purse unnoticed
   untrained:  Penalty
 
+- name:       Sling
+  stats:
+    - Finesse
+  desc:       Ranged combat skill
+  untrained:  Unusable
+
 - name:       Sneak
   stats:
     - Finesse
@@ -282,7 +288,7 @@
 - name:       Thrown Weapons
   stats:
     - Finesse
-  desc:       Ranged combat skill
+  desc:       "Ranged combat skill; includes knives/daggers, axes, javelins/spears"
   untrained:  Penalty
 
 - name:       Tracking

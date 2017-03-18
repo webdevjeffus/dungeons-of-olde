@@ -5,11 +5,11 @@
   <tr>
     <th>Type</th>
     <th>Category</th>
-    <th>Damage Penalty</th>
+    <th>Damage Reduction</th>
     <th>Brawn Minimum</th>
   </tr>
   {% for armor in site.data.armors %}
-    {% if armor.summary %}
+    {% if armor.core %}
       <tr>
         <td>{{armor.type}}</td>
         <td>{{armor.category}}</td>
