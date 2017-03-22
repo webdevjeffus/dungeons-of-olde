@@ -41,9 +41,28 @@ permalink: /core-rules/challenges/
 <p>Certain challenges may allow for an ally to <strong>assist</strong> a hero attempting a challenge (instigator). The assistant makes a <a href="#check-rolls">Check roll</a> with a challenge Rating equal to the instigator's <a href="{{site.baseurl}}/core-rules/skills/#skills">Check Stat</a> for the Skill he's using in his Attempt. If the assistant's Check roll equals the instigator's Check Stat for the skill he's using, the instigator gets +1 on his Attempt. This bonus is increased by +1 for every <em>two</em> points by which the assistant's Check roll exceeds the instigator's Check Stat.</p>
 
 <h6 id="scaling-challenges">Checks Against Scaling Challenges</h6>
-<p>A <strong>scaling challenge</strong> occurs in circumstances where the character's doing especially well at the challenge may result in a quantifiably greater effect. A scaling challenge has a challenge rank and rating, but for every challenge rank by which the character succeeds, he achieves additional success.</p>
+<p>A <strong>scaling challenge</strong> occurs in circumstances where the character's doing especially well at the challenge may result in a quantifiably greater effect. A scaling challenge has a base challenge rank and rating, but for every additional challenge rank by which the character succeeds, he achieves greater success. Recall that each additional rank of success requires a margin of 3 points on the Check roll.</p>
 
-<p>For example, if a hero had just a few seconds to gather usable arrows after a battle, the gamemaster might decide to handle the attempt as an Easy scaling challenge (CR 6) to the hero's Alertness skill, with each rank of success turning up three intact arrows. The player rolls his Alertness Check using its <a href="{{site.baseurl}}/core-rules/skills/#skills">Check Stat</a>, Savvy, scoring an 11, and recovers six arrows in all&mdash;three for the succeeding at the Easy level, and three more for also having met the Moderate challenge rating of 9.</p>
+<p>For example, if Briven had just a few seconds to gather usable arrows after a battle, the gamemaster might decide to handle the attempt as an Easy scaling challenge (CR 6) to Briven's Alertness skill, with each rank of success turning up three intact arrows. The player rolls Briven's Alertness Check using his <a href="{{site.baseurl}}/core-rules/skills/#skills">Check Stat</a>, Savvy, scoring an 11, so Briven recovers six arrows in all&mdash;three for the succeeding at the Easy level, and three more for also having met the Moderate challenge rating of 9.</p>
+
+<h6 id="criticals">Extraordinary outcomes</h6>
+<p>In many circumstances, when a hero succeeds or fails on a <a href="#check-rolls">Check roll</a> by an unusually wide margin, an extraordinary outcome is appropriate. Similar to the rule for scaling challenges, the degree of the extraordinary outcome is determined by the number of ranks of extraordinary success or failure the hero achieves on his roll. Since unusual outcomes present unique learning opportunities, any extraordinary success or failure in an adventure situation awards the character making the check one character point. Additional benefits from extraordinary success or penalties for extraordinary failure may be determined by the gamemaster, with guidelines following the table.</p>
+
+{% include tables/extraordinary-outcomes-table.html %}
+
+<ul>
+  <li><strong><em>Possible Bonuses and Penalties</em></strong></li>
+  <li><strong>Major bonus:</strong> Consumable materials not consumed; useful or valuable materials recovered</li>
+  <li><strong>Minor bonus:</strong> Task takes half the usual time; half the normal materials consumed; product is unusually beautiful or effective</li>
+  <li><strong>Simple success:</strong> Task succeeds, and any consumable materials are spent</li>
+  <li><strong>Simple failure:</strong> Task fails, and any consumable materials are lost</li>
+  <li><strong>Minor penalty:</strong> Task fails, wasting twice the normal amount of time; attempt wastes double normal amount of materials; tools or equipment are damaged, imposing -2 penalty on future attempts until damaged tools are repaired or replaced</li>
+  <li><strong>Major penalty:</strong> Task fails, and tools or equipment are destroyed, making future attempts impossible until lost tools are replaced</li>
+</ul>
+
+<p>Additional outcomes&mdash;whether penalties or bonuses&mdash;are determined by the gamemaster as appropriate for the circumstances. For example, a major bonus on a Disable Check to disarm a trap might allow the hero to recover several feet of steel wire or a few brass springs and cogs from the mechanism. A major failure on the same check might destroy the hero's lock-picking kit, preventing him from picking additional locks or disarming traps until he can replace his tools. Although the table makes multiple suggestions for some outcomes, only a single bonus or penalty effect should be imposed on a single attempt.</p>
+
+<p>Extraordinary successes and failures on combat checks are discussed in the <a href="{{site.baseurl}}/core-rules/combat/#combat-extraordinary-outcomes">Combat rules</a>.</p>
 
 <h5 id="effect-rolls">Effect Rolls</h5>
 <p>In some cases, a successful <a href="#check-rolls">Check roll</a> is followed by an <strong>effect roll</strong>, to determine <em>how effective</em> the success was. Effect rolls also use the character's Stat Die for the applicable <a href="{{site.baseurl}}/core-rules/skills/#skills">skill's Check Stat</a>. Depending on the circumstances, an effect roll may call for one, two, or more dice. Effect rolls are made with <a href="{{site.baseurl}}/core-rules/dice/#exploding-dice">exploding dice</a>, unless the rules specify otherwise.</p>

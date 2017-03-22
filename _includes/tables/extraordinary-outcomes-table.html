@@ -1,0 +1,21 @@
+<table class="ftrm-mar">
+  <tr>
+    <th colspan="5">Extraordinary Outcomes</th>
+  </tr>
+  <tr>
+    <th>Category</th>
+    <th>Ranks</th>
+    <th>Check roll</th>
+    <th>Outcome</th>
+    <th>Character<br>Points</th>
+  </tr>
+  {% for outcome in site.data.extraordinary-outcomes %}
+    <tr>
+      <td>{{outcome.category}}</td>
+      <td>{{outcome.ranks}}</td>
+      <td>{{outcome.roll}}</td>
+      <td>{{outcome.effect}}</td>
+      <td>{{outcome.cp}}</td>
+    </tr>
+  {% endfor %}
+</table>
