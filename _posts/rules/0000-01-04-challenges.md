@@ -18,6 +18,8 @@ permalink: /core-rules/challenges/
 
 {% include tables/challenges-table.html %}
 
+<p>Note that it is generally not necessary to roll for <em>Trivial</em> challenges, unless the task involves a <a href="#scaling-challenges">scaling challenge</a>, <a href="#critical-outcomes">critical outcomes</a> are possible, or the gamemaster judges the situation to be extremely tense and dramatic. In all other circumstances, you can treat an attempt at a <em>Trivial</em> challenge as an automatic success.</p>
+
 <h2 id="attempts">Attempts</h2>
 <p>When a hero tries to overcome a challenge, he makes an <strong>attempt</strong>. An attempt always includes a <strong>check roll</strong>, which determines <em>whether</em> he succeeds at the task, and it may require an <strong><a href="#effect-rolls">effect roll</a></strong>, which determines the <em>degree</em> of that success.</p>
 <p>Every attempt is made using <a href="{{site.baseurl}}/core-rules/characters/#stat-dice">stat dice</a> for the <a href="{{site.baseurl}}/core-rules/characters/#stats">Primary Stat</a> relevant to the nature of the challenge. For most tasks, there will be an applicable <a href="#skills">skill</a>, so the attempt will use the Check Stat for that skill. For example, a challenge calling for brute force uses a hero's Brawn dice, while a challenge requiring courage uses his Nerve dice.</p>
@@ -45,10 +47,10 @@ permalink: /core-rules/challenges/
 
 <p>For example, if Briven had just a few seconds to gather usable arrows after a battle, the gamemaster might decide to handle the attempt as an Easy scaling challenge (CR 6) to Briven's Alertness skill, with each rank of success turning up three intact arrows. The player rolls Briven's Alertness Check using his <a href="{{site.baseurl}}/core-rules/skills/#skills">Check Stat</a>, Savvy, scoring an 11, so Briven recovers six arrows in all&mdash;three for the succeeding at the Easy level, and three more for also having met the Moderate challenge rating of 9.</p>
 
-<h6 id="criticals">Extraordinary outcomes</h6>
-<p>In many circumstances, when a hero succeeds or fails on a <a href="#check-rolls">Check roll</a> by an unusually wide margin, an extraordinary outcome is appropriate. Similar to the rule for scaling challenges, the degree of the extraordinary outcome is determined by the number of ranks of extraordinary success or failure the hero achieves on his roll. Since unusual outcomes present unique learning opportunities, any extraordinary success or failure in an adventure situation awards the character making the check one character point. Additional benefits from extraordinary success or penalties for extraordinary failure may be determined by the gamemaster, with guidelines following the table.</p>
+<h6 id="critical-outcomes">Critical Outcomes</h6>
+<p>In many circumstances, when a hero succeeds or fails on a <a href="#check-rolls">Check roll</a> by an unusually wide margin, a critical outcome is appropriate. Similar to the rule for scaling challenges, the degree of the <strong>critical outcome</strong> is determined by the number of ranks of success or failure the hero achieves on his roll. Since unusual outcomes present unique learning opportunities, any <strong>critical success</strong> or <strong>failure</strong> in an adventure situation awards the character making the check character points, as described in the Critical Outcomes table. Additional benefits from critical success or penalties for critical failure may be determined by the gamemaster, with guidelines following the table.</p>
 
-{% include tables/extraordinary-outcomes-table.html %}
+{% include tables/critical-outcomes-table.html %}
 
 <ul>
   <li><strong><em>Possible Bonuses and Penalties</em></strong></li>
@@ -60,9 +62,13 @@ permalink: /core-rules/challenges/
   <li><strong>Major penalty:</strong> Task fails, and tools or equipment are destroyed, making future attempts impossible until lost tools are replaced</li>
 </ul>
 
-<p>Additional outcomes&mdash;whether penalties or bonuses&mdash;are determined by the gamemaster as appropriate for the circumstances. For example, a major bonus on a Disable Check to disarm a trap might allow the hero to recover several feet of steel wire or a few brass springs and cogs from the mechanism. A major failure on the same check might destroy the hero's lock-picking kit, preventing him from picking additional locks or disarming traps until he can replace his tools. Although the table makes multiple suggestions for some outcomes, only a single bonus or penalty effect should be imposed on a single attempt.</p>
+<p>Situational outcomes&mdash;whether penalties or bonuses&mdash;are determined by the gamemaster as appropriate for the circumstances. For example, a major bonus on a Disable Check to disarm a trap might allow the hero to recover several feet of steel wire or a few brass springs and cogs from the mechanism, which can be used or sold after the adventure. A major failure on the same check might destroy the hero's lock-picking kit, preventing him from picking additional locks or disarming traps until he can replace his tools. Although the table makes multiple suggestions for some outcomes, only a single bonus or penalty effect should be imposed on a single attempt.</p>
 
-<p>Extraordinary successes and failures on combat checks are discussed in the <a href="{{site.baseurl}}/core-rules/combat/#combat-extraordinary-outcomes">Combat rules</a>.</p>
+<p>In <a href="#opposed-attempts">opposed attempts</a>, the <em>target's</em> Check roll is not subject to critical outcomes. This is because the target's Check sets the challenge rating (CR) for the instigator's Check roll, rather than being rolled against a CR of its own. The instigator's Check <em>is</em> subject to critical outcomes, though, and the gamemaster may rule that a critical failure (or success) by the instigator results in a bonus (or penalty) to the target, instead of a penalty (or bonus) to the instigator.</p>
+
+Since Defense Checks set the challenge rating (CR) for the opposing Attack Check, rather than being rolled against a CR themselves, Defense Checks are not subject to critical outcomes (although good or bad things can happen to the defender as a result of critical hits or misses against them).
+
+<p>Critical successes and failures on combat checks are discussed in the <a href="{{site.baseurl}}/core-rules/combat/#combat-critical-outcomes">Combat rules</a>.</p>
 
 <h5 id="effect-rolls">Effect Rolls</h5>
 <p>In some cases, a successful <a href="#check-rolls">Check roll</a> is followed by an <strong>effect roll</strong>, to determine <em>how effective</em> the success was. Effect rolls also use the character's Stat Die for the applicable <a href="{{site.baseurl}}/core-rules/skills/#skills">skill's Check Stat</a>. Depending on the circumstances, an effect roll may call for one, two, or more dice. Effect rolls are made with <a href="{{site.baseurl}}/core-rules/dice/#exploding-dice">exploding dice</a>, unless the rules specify otherwise.</p>

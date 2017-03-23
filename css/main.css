@@ -136,6 +136,10 @@ main li {
   margin-left: 1.2rem;
 }
 
+table .bulleted>li.table-sentence {
+  padding-left: 0;
+}
+
 .lower-alpha>li {
   list-style-type: lower-alpha;
 }

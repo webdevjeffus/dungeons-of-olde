@@ -1,0 +1,64 @@
+- category: Legendary Success
+  ranks:    "3 or more"
+  roll:     "+6 or more"
+  effect:  "Major bonus"
+  cp:       2
+  cmbt-category: "Legendary Hit"
+  atk-effects:
+    - "Attack does maximum damage <strong>and</strong> bypasses any armor"
+    - "Defender suffers <em>lasting</em> blindness"
+    - "Defender suffers <em>lasting</em> lameness"
+    - "Defender's weapon is broken"
+    - "Defender is instantly slain (only with GM's consent)"
+
+- category: Critical Success
+  ranks:    "2"
+  roll:     +3 to +5
+  effect:  "Minor bonus"
+  cp:        1
+  cmbt-category:  "Critical Hit"
+  atk-effects:
+    - "Attack does maximum damage (Brawn weapons only)"
+    - "Attack bypasses armor (Finesse weapons only)"
+    - "Defender suffers <em>temporary</em> blindness"
+    - "Defender is tripped and falls prone"
+    - "Defender is disarmed"
+
+- category: Success
+  ranks:    "1"
+  roll:     0 to +2
+  effect:  "Simple success"
+  cp:       0
+  cmbt-category: "Simple Hit"
+  atk-effects:
+    - "Normal weapon damage"
+
+- category: Failure
+  ranks:    "1"
+  roll:     -3 to -1
+  effect:  "Simple failure"
+  cp:       0
+  cmbt-category: "Simple Miss"
+  atk-effects:
+    - "Attack has no effect"
+
+- category: Critical Failure
+  ranks:    "2"
+  roll:     -6 to -4
+  effect:  "Minor penalty"
+  cp:       1
+  cmbt-category: "Critical Miss"
+  atk-effects:
+    - "Attacker drops his weapon"
+    - "Attacker trips and falls prone"
+
+- category: Disastrous Failure
+  ranks:    "3 or more"
+  roll:     -7 or more
+  effect:  "Major penalty"
+  cp:       2
+  cmbt-category:  "Disastrous Failure"
+  atk-effects:
+    - "Attacker's weapon breaks"
+    - "Defender inflicts weapon damage on attacker"
+
