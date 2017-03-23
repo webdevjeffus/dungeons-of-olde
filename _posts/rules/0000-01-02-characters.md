@@ -12,62 +12,13 @@ permalink: /core-rules/characters/
 <p>Player characters in <em>Dungeons of Olde</em> are often referred to as "heroes." Each hero has several Stats and Skills which determine his dungeon-delving abilities. Heroes created under the <em>Dungeons of Olde</em> Core Rules choose one <a href="#stat-arrays">Stat Array</a> and one <a href="#skill-packages">Skill Package</a>; heroes created under the <strong>Crunchy Characters</strong> rules option are built using a <a href="#character-points">point-based system</a>.</p>
 
 <h5 id="stats">Stats</h5>
-<table>
-  <tr>
-    <th>Primary Stats</th>
-    <th>Secondary Stats</th>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><strong>Brawn:</strong> Physical might</li>
-        <li><strong>Finesse:</strong> Agility and quickness</li>
-        <li><strong>Savvy:</strong> Mental sharpness</li>
-        <li><strong>Nerve:</strong> Strength of will</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><strong>Hit Points</strong> = Brawn + ( Nerve/2 )</li>
-        <li><strong>Mana Points</strong> = Savvy + ( Nerve/2 )</li>
-        <li><strong>Faith Points</strong> = Nerve + ( Savvy/2 )</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+{% include tables/stats-definitions-table.html %}
 
 <p>Starting heroes created under the <em>Dungeons of Olde</em> Core Rules choose one Stat Array from the following selection. The values in each array may be assigned to the four Primary Stats in any order. Secondary Stats are then derived from the assigned Primary Stat values. Mana and Faith Points are only important to spellcasters; non-magical heroes may ignore them.</p>
 
-<table id="stat-arrays">
-  <tr>
-    <th colspan="3">Starting Stat Arrays</th>
-  </tr>
-  <tr>
-    <td>7, 7, 7, 6</td>
-    <td>8, 7, 7, 5</td>
-    <td>8, 7, 6, 6</td>
-  </tr>
-  <tr>
-    <td>8, 8, 5, 5</td>
-    <td>8, 8, 7, 4</td>
-    <td>8, 8, 8, 3</td>
-  </tr>
-  <tr>
-    <td>9, 6, 6, 5</td>
-    <td>9, 7, 5, 5</td>
-    <td>9, 7, 6, 4</td>
-  </tr>
-  <tr>
-    <td>9, 8, 5, 4</td>
-    <td>10, 6, 5, 4</td>
-    <td>10, 5, 5, 5</td>
-  </tr>
-  <tr>
-    <td>10, 7, 4, 4</td>
-    <td>11, 5, 4, 4</td>
-    <td>12, 4, 4, 3</td>
-  </tr>
-<table>
+<div id="stat-arrays">
+  {% include tables/stat-arrays-table.html %}
+</div>
 
 <h6 id="stat-dice">Stat Dice</h6>
 <p>Each of a character's Primary Stats has an associated die, with a number of sides, or <a href="#die-rank">Die Rank</a>, equal to the value of that stat. Thus, if a hero has Savvy 6, his Savvy die is a d6. Secondary Stats are only used to track a hero's state of health and energy, and therefore have no associated dice.</p>
