@@ -1,0 +1,89 @@
+- category: Legendary Success
+  ranks:    "4 or more"
+  roll:     "+9 or more"
+  effect:   "Major bonus"
+  cp:       2
+  cmbt-category: "Legendary Hit"
+  core-atk-effects:
+    - "Attack does twice maximum damage (Brawn weapons)"
+    - "Attack bypasses any armor and does maximum damage (Finesse weapons)"
+  adv-atk-effects:
+    - "Defender suffers <em>lasting</em> blindness"
+    - "Defender suffers <em>lasting</em> lameness"
+    - "Defender's weapon is broken"
+    - "Defender is instantly slain (only with GM's consent)"
+
+
+- category: Critical Success
+  ranks:    "3 or more"
+  roll:     "+6 to +8"
+  effect:  "Bonus"
+  cp:       1
+  cmbt-category: "Critical Hit"
+  core-atk-effects:
+    - "Attack does maximum damage + 2 (Brawn weapons)"
+    - "Attack bypasses armor (Finesse weapons only)"
+  adv-atk-effects:
+    - "Defender suffers <em>temporary</em> blindness"
+    - "Defender is disarmed"
+    - "Defender is tripped and falls prone"
+
+- category: Solid Success
+  ranks:    "2"
+  roll:     +3 to +5
+  effect:   "Minor bonus"
+  cp:       0
+  cmbt-category:  "Solid Hit"
+  core-atk-effects:
+    - "Attack does +2 damage (Brawn weapons only)"
+    - "Attack does minimum of 2 damage, regardless of armor (Finesse weapons only)"
+  adv-atk-effects:
+    - "Defender stumbles; <em>temporary</em> -2 Def"
+
+- category: Success
+  ranks:    "1"
+  roll:     0 to +2
+  effect:  "Simple success"
+  cp:       0
+  cmbt-category: "Hit"
+  core-atk-effects:
+    - "Normal weapon damage"
+
+- category: Failure
+  ranks:    "1"
+  roll:     -1 to -3
+  effect:  "Simple failure"
+  cp:       0
+  cmbt-category: "Miss"
+  core-atk-effects:
+    - "Attack has no effect"
+
+- category: Clear Failure
+  ranks:    "2"
+  roll:     -4 to -6
+  effect:   "Minor penalty"
+  cp:       0
+  cmbt-category:  "Clean Miss"
+  core-atk-effects:
+    - "Attacker stumbles: <em>temporary</em> -2 Def"
+
+- category: Critical Failure
+  ranks:    "3"
+  roll:     -7 to -9
+  effect:  "Penalty"
+  cp:       1
+  cmbt-category: "Critical Miss"
+  core-atk-effects:
+    - "Attacker drops his weapon"
+    - "Attacker trips and falls prone"
+
+- category: Disastrous Failure
+  ranks:    "4 or more"
+  roll:     -10 or more
+  effect:  "Major penalty"
+  cp:       2
+  cmbt-category:  "Disastrous Miss"
+  core-atk-effects:
+    - "Attacker's weapon breaks"
+    - "Defender inflicts weapon damage on attacker"
+

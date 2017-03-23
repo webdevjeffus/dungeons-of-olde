@@ -1,0 +1,30 @@
+<table class="ftrm-mar">
+  <tr>
+    <th colspan="5">Critical Combat Outcomes</th>
+  </tr>
+  <tr>
+    <th>Category</th>
+    <th>Ranks</th>
+    <th>Check roll</th>
+    <th>Possible Outcomes</th>
+    <th>Character Points<br>Awarded</th>
+  </tr>
+
+  {% for outcome in site.data.critical-outcomes %}
+    <tr>
+      <td>{{outcome.cmbt-category}}</td>
+      <td>{{outcome.ranks}}</td>
+      <td>{{outcome.roll}}</td>
+      <td>
+        <ul class="bulleted">
+          {% for effect in outcome.core-atk-effects %}
+            <li class="table-sentence">
+            {{effect}}
+            </li>
+          {% endfor %}
+        </ul>
+      </td>
+      <td>{{outcome.cp}}</td>
+    </tr>
+  {% endfor %}
+</table>
