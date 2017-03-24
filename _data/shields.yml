@@ -1,48 +1,55 @@
-- shield:     Buckler
+- name:     Buckler
   def-adj:    "+1"
   brawn-min:  6
   spell-adj:  -1
   size:       2
   summary:    false
+  cost:       $20
 
-- shield:     Roundel
+- name:     Roundel
   def-adj:    "+1"
   brawn-min:  6
   spell-adj:  -1
   size:       2
   summary:    true
+  cost:       $5
 
-- shield:     Targe
+- name:     Targe
   def-adj:    "+2"
   brawn-min:  8
   spell-adj:  -2
-  size:       4
+  size:       3
   summary:    false
+  cost:       $10
 
-- shield:     Heater
+- name:     Heater
   def-adj:    "+2"
   brawn-min:  8
   spell-adj:  -2
   size:       4
   summary:    true
+  cost:       $10
 
-- shield:     Kite
+- name:     Kite
   def-adj:    "+3"
   brawn-min:  10
+  spell-adj:  -3
+  size:       5
+  summary:    true
+  cost:       $30
+
+- name:     Pavise
+  def-adj:    "+3"
+  brawn-min:  11
   spell-adj:  -3
   size:       6
-  summary:    true
-
-- shield:     Pavise
-  def-adj:    "+3"
-  brawn-min:  10
-  spell-adj:  -3
-  size:       8
   summary:    false
+  cost:       $25
 
-- shield:     Tower
+- name:     Tower
   def-adj:    "+4"
   brawn-min:  12
   spell-adj:  -4
   size:       8
   summary:    true
+  cost:       $50
