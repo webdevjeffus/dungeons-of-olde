@@ -1,4 +1,4 @@
-- weapon:   Shortsword
+- name:   Shortsword
   check:    Brawn
   category: Sword
   reach:    "0-1"
@@ -6,8 +6,9 @@
   2hBr:     4
   damage:   1d6
   size:     2
+  cost:     15
 
-- weapon:   Broadsword
+- name:   Broadsword
   check:    Brawn
   category: Sword
   reach:    "1"
@@ -15,8 +16,9 @@
   2hBr:     6
   damage:   1d8
   size:     3
+  cost:     30
 
-- weapon:   Bastard Sword
+- name:   Bastard Sword
   check:    Brawn
   category: Sword
   reach:    "1"
@@ -24,8 +26,9 @@
   2hBr:     8
   damage:   1d10
   size:     4
+  cost:     45
 
-- weapon:   Greatsword
+- name:   Greatsword
   check:    Brawn
   category: Sword
   reach:    "1-2"
@@ -33,10 +36,11 @@
   2hBr:     10
   damage:   1d12
   size:     4
+  cost:     75
 
 
 
-- weapon:   Baton
+- name:   Baton
   check:    Brawn
   category: Mace
   reach:    "0-1"
@@ -44,8 +48,9 @@
   2hBr:     2
   damage:   1d4
   size:     1
+  cost:     2
 
-- weapon:   Club
+- name:   Club
   check:    Brawn
   category: Mace
   reach:    "1"
@@ -53,8 +58,9 @@
   2hBr:     4
   damage:   1d6
   size:     2
+  cost:     5
 
-- weapon:   Mace
+- name:   Mace
   check:    Brawn
   category: Mace
   reach:    "1"
@@ -62,8 +68,9 @@
   2hBr:     6
   damage:   1d8
   size:     3
+  cost:     15
 
-- weapon:   Warhammer
+- name:   Warhammer
   check:    Brawn
   category: Mace
   reach:    "1"
@@ -71,8 +78,9 @@
   2hBr:     8
   damage:   1d10
   size:     4
+  cost:     25
 
-- weapon:   Morningstar
+- name:   Morningstar
   check:    Brawn
   category: Mace
   reach:    "1-2"
@@ -80,10 +88,11 @@
   2hBr:     10
   damage:   1d12
   size:     4
+  cost:     40
 
 
 
-- weapon:   Hatchet
+- name:   Hatchet
   check:    Brawn
   category: Axe
   reach:    "1"
@@ -91,8 +100,9 @@
   2hBr:     2
   damage:   1d4
   size:     1
+  cost:     5
 
-- weapon:   Battle Axe
+- name:   Battle Axe
   check:    Brawn
   category: Axe
   reach:    "1"
@@ -100,8 +110,9 @@
   2hBr:     4
   damage:   1d6
   size:     2
+  cost:     10
 
-- weapon:   Broad Axe
+- name:   Broad Axe
   check:    Brawn
   category: Axe
   reach:    "1"
@@ -109,8 +120,9 @@
   2hBr:     6
   damage:   1d8
   size:     3
+  cost:     20
 
-- weapon:   Sparth Axe
+- name:   Sparth Axe
   check:    Brawn
   category: Axe
   reach:    "1"
@@ -118,8 +130,9 @@
   2hBr:     8
   damage:   1d10
   size:     4
+  cost:     35
 
-- weapon:   Poleaxe
+- name:   Poleaxe
   check:    Brawn
   category: Axe
   reach:    "1-2"
@@ -127,10 +140,11 @@
   2hBr:     10
   damage:   1d12
   size:     4
+  cost:     50
 
 
 
-- weapon:   Belt Knife
+- name:   Belt Knife
   check:    Finesse
   category: Knife
   reach:    "0-1"
@@ -138,8 +152,9 @@
   2hBr:     n/a
   damage:   1d3
   size:     1
+  cost:     5
 
-- weapon:   Dagger
+- name:   Dagger
   check:    Finesse
   category: Knife
   reach:    "0-1"
@@ -147,8 +162,9 @@
   2hBr:     n/a
   damage:   1d4
   size:     1
+  cost:     10
 
-- weapon:   Sax (or Saex)
+- name:   Sax (or Saex)
   check:    Finesse
   category: Knife
   reach:    "0-1"
@@ -156,10 +172,11 @@
   2hBr:     n/a
   damage:   1d6
   size:     2
+  cost:     15
 
 
 
-- weapon:   Dagger
+- name:   Dagger
   check:    Finesse
   category: Fencing
   reach:    "0-1"
@@ -167,8 +184,9 @@
   2hBr:     n/a
   damage:   1d4
   size:     1
+  cost:     10
 
-- weapon:   Shortsword
+- name:   Shortsword
   check:    Finesse
   category: Fencing
   reach:    "0-1"
@@ -176,8 +194,9 @@
   2hBr:     n/a
   damage:   1d6
   size:     2
+  cost:     15
 
-- weapon:   Backsword
+- name:   Backsword
   check:    Finesse
   category: Fencing
   reach:    "0-1"
@@ -185,8 +204,9 @@
   2hBr:     n/a
   damage:   1d6
   size:     2
+  cost:     25
 
-- weapon:   Rapier
+- name:   Rapier
   check:    Finesse
   category: Fencing
   reach:    "1-2"
@@ -194,10 +214,11 @@
   2hBr:     n/a
   damage:   1d8
   size:     3
+  cost:     50
 
 
 
-- weapon:   Javelin
+- name:   Javelin
   check:    Finesse
   category: Spear
   reach:    "0-1"
@@ -205,8 +226,9 @@
   2hBr:     4
   damage:   1d6
   size:     2
+  cost:     5
 
-- weapon:   Spear
+- name:   Spear
   check:    Finesse
   category: Spear
   reach:    "1-2"
@@ -214,8 +236,9 @@
   2hBr:     6
   damage:   1d8
   size:     4
+  cost:     20
 
-- weapon:   Pike
+- name:   Pike
   check:    Finesse
   category: Spear
   reach:    "1-3"
@@ -223,3 +246,4 @@
   2hBr:     8
   damage:   1d10
   size:     5
+  cost:     35
