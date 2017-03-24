@@ -1,6 +1,6 @@
-- name:   Shortsword
-  check:    Brawn
-  category: Sword
+- name:     shortsword
+  check:    brawn
+  category: sword
   reach:    "0-1"
   1hBr:     6
   2hBr:     4
@@ -8,9 +8,9 @@
   size:     2
   cost:     15
 
-- name:   Broadsword
-  check:    Brawn
-  category: Sword
+- name:     broadsword
+  check:    brawn
+  category: sword
   reach:    "1"
   1hBr:     8
   2hBr:     6
@@ -18,9 +18,9 @@
   size:     3
   cost:     30
 
-- name:   Bastard Sword
-  check:    Brawn
-  category: Sword
+- name:     bastard sword
+  check:    brawn
+  category: sword
   reach:    "1"
   1hBr:     10
   2hBr:     8
@@ -28,9 +28,9 @@
   size:     4
   cost:     45
 
-- name:   Greatsword
-  check:    Brawn
-  category: Sword
+- name:     greatsword
+  check:    brawn
+  category: sword
   reach:    "1-2"
   1hBr:     12
   2hBr:     10
@@ -40,9 +40,9 @@
 
 
 
-- name:   Baton
-  check:    Brawn
-  category: Mace
+- name:     baton
+  check:    brawn
+  category: mace
   reach:    "0-1"
   1hBr:     4
   2hBr:     2
@@ -50,9 +50,9 @@
   size:     1
   cost:     2
 
-- name:   Club
-  check:    Brawn
-  category: Mace
+- name:     club
+  check:    brawn
+  category: mace
   reach:    "1"
   1hBr:     6
   2hBr:     4
@@ -60,9 +60,9 @@
   size:     2
   cost:     5
 
-- name:   Mace
-  check:    Brawn
-  category: Mace
+- name:     mace
+  check:    brawn
+  category: mace
   reach:    "1"
   1hBr:     8
   2hBr:     6
@@ -70,9 +70,9 @@
   size:     3
   cost:     15
 
-- name:   Warhammer
-  check:    Brawn
-  category: Mace
+- name:     warhammer
+  check:    brawn
+  category: mace
   reach:    "1"
   1hBr:     10
   2hBr:     8
@@ -80,9 +80,9 @@
   size:     4
   cost:     25
 
-- name:   Morningstar
-  check:    Brawn
-  category: Mace
+- name:     morningstar
+  check:    brawn
+  category: mace
   reach:    "1-2"
   1hBr:     12
   2hBr:     10
@@ -92,9 +92,9 @@
 
 
 
-- name:   Hatchet
-  check:    Brawn
-  category: Axe
+- name:     hatchet
+  check:    brawn
+  category: axe
   reach:    "1"
   1hBr:     4
   2hBr:     2
@@ -102,9 +102,9 @@
   size:     1
   cost:     5
 
-- name:   Battle Axe
-  check:    Brawn
-  category: Axe
+- name:     battle axe
+  check:    brawn
+  category: axe
   reach:    "1"
   1hBr:     6
   2hBr:     4
@@ -112,9 +112,9 @@
   size:     2
   cost:     10
 
-- name:   Broad Axe
-  check:    Brawn
-  category: Axe
+- name:     broad axe
+  check:    brawn
+  category: axe
   reach:    "1"
   1hBr:     8
   2hBr:     6
@@ -122,9 +122,9 @@
   size:     3
   cost:     20
 
-- name:   Sparth Axe
-  check:    Brawn
-  category: Axe
+- name:     sparth axe
+  check:    brawn
+  category: axe
   reach:    "1"
   1hBr:     10
   2hBr:     8
@@ -132,9 +132,9 @@
   size:     4
   cost:     35
 
-- name:   Poleaxe
-  check:    Brawn
-  category: Axe
+- name:     poleaxe
+  check:    brawn
+  category: axe
   reach:    "1-2"
   1hBr:     12
   2hBr:     10
@@ -144,9 +144,9 @@
 
 
 
-- name:   Belt Knife
-  check:    Finesse
-  category: Knife
+- name:     belt knife
+  check:    finesse
+  category: knife
   reach:    "0-1"
   1hBr:     2
   2hBr:     n/a
@@ -154,9 +154,9 @@
   size:     1
   cost:     5
 
-- name:   Dagger
-  check:    Finesse
-  category: Knife
+- name:     dagger
+  check:    finesse
+  category: knife
   reach:    "0-1"
   1hBr:     4
   2hBr:     n/a
@@ -164,9 +164,9 @@
   size:     1
   cost:     10
 
-- name:   Sax (or Saex)
-  check:    Finesse
-  category: Knife
+- name:     sax (or saex)
+  check:    finesse
+  category: knife
   reach:    "0-1"
   1hBr:     6
   2hBr:     n/a
@@ -176,9 +176,9 @@
 
 
 
-- name:   Dagger
-  check:    Finesse
-  category: Fencing
+- name:     dagger
+  check:    finesse
+  category: fencing
   reach:    "0-1"
   1hBr:     4
   2hBr:     n/a
@@ -186,9 +186,9 @@
   size:     1
   cost:     10
 
-- name:   Shortsword
-  check:    Finesse
-  category: Fencing
+- name:     shortsword
+  check:    finesse
+  category: fencing
   reach:    "0-1"
   1hBr:     6
   2hBr:     n/a
@@ -196,9 +196,9 @@
   size:     2
   cost:     15
 
-- name:   Backsword
-  check:    Finesse
-  category: Fencing
+- name:     backsword
+  check:    finesse
+  category: fencing
   reach:    "0-1"
   1hBr:     6
   2hBr:     n/a
@@ -206,9 +206,9 @@
   size:     2
   cost:     25
 
-- name:   Rapier
-  check:    Finesse
-  category: Fencing
+- name:     rapier
+  check:    finesse
+  category: fencing
   reach:    "1-2"
   1hBr:     8
   2hBr:     n/a
@@ -218,9 +218,9 @@
 
 
 
-- name:   Javelin
-  check:    Finesse
-  category: Spear
+- name:     javelin
+  check:    finesse
+  category: spear
   reach:    "0-1"
   1hBr:     6
   2hBr:     4
@@ -228,9 +228,9 @@
   size:     2
   cost:     5
 
-- name:   Spear
-  check:    Finesse
-  category: Spear
+- name:     spear
+  check:    finesse
+  category: spear
   reach:    "1-2"
   1hBr:     8
   2hBr:     6
@@ -238,8 +238,8 @@
   size:     4
   cost:     20
 
-- name:   Pike
-  check:    Finesse
+- name:     pike
+  check:    finesse
   category: Spear
   reach:    "1-3"
   1hBr:     10

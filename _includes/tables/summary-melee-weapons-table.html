@@ -19,9 +19,9 @@
           weapon.category == "Spear"
       %}
       <tr>
-        <td>{{weapon.name}}</td>
-        <td>{{weapon.check}}</td>
-        <td>{{weapon.category}}</td>
+        <td>{{weapon.name | capitalize}}</td>
+        <td>{{weapon.check | capitalize}}</td>
+        <td>{{weapon.category | capitalize}}</td>
         <td>{{weapon.reach}}</td>
         <td>{{weapon.1hBr}}</td>
         <td>{{weapon.2hBr}}</td>
