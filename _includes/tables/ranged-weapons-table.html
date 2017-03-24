@@ -14,8 +14,8 @@
   </tr>
   {% for weapon in site.data.ranged-weapons %}
       <tr>
-        <td>{{weapon.weapon}}</td>
-        <td>{{weapon.category}}</td>
+        <td>{{weapon.name | capitalize}}</td>
+        <td>{{weapon.category | capitalize}}</td>
         <td>{{weapon.range}}</td>
         <td>{{weapon.limit}}</td>
         <td>{{weapon.hands}}</td>
