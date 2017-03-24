@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <th colspan="4">Partial Armor Table</th>
+    <th colspan="4">Core Armor Table</th>
   </tr>
   <tr>
     <th>Type</th>
@@ -11,8 +11,8 @@
   {% for armor in site.data.armors %}
     {% if armor.core %}
       <tr>
-        <td>{{armor.type}}</td>
-        <td>{{armor.category}}</td>
+        <td>{{armor.name | capitalize}}</td>
+        <td>{{armor.category | capitalize}}</td>
         <td>{{armor.dmg-adj}}</td>
         <td>{{armor.brawn-min}}</td>
       </tr>
