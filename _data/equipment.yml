@@ -1,0 +1,226 @@
+- name:     arrows
+  quantity: 10
+  size:     1
+  cost:     1
+
+- name:     bolts
+  quantity: 10
+  size:     1
+  cost:     2
+  note:     crossbow ammunition
+
+- name:     throwing knives
+  quantity: 5
+  size:     1
+  cost:     5
+  note:     treat as belt knife in melee
+
+- name:     throwing axes
+  quantity: 3
+  size:     1
+  cost:     6
+  note:     treat as hatchet in melee
+
+- name:     sling shot
+  quantity: 20
+  size:     1
+  cost:     0
+  note:     found stones; ceramic or lead shot costs $2/20
+
+- name:     backpack
+  quantity: 1
+  size:     2
+  cost:     3
+  note:     "holds items totalling size 5, but counts as 2"
+
+- name:     bedroll
+  quantity: 1
+  size:     1
+  cost:     2
+
+- name:     blanket
+  quantity: 1
+  size:     2
+  cost:     3
+  note:     winter
+
+- name:     block and tackle
+  quantity: 1
+  size:     1
+  cost:     20
+  note:     matching pair of pulleys to double lifting capacity; requires a rope
+
+- name:     candles
+  quantity: 10
+  size:     1
+  cost:     2
+  note:     lights 5' radius; lasts 1 hour
+
+- name:     chain
+  quantity: 10 feet
+  size:     2
+  cost:     10
+  note:     several times stronger than rope
+
+- name:     crowbar
+  quantity: 1
+  size:     1
+  cost:     3
+  note:     treat as a club in melee
+
+- name:     flask
+  quantity: 1
+  size:     1/5
+  cost:     1
+  note:     "holds 1 pint"
+
+
+- name:     flint and steel
+  quantity: 1
+  size:     0
+  cost:     1
+
+- name:     grappling hook
+  quantity: 1
+  size:     1
+  cost:     2
+
+- name:     hammer
+  quantity: 1
+  size:     1
+  cost:     3
+  note:     single-handed sledge or ball-peen
+
+- name:     iron spikes
+  quantity: 3
+  size:     1/3
+  cost:     1
+
+- name:     holy symbol
+  quantity: 1
+  size:     0
+  cost:     1
+  note:     wooden or ceramic
+
+- name:     holy symbol
+  quantity: 1
+  size:     0
+  cost:     5
+  note:     silver
+
+- name:     holy symbol
+  quantity: 1
+  size:     0
+  cost:     50
+  note:     gold
+
+- name:     ladder
+  quantity: 10 feet
+  size:     5
+  cost:     5
+
+- name:     lantern
+  quantity: 1
+  size:     1
+  cost:     15
+  note:     lights 30' radius; burns 4 hours on 1 pint of oil
+
+- name:     manacles
+  quantity: 1
+  size:     1
+  cost:     5
+
+- name:     map case
+  quantity: 1
+  size:     1
+  cost:     2
+  note:     mostly waterproof; holds 10 sheets of parchment
+
+- name:     mirror
+  quantity: 1
+  size:     0
+  cost:     5
+  note:     made of polished steel
+
+- name:     oil
+  quantity: 1 pint
+  size:     1/5
+  cost:     2
+
+- name:     parchment
+  quantity: 1 sheet
+  size:     1/10
+  cost:     1
+
+- name:     pick
+  quantity: 1
+  size:     3
+  cost:     5
+  note:     two-handed; treat as broad axe in melee with -2 to Attack and Damage
+
+
+- name:     pole
+  quantity: 10 feet
+  size:     3
+  cost:     2
+  note:     wooden; treat as quarterstaff in melee
+
+- name:     rations
+  quantity: 1 week
+  size:     1
+  cost:     3
+
+- name:     rope
+  quantity: 50 feet
+  size:     2
+  cost:     2
+  note:     hemp
+
+- name:     rope
+  quantity: 50 feet
+  size:     1
+  cost:     10
+  note:     silk
+
+- name:     sack
+  quantity: 1
+  size:     0
+  cost:     1
+  note:     holds items totalling up to 3 size
+
+- name:     saddle
+  quantity: 1
+  size:     4
+  cost:     25
+  note:     "cost includes bridle, reins, saddle blanket"
+
+- name:     saddlebag
+  quantity: 1
+  size:     2
+  cost:     5
+  note:     "has 2 pouches, each holding 2 size worth of contents"
+
+- name:     shovel
+  quantity: 1
+  size:     3
+  cost:     5
+  note:     "treat as mace in melee, with -2 to Attack and Damage"
+
+- name:     torches
+  quantity: 3
+  size:     1
+  cost:     3
+  note:     lights 30' radius for 2 hours; treat as baton in combat with -1 to Attack and Damage
+
+- name:     vial
+  quantity: 1
+  size:     0
+  cost:     3
+  note:     holds 1/2 pint
+
+- name:     waterskin
+  quantity: 1
+  size:     1
+  cost:     2
+  note:     holds 2 quarts
+
