@@ -8,7 +8,7 @@ keywords: "rpg stats, rpg characters, rpg tables, tabletop rpg rules "
 permalink: /sheets/characters/
 ---
 
-<p>This page presents all the tables relevant to creating and upgrading characters, including Stats, Skills, and Equipment.</p>
+<p>This page presents all the tables relevant to creating and upgrading characters, including Stats and Skills, under Core Rules or Crunchy Characters option.</p>
 
 <h2>Primary and <span class="no-break">Secondary Stats</span></h2>
 
