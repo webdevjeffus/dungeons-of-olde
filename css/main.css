@@ -310,6 +310,13 @@ a.button:active {
     page-break-inside: avoid; /* For Firefox. */
     -webkit-column-break-inside: avoid; /* For Chrome & friends. */
     break-inside: avoid; /* For standard browsers like IE. :-) */
+  }
+
+  main table.breakable {
+    page-break-inside: auto; /* For Firefox. */
+    -webkit-column-break-inside: auto; /* For Chrome & friends. */
+    break-inside: auto; /* For standard browsers like IE. :-) */
+  }
 
   main table.wide {
     font-family: "Arial Narrow", Arial, sans-serif;
