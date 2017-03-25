@@ -1,55 +1,55 @@
-- name:     Buckler
+- name:       buckler
   def-adj:    "+1"
   brawn-min:  6
   spell-adj:  -1
   size:       2
   summary:    false
-  cost:       $20
+  cost:       20
 
-- name:     Roundel
+- name:       roundel
   def-adj:    "+1"
   brawn-min:  6
   spell-adj:  -1
   size:       2
   summary:    true
-  cost:       $5
+  cost:       5
 
-- name:     Targe
+- name:       targe
   def-adj:    "+2"
   brawn-min:  8
   spell-adj:  -2
   size:       3
   summary:    false
-  cost:       $10
+  cost:       10
 
-- name:     Heater
+- name:       heater
   def-adj:    "+2"
   brawn-min:  8
   spell-adj:  -2
   size:       4
   summary:    true
-  cost:       $10
+  cost:       10
 
-- name:     Kite
+- name:       kite
   def-adj:    "+3"
   brawn-min:  10
   spell-adj:  -3
   size:       5
   summary:    true
-  cost:       $30
+  cost:       30
 
-- name:     Pavise
+- name:       pavise
   def-adj:    "+3"
   brawn-min:  11
   spell-adj:  -3
   size:       6
   summary:    false
-  cost:       $25
+  cost:       25
 
-- name:     Tower
+- name:       tower
   def-adj:    "+4"
   brawn-min:  12
   spell-adj:  -4
   size:       8
   summary:    true
-  cost:       $50
+  cost:       50
