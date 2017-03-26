@@ -1,11 +1,11 @@
-- circumstances:  "Resting comfortably, warm, dry, and well fed"
-  challenge:      Easy (CR 6)
+- circumstances:  "Resting under comfortable conditions, such as a well-run hospital or upper-class home"
+  challenge:      "Easy <span class='no-break'>(CR 6)</span>"
 
-- circumstances:  "Resting under field conditions, such as a tent in the wilderness"
-  challenge:      "Moderate (CR 9)"
+- circumstances:  "Resting under imperfect conditions, such as a field hospital or middle-class home"
+  challenge:      "Moderate <span class='no-break'>(CR 9)</span>"
 
-- circumstances:  "Resting under difficult conditions, such as hidden in a cave"
-  challenge:      "Hard (CR 12)"
+- circumstances:  "Resting under difficult conditions, such as a badly-run hospital or improvised shelter"
+  challenge:      "Hard <span class='no-break'>(CR 12)</span>"
 
 - circumstances:  "Prevented from resting at all, perhaps fleeing pursuit or being forced into physical labor"
-  challenge:      "Heroic (CR 15)"
+  challenge:      "Heroic <span class='no-break'>(CR 15)</span>"
