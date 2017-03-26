@@ -2,78 +2,114 @@
   effects:
     - "Lose 1 HP each Reset Phase in combat"
     - "Lose 1 HP each minute in narrative play"
-    - "May be removed with successful First Aid Check (Easy if character is bruised, Moderate if wounded or incapacitated)"
+  removed: "Successful <em>Administer First Aid</em> action (Healing Check; Easy if patient is <em>bruised</em>, Moderate if <em>bloodied</em> or <em>incapacitated</em>); Magical healing of any sort; Successful Brawn or Nerve Check (CR 9) during reset phase"
+  sets:
+    - core
+    - adv
 
 - name: blinded
   effects:
     - "-5 on Attack and Defense Checks"
     - "May not make visual Alertness Checks"
     - "Must make Finesse Check to avoid tripping if moving faster than 1 space per Round in unfamiliar area; Check is Easy if area is clear, Moderate or harder if terrain is cluttered or uneven"
+  sets:
+    - adv
 
 - name: dazed
   effects:
     - "May not make attacks or cast spells"
     - "May move 1 space per Round"
     - "-2 on Defense Checks"
+  sets:
+    -adv
 
 - name: deafened
   effects:
     - "May not make Alertness Checks for sounds"
     - "-2 on Defense Checks against attacks from behind"
+  sets:
+    - adv
 
 - name: exhausted
   effects:
     - "-3 on Finesse rolls for Action Points"
     - "-2 on any Checks for physical Challenges, including Attack and Defense"
+  sets:
+    - adv
 
 - name: fatigued
   effects:
     - "-2 on Finesse rolls for Action Points"
+  sets:
+    - adv
 
 - name: frightened
   effects:
     - "-2 on all Checks, including Attack and Defense"
     - "Must flee from source of fear at best possible speed"
+  sets:
+    - adv
 
 - name: incapacitated
   effects:
-    - "Falls prone if possible"
+    - "Fall prone if possible"
     - "May not move or take any action"
-    - "No Defense Roll; attackers roll an Easy Attack Check to hit stunned defender"
+    - "No Defense Roll; attackers roll an Easy Attack Check to hit incapacitated defender"
+  removed: "Heal to 1 HP or more by any means"
+  sets:
+    - core
+    - adv
 
 - name: prone (conscious)
   effects:
     - "-3 on Attack and Defense Checks in melee combat"
     - "+2 on Attack Checks with crossbows and guns; -3 on Attack Checks with bows and thrown weapons"
     - "+3 on Defense Checks against ranged attacks"
+  sets:
+    - adv
 
 - name: prone (unconscious)
   effects:
     - "Attackers roll a Moderate Attack Check to hit prone defender"
+  sets:
+    - adv
 
 - name: restrained
   effects:
     - "May not move"
     - "Rolls Finesse for Action Points during Reset, but may not take any action that requires movement; may cast spells that do not require gestures"
     - "No Defense Check; attackers roll an Easy Attack Check to hit restrained defender"
+  sets:
+    - adv
 
 - name: rooted
   effects:
     - "May not make any Movement or take Free Steps"
+  sets:
+    - core
 
 - name: slowed
   effects:
     - "-3 on Finesse roll for Action Points (minimum 1 AP)"
+  sets:
+    - core
 
 - name: silenced
   effects:
     - "Makes no sound when moving or attempting to speak"
     - "+3 on Sneak Checks, unless character is clearly visible to observers"
     - "May not cast spells that require incantations"
+  sets:
+    - adv
 
 - name: stunned
   effects:
     - "May not move or take any actions"
     - "No Defense Roll; attackers roll an Easy Attack Check to hit stunned Defender"
     - "May be guided guided by an ally to sit, lie prone, or walk 1 space per Round, at an AP cost of 2 per round to guiding character"
+  resist: Brawn or Nerve Check vs. damage done by stunning blow at time of injury
+  removed: Brawn or Nerve Check vs. damage done by stunning blow during reset phase
+  sets:
+    - core
+    - adv
 

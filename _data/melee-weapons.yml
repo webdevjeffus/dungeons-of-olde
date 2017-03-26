@@ -1,225 +1,249 @@
-- weapon:   Shortsword
-  check:    Brawn
-  category: Sword
+- name:     shortsword
+  check:    brawn
+  category: sword
   reach:    "0-1"
   1hBr:     6
   2hBr:     4
   damage:   1d6
   size:     2
+  cost:     15
 
-- weapon:   Broadsword
-  check:    Brawn
-  category: Sword
+- name:     broadsword
+  check:    brawn
+  category: sword
   reach:    "1"
   1hBr:     8
   2hBr:     6
   damage:   1d8
   size:     3
+  cost:     30
 
-- weapon:   Bastard Sword
-  check:    Brawn
-  category: Sword
+- name:     bastard sword
+  check:    brawn
+  category: sword
   reach:    "1"
   1hBr:     10
   2hBr:     8
   damage:   1d10
   size:     4
+  cost:     45
 
-- weapon:   Greatsword
-  check:    Brawn
-  category: Sword
+- name:     greatsword
+  check:    brawn
+  category: sword
   reach:    "1-2"
   1hBr:     12
   2hBr:     10
   damage:   1d12
   size:     4
+  cost:     75
 
 
 
-- weapon:   Baton
-  check:    Brawn
-  category: Mace
+- name:     baton
+  check:    brawn
+  category: mace
   reach:    "0-1"
   1hBr:     4
   2hBr:     2
   damage:   1d4
   size:     1
+  cost:     2
 
-- weapon:   Club
-  check:    Brawn
-  category: Mace
+- name:     club
+  check:    brawn
+  category: mace
   reach:    "1"
   1hBr:     6
   2hBr:     4
   damage:   1d6
   size:     2
+  cost:     5
 
-- weapon:   Mace
-  check:    Brawn
-  category: Mace
+- name:     mace
+  check:    brawn
+  category: mace
   reach:    "1"
   1hBr:     8
   2hBr:     6
   damage:   1d8
   size:     3
+  cost:     15
 
-- weapon:   Warhammer
-  check:    Brawn
-  category: Mace
+- name:     warhammer
+  check:    brawn
+  category: mace
   reach:    "1"
   1hBr:     10
   2hBr:     8
   damage:   1d10
   size:     4
+  cost:     25
 
-- weapon:   Morningstar
-  check:    Brawn
-  category: Mace
+- name:     morningstar
+  check:    brawn
+  category: mace
   reach:    "1-2"
   1hBr:     12
   2hBr:     10
   damage:   1d12
   size:     4
+  cost:     40
 
 
 
-- weapon:   Hatchet
-  check:    Brawn
-  category: Axe
+- name:     hatchet
+  check:    brawn
+  category: axe
   reach:    "1"
   1hBr:     4
   2hBr:     2
   damage:   1d4
   size:     1
+  cost:     5
 
-- weapon:   Battle Axe
-  check:    Brawn
-  category: Axe
+- name:     battle axe
+  check:    brawn
+  category: axe
   reach:    "1"
   1hBr:     6
   2hBr:     4
   damage:   1d6
   size:     2
+  cost:     10
 
-- weapon:   Broad Axe
-  check:    Brawn
-  category: Axe
+- name:     broad axe
+  check:    brawn
+  category: axe
   reach:    "1"
   1hBr:     8
   2hBr:     6
   damage:   1d8
   size:     3
+  cost:     20
 
-- weapon:   Sparth Axe
-  check:    Brawn
-  category: Axe
+- name:     sparth axe
+  check:    brawn
+  category: axe
   reach:    "1"
   1hBr:     10
   2hBr:     8
   damage:   1d10
   size:     4
+  cost:     35
 
-- weapon:   Poleaxe
-  check:    Brawn
-  category: Axe
+- name:     poleaxe
+  check:    brawn
+  category: axe
   reach:    "1-2"
   1hBr:     12
   2hBr:     10
   damage:   1d12
   size:     4
+  cost:     50
 
 
 
-- weapon:   Belt Knife
-  check:    Finesse
-  category: Knife
+- name:     belt knife
+  check:    finesse
+  category: knife
   reach:    "0-1"
   1hBr:     2
   2hBr:     n/a
   damage:   1d3
   size:     1
+  cost:     5
 
-- weapon:   Dagger
-  check:    Finesse
-  category: Knife
+- name:     dagger
+  check:    finesse
+  category: knife
   reach:    "0-1"
   1hBr:     4
   2hBr:     n/a
   damage:   1d4
   size:     1
+  cost:     10
 
-- weapon:   Sax (or Saex)
-  check:    Finesse
-  category: Knife
+- name:     sax (or saex)
+  check:    finesse
+  category: knife
   reach:    "0-1"
   1hBr:     6
   2hBr:     n/a
   damage:   1d6
   size:     2
+  cost:     15
 
 
 
-- weapon:   Dagger
-  check:    Finesse
-  category: Fencing
+- name:     dagger
+  check:    finesse
+  category: fencing
   reach:    "0-1"
   1hBr:     4
   2hBr:     n/a
   damage:   1d4
   size:     1
+  cost:     10
 
-- weapon:   Shortsword
-  check:    Finesse
-  category: Fencing
+- name:     shortsword
+  check:    finesse
+  category: fencing
   reach:    "0-1"
   1hBr:     6
   2hBr:     n/a
   damage:   1d6
   size:     2
+  cost:     15
 
-- weapon:   Backsword
-  check:    Finesse
-  category: Fencing
+- name:     backsword
+  check:    finesse
+  category: fencing
   reach:    "0-1"
   1hBr:     6
   2hBr:     n/a
   damage:   1d6
   size:     2
+  cost:     25
 
-- weapon:   Rapier
-  check:    Finesse
-  category: Fencing
+- name:     rapier
+  check:    finesse
+  category: fencing
   reach:    "1-2"
   1hBr:     8
   2hBr:     n/a
   damage:   1d8
   size:     3
+  cost:     50
 
 
 
-- weapon:   Javelin
-  check:    Finesse
-  category: Spear
+- name:     javelin
+  check:    finesse
+  category: spear
   reach:    "0-1"
   1hBr:     6
   2hBr:     4
   damage:   1d6
   size:     2
+  cost:     5
 
-- weapon:   Spear
-  check:    Finesse
-  category: Spear
+- name:     spear
+  check:    finesse
+  category: spear
   reach:    "1-2"
   1hBr:     8
   2hBr:     6
   damage:   1d8
   size:     4
+  cost:     20
 
-- weapon:   Pike
-  check:    Finesse
+- name:     pike
+  check:    finesse
   category: Spear
   reach:    "1-3"
   1hBr:     10
   2hBr:     8
   damage:   1d10
   size:     5
+  cost:     35

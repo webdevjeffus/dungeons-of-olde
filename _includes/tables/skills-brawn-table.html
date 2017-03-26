@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th colspan="3">Brawn Skills</th>
+  </tr>
+  <tr>
+    <th>Skill</th>
+    <th>Description</th>
+    <th class="gtr">Untrained<br>Use</th>
+  </tr>
+  {% for skill in site.data.skills %}
+    {% if skill.stats contains "Brawn" %}
+      <tr>
+        <td>{{skill.name}}</td>
+        <td class="table-sentence">{{skill.desc}}</td>
+        <td>{{skill.untrained}}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>

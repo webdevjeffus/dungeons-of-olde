@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th colspan="3">Injury Status</th>
+  </tr>
+  <tr>
+    <th>Status</th>
+    <th>Current Hit Points</th>
+    <th>Effects</th>
+  </tr>
+  {% for status in site.data.injury-statuses %}
+    <tr>
+      <td>{{status.name | capitalize}}</td>
+      <td>{{status.currentHP}}</td>
+      <td class="table-sentence">{{status.effects | capitalize}}</td>
+    </tr>
+  {% endfor %}
+</table>

@@ -1,0 +1,37 @@
+{% assign items = site.data.equipment | sort: 'name' %}
+
+<table class="breakable">
+  <tr>
+    <th colspan="4">Adventuring Equipment</th>
+  </tr>
+  <tr>
+    <th>Item</th>
+    <th>Quantity</th>
+    <th>Cost</th>
+    <th>Size</th>
+  </tr>
+  {% for item in items %}
+    <tr>
+      <td class="table-sentence">
+        {{item.name | capitalize}}
+        {% if item.note %}
+          <em>({{item.note}})</em>
+        {% endif %}
+      </td>
+      <td>
+        {% if item.quantity %}
+          {{item.quantity}}
+        {% else %}
+          1
+        {% endif %}
+      </td>
+      <td>
+        {% if item.cost == 0 %}
+          0
+        {% else %}
+          ${{item.cost}}
+        {% endif %}</td>
+      <td>{{item.size}}</td>
+    </tr>
+  {% endfor %}
+</table>

@@ -1,19 +1,22 @@
 <table>
   <tr>
+    <th colspan="5">Armor</th>
+  </tr>
+  <tr>
     <th>Type</th>
     <th>Category</th>
     <th>Damage<br>Adj.</th>
     <th>Brawn<br>Min.</th>
     <th>Size<br>(Body)</th>
-    <th>Size<br>(Helm)</th>
+    <!-- th>Size<br>(Helm)</th -->
   </tr>
   {% for armor in site.data.armors %}
     <tr>
-      <td>{{armor.type}}</td>
-      <td>{{armor.category}}</td>
+      <td>{{armor.name | capitalize}}</td>
+      <td>{{armor.category | capitalize}}</td>
       <td>{{armor.dmg-adj}}</td>
       <td>{{armor.brawn-min}}</td>
-      <td>{{armor.size-body}}</td>
+      <!-- td>{{armor.size-body}}</td -->
       <td>{{armor.size-helm}}</td>
     </tr>
   {% endfor %}
