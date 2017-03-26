@@ -1,0 +1,19 @@
+- name:       healthy
+  currentHP:  "full HP"
+  effects:    none
+
+- name:       bruised
+  currentHP:  50% or more HP
+  effects:    none
+
+- name:       bloodied
+  currentHP:  less than 50% HP
+  effects:    none
+
+- name:       incapacitated
+  currentHP:  0 HP or less
+  effects:    "character is unconscious, and may not move or act in any way"
+
+- name:       dead
+  currentHP:  0 - (full HP) or less
+  effects:    "character may not be healed by any meanst short of resurrection"
