@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th colspan="2">Advanced Movement Table</th>
+  </tr>
+  <tr>
+    <th>Movement</th>
+    <th>AP<br>Cost</th>
+  </tr>
+  {% for move in site.data.movements %}
+    {% if move.sets contains "adv" %}
+      <tr>
+        <td class="table-sentence">
+          <strong>{{move.name}}</strong> &mdash; {{move.desc}}
+        </td>
+        <td>{{move.cost}}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>
