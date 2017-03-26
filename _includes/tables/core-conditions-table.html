@@ -1,0 +1,27 @@
+<table class="wide">
+  <tr>
+    <th>Conditions</th>
+  </tr>
+  {% for condition in site.data.conditions %}
+    {% if condition.sets contains "core" %}
+      <tr>
+        <th class="table-sentence">{{condition.name | capitalize}}</th>
+      </tr>
+      <tr>
+        <td class="table-sentence">
+          <ul class="bulleted">
+            {% for effect in condition.effects %}
+              <li>{{effect}}</li>
+            {% endfor %}
+          </ul>
+          {% if condition.resist %}
+            <p class="ftrm-none"><em>Resist:</em> {{condition.removed}}</p>
+          {% endif %}
+          <p>
+            <em>Remove:</em> {% if condition.removed %}{{condition.removed}}{% else %}Varies depending upon cause{% endif %}
+          </p>
+        </td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+</table>

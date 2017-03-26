@@ -34,6 +34,12 @@ permalink: resources/sheets/combat/
   {% include tables/core-critical-combat-outcomes-table.html %}
 </div>
 
+<h2 class="new-page">Conditions</h2>
+<div class="column-content">
+<p>Characters may suffer from various conditions that affect them during combat.</p>
+
+{% include tables/core-conditions-table.html %}
+</div>
 <!-- Commented out until Advanced Movement and Actions rules are written
 <h2 class="new-page">Advanced Movement and Actions</h2>
 <p>Certain movements and actions have slightly different rules under the Advanced Movement and Actions option. If using Advanced Movement and Actions, the tables below supercede the Core Movement and Actions tables.</p>
