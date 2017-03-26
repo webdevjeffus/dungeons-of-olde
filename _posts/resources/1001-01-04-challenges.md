@@ -1,11 +1,11 @@
 ---
 layout: resources-layout
 title: challenges
-full-title: Challenges
+full-title: Challenges Reference
 category: resources-sheets
-description: "Challenge Resolution Tables "
+description: "Challenge resolution tables for "
 keywords: "rpg, tasks, rules, challenges, dice, tabletop rpg rules, "
-permalink: /sheets/challenges/
+permalink: /resources/sheets/challenges/
 ---
 
 <p>This page presents summarized rules and tables for resolving challenges in <em>Dungeons of Olde</em>.</p>

@@ -5,7 +5,7 @@ full-title: Character Tables
 category: resources-sheets
 description: "Character data tables for "
 keywords: "rpg stats, rpg characters, rpg tables, tabletop rpg rules "
-permalink: /sheets/characters/
+permalink: /resources/sheets/characters/
 ---
 
 <p>This page presents all the tables relevant to creating and upgrading characters, including Stats and Skills, under Core Rules or Crunchy Characters option.</p>

@@ -5,7 +5,7 @@ full-title: Gear and Equipment Tables
 category: resources-sheets
 description: "Equipment data tables for "
 keywords: "rpg stats, rpg gear, rpg equipment, rpg tables, tabletop rpg rules "
-permalink: /sheets/gear/
+permalink: /resources/sheets/gear/
 ---
 
 <div class="ph-col-12 hdrm">
