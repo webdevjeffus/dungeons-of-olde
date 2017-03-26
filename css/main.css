@@ -119,6 +119,10 @@ main td li:last-child { padding-bottom: 0.6rem; }
   text-align: left;
 }
 
+li.table-sentence {
+  padding: 0.25rem 0.3rem;
+}
+
 .cell-width-85 {
   width: 85%;
 }
@@ -220,8 +224,6 @@ a.button:active {
 
   .new-page { page-break-before: always; }
 
-
-
 /* Media query to tweak position of sidebar on larger screens */
 
 @media only screen and (min-width: 680px) {
@@ -250,10 +252,6 @@ a.button:active {
     width: auto;
   }
 
-  body {
-    width: 100%;
-  }
-
   html,
   body,
   header,
@@ -264,6 +262,33 @@ a.button:active {
     color: #000;
     box-shadow: none;
   }
+
+/*
+  @page {
+    size: 8.25in 11in;
+    margin: 0.5in 0.5in 0.5in;
+  }
+
+  html, body {
+    width: 7.5in;
+    height: 10in;
+  }
+
+  header: {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(0.5in);
+  }
+*/
 
   header p,
   header nav,
@@ -329,6 +354,11 @@ a.button:active {
     page-break-inside: avoid; /* For Firefox. */
     -webkit-column-break-inside: avoid; /* For Chrome & friends. */
     break-inside: avoid; /* For standard browsers like IE. :-) */
+  }
+
+  .column-content {
+    display: inline-block;
+    width: 100%;
   }
 
 }
