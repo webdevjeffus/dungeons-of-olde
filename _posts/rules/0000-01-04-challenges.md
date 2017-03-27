@@ -20,7 +20,7 @@ permalink: /core-rules/challenges/
 
 <p>Note that it is generally not necessary to roll for <em>Trivial</em> challenges, unless the task involves a <a href="#scaling-challenges">scaling challenge</a>, <a href="#critical-outcomes">critical outcomes</a> are possible, or the gamemaster judges the situation to be extremely tense and dramatic. In all other circumstances, you can treat an attempt at a <em>Trivial</em> challenge as an automatic success.</p>
 
-<h2 id="attempts">Attempts</h2>
+<h2 id="attempts" class="new-page">Attempts</h2>
 <p>When a hero tries to overcome a challenge, he makes an <strong>attempt</strong>. An attempt always includes a <strong>check roll</strong>, which determines <em>whether</em> he succeeds at the task, and it may require an <strong><a href="#effect-rolls">effect roll</a></strong>, which determines the <em>degree</em> of that success.</p>
 <p>Every attempt is made using <a href="{{site.baseurl}}/core-rules/characters/#stat-dice">stat dice</a> for the <a href="{{site.baseurl}}/core-rules/characters/#stats">Primary Stat</a> relevant to the nature of the challenge. For most tasks, there will be an applicable <a href="#skills">skill</a>, so the attempt will use the Check Stat for that skill. For example, a challenge calling for brute force uses a hero's Brawn dice, while a challenge requiring courage uses his Nerve dice.</p>
 
@@ -39,8 +39,10 @@ permalink: /core-rules/challenges/
 <p>A challenge that pits one character directly against another requires an <strong>opposed attempt</strong>. The character making the opposed attempt is called the <span id="instigator"><strong>instigator</strong></span>, while the character resisting the attempt is the <span id="target"><strong>target</strong></span>.</p>
 <p>In an opposed attempt, each character rolls two <a href="{{site.baseurl}}/core-rules/dice/#exploding-dice">exploding</a> <a href="{{site.baseurl}}/core-rules/characters/#stat-dice">Stat Dice</a>. The target rolls first, and his result becomes the <a href="#challenges">challenge rating</a> for the instigator's Check roll. Then the instigator rolls. If the instigator's Check roll equals or exceeds the target's Check roll, the opposed attempt succeeds.</p>
 
+<div class="no-break">
 <h6 id="assisted-attempts">Assisted Attempts</h6>
 <p>Certain challenges may allow for an ally to <strong>assist</strong> a hero attempting a challenge (instigator). The assistant makes a <a href="#check-rolls">Check roll</a> with a challenge Rating equal to the instigator's <a href="{{site.baseurl}}/core-rules/skills/#skills">Check Stat</a> for the Skill he's using in his Attempt. If the assistant's Check roll equals the instigator's Check Stat for the skill he's using, the instigator gets +1 on his Attempt. This bonus is increased by +1 for every <em>two</em> points by which the assistant's Check roll exceeds the instigator's Check Stat.</p>
+</div>
 
 <h6 id="scaling-challenges">Checks Against Scaling Challenges</h6>
 <p>A <strong>scaling challenge</strong> occurs in circumstances where the character's doing especially well at the challenge may result in a quantifiably greater effect. A scaling challenge has a base challenge rank and rating, but for every additional challenge rank by which the character succeeds, he achieves greater success. Recall that each additional rank of success requires a margin of 3 points on the Check roll.</p>
