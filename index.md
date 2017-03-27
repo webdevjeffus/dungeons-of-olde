@@ -5,11 +5,15 @@ subtitle: The Table-top Dungeon-Crawling Game
 
 <section class="gtr">
 
-<img src="./img/richmond-castle.png" class="ph-ins-50 tab-ins-62 cmp-ins-50" alt="Dungeon of the Keep, Richmond Castle" title="Public domain image of the Dungeon of the Keep, Richmond Castle">
+<div class="ph-ins-50 tab-ins-62 cmp-ins-50 mar-l">
+  <img src="./img/richmond-castle.png"  alt="Dungeon of the Keep, Richmond Castle" title="Public domain image of the Dungeon of the Keep, Richmond Castle, North Yorkshire, England">
+  {% include latest-post-button.html %}
+</div>
 
 <h1>Welcome to Dungeons of Olde!</h1>
 
 <p>Before you is <em>Dungeons of Olde</em>, a versatile tabletop roleplaying game that opens a door into any fantastic world you can imagine. You can play it as an open-ended, old school dungeon-crawler; an extra-crunchy, classic-era campaigner; or a modern, rules-light story-teller. You can play it as a traditional, game-mastered RPG; a solo or cooperative questing board game; or a head-to-head skirmisher pitting two or more player-controlled forces against one another. This website provides rules and additional resources to facilitate all these styles of play.</p>
+
 
 <h2>
   <a href="{{site.baseurl}}/rules/" title="Go to the DoO Rules">Rules</a>
@@ -28,12 +32,13 @@ subtitle: The Table-top Dungeon-Crawling Game
 <h2>
   <a href="{{site.baseurl}}/resources/" title="Enhance your game with DoO Resources">Resources</a>
 </h2>
-In the Resources section, you'll find a variety of play aids to enhance your <em>Dungeons of Olde</em> gaming. Our 2.5d printable papercraft tile system is already available. Plans for additional resources include:
+In the Resources section, you'll find a variety of play aids to enhance your <em>Dungeons of Olde</em> gaming. Character sheets, reference sheets, and our 2.5d printable papercraft tile system are already available through the links below. Plans for additional resources include:
 
 <ul class="bulleted">
-  <li>Reference material, including a monster cyclopedia, a catalog of adventuring gear, game-mastering guidelines, and printable reference sheets.</li>
-  <li>Printable game components intended principally for "Deus est Machina" play (without a GM), including character, loot, spell and skill cards, as well as tracking tokens.</li>
+  <li><a href="{{site.baseurl}}/resources/sheets/" title="Printable play aids for Dungeons of Olde">Printable play aids</a>, including character sheets, rules summaries and reference sheets.</li>
   <li><em><a href="{{site.baseurl}}/resources/miniatures/" title="Check out the Dungeons of Olde papercraft miniatures!">Dungeons of Olde Terrain Tiles</a></em>, a complete system of geomorphic papercraft 2.5D dungeon terrain, offered in PDF format for home printing.</li>
+  <li>Sourcebooks and campaign materials, including a monster cyclopedia, gamemastering guidelines, and eventually, settings and adventures.</li>
+  <li>Printable game components intended principally for "Deus est Machina" play (without a GM), including character, loot, spell and skill cards, as well as tracking tokens.</li>
 </ul>
 
 <p>As the rule system stabilizes through playtest, we'll begin to post PDF versions of the complete rules in the Resources section for convenient printing. In the meantime, all the pages in the Rules section have special print-only formatting, so you can print each page directly from the browser by right-clicking the page and selecting the Print option. Printing the rules directly from the website assures that you are always printing the very latest iteration of the game.</p>
