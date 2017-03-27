@@ -6,6 +6,6 @@ layout: default
 
 <h1 id="{{ page.title | slugify }}" class="gtr">{{ page.full-title }}</h1>
 
-{{content}}
+{{content | smartify}}
 
 {% include prev-next.html %}
