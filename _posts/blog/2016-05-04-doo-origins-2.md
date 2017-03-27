@@ -6,6 +6,7 @@ category: blog_posts
 description: "Part 1 of a blog post on the origins of "
 keywords: "game development, tabletop game development, "
 comments: true
+permalink: /blog/origins-2/
 ---
 
 _Note: This post concludes the brief overview of the origins of **Dungeons of Olde** which began in my first post to this blog. If you haven't read it yet, click the link above to **Part 1** to read the story from its beginning._
