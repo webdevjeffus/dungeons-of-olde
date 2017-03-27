@@ -6,6 +6,7 @@ category: blog_posts
 description: "A blog post on the current state of "
 keywords: "game development, tabletop game development, "
 comments: true
+permalink: /blog/getting-ready/
 ---
 
 The _Dungeons of Olde_ site has come a long way in the past two weeks. Here's a quick rundown of what's been accomplished on the site so far.

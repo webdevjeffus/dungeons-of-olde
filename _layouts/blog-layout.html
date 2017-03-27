@@ -4,15 +4,16 @@ layout: default
 
 {% include prev-next.html %}
 
-<section class="gtr no-border">
+<section class="gtr no-border ftrm-mar-2x">
 <h1>{{ page.full-title }}</h1>
-<p>{{ page.date | date: '%B %d, %Y' }}</p>
+<p><strong>{{ page.date | date: '%B %d, %Y' }}</strong></p>
 
 {{content}}
 
 </section>
 
 {% include prev-next.html %}
+
 
 <section class="gtr">
   {% if page.comments %}
