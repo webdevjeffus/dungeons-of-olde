@@ -5,7 +5,7 @@ subtitle: The Table-top Dungeon-Crawling Game
 
 <section class="gtr">
 
-<div class="ph-ins-50 tab-ins-62 cmp-ins-50 mar-l">
+<div class="ph-ins-100 tab-ins-62 cmp-ins-50 mar-l">
   <img src="./img/richmond-castle.png"  alt="Dungeon of the Keep, Richmond Castle" title="Public domain image of the Dungeon of the Keep, Richmond Castle, North Yorkshire, England">
   {% include latest-post-button.html %}
 </div>
