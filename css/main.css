@@ -240,22 +240,21 @@ a.button:active {
 }
 
 
-  main table,
-  main table tr td,
-  main table tr th {
-    page-break-inside: avoid; /* For Firefox. */
-    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
-    break-inside: avoid; /* For standard browsers like IE. :-) */
-  }
-
-
 
 /* Formatting for print */
+
+.print-only {
+  display: none;
+}
 
 @media print {
   html {
     font-size: 9pt;
     width: auto;
+  }
+
+  .print-only {
+    display: initial;
   }
 
   @page {
@@ -351,9 +350,15 @@ a.button:active {
     padding-left: 1.2rem;
   }
 
+
   .print-ins-25 { width: 25%; }
   .print-ins-33 { width: 33%; }
   .print-ins-50 { width: 50%; }
+  .print-ins-100 {
+    width: 100%;
+    margin: 1.2rem 0;
+    padding-left: 0;
+  }
 
 
 
