@@ -240,6 +240,13 @@ a.button:active {
 }
 
 
+  main table,
+  main table tr td,
+  main table tr th {
+    page-break-inside: avoid; /* For Firefox. */
+    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
+    break-inside: avoid; /* For standard browsers like IE. :-) */
+  }
 
 
 
@@ -290,6 +297,7 @@ a.button:active {
   }
 
   .new-page { page-break-before: always; }
+  .new-page-after { page-break-after: always;}
 
   main h1 {
     margin-top: 0;
@@ -306,12 +314,11 @@ a.button:active {
     -webkit-column-rule: 0.1rem solid silver; /* Chrome, Safari, Opera */
     -moz-column-rule: 0.1rem solid silver; /* Firefox */
     column-rule: 0.1rem solid silver;
-    column-fill: balance;
   }
 
   main table { font-size: 9pt;}
 
-  /*main table,*/
+  main table,
   main table tr td,
   main table tr th {
     page-break-inside: avoid; /* For Firefox. */
