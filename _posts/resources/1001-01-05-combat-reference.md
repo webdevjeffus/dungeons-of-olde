@@ -15,24 +15,21 @@ permalink: resources/sheets/combat/
 
 {% include tables/turn-summary-table.html %}
 
-<div class="column-content">
-  <h2>Core Movement and Actions</h2>
-  <p>These are the basic movements and actions included in the Core Rules. Advanced movement and action options are included in the Compelete Movement and Action tables, at the end of this section.</p>
 
-  {% include tables/actions-table-core.html %}
-  {% include tables/movements-table-core.html %}
+<h2 class="new-page">Core Movement and Actions</h2>
+<p>These are the basic movements and actions included in the Core Rules. Advanced movement and action options are included in the Compelete Movement and Action tables, at the end of this section.</p>
 
-</div>
+{% include tables/actions-table-core.html %}
+{% include tables/movements-table-core.html %}
+
 
 <h2 class="new-page">Attacking an Opponent</h2>
 
 {% include tables/attack-resolution-table.html %}
 
-<div class="column-content">
-  <h2>Critical Outcomes in Combat</h2>
+<h2 class="new-page">Critical Outcomes in Combat</h2>
 
-  {% include tables/core-critical-combat-outcomes-table.html %}
-</div>
+{% include tables/core-critical-combat-outcomes-table.html %}
 
 <h2 class="new-page">Conditions</h2>
 <div class="column-content">
