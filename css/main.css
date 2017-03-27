@@ -341,6 +341,12 @@ a.button:active {
     padding-bottom: 0.3rem;
   }
 
+  main table.extra-long {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 7.5pt;
+  }
+
 
   /* Insert block element (e.g. image, quote) into text */
   .print-ins-25,

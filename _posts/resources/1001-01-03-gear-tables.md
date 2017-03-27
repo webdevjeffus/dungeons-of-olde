@@ -1,7 +1,7 @@
 ---
 layout: resources-layout
 title: gear
-full-title: Gear and Equipment Tables
+full-title: Gear Tables
 category: resources-sheets
 description: "Equipment data tables for "
 keywords: "rpg stats, rpg gear, rpg equipment, rpg tables, tabletop rpg rules "
@@ -14,27 +14,27 @@ permalink: /resources/sheets/gear/
 
 <p>This page presents all the tables covering weapons, armor, and other equipment used by heroes in <em>Dungeons of Olde</em>.</p>
 
-<h2>Weapons</h2>
+<!-- h2>Weapons</h2 -->
 
 {% include tables/melee-weapons-table.html %}
 
 {% include tables/ranged-weapons-table.html %}
 
-<h2>Armor and Shields</h2>
+<!-- h2>Armor and Shields</h2 -->
 
 {% include tables/armor-table.html %}
 
 {% include tables/shields-table.html %}
 
-<h2 class="new-page">Purchasing Weapons <span class="no=break">and Armor</span></h2>
+<!-- h2 class="new-page">Purchasing Weapons <span class="no=break">and Armor</span></h2 -->
 
 {% include tables/martial-equipment-table.html %}
 
-<div class="ph-col-12">
+<!--div class="ph-col-12">
   <img src="{{site.baseurl}}/img/weapons-DavidLewisJohnson-250x146.jpg" srcset="{{site.baseurl}}/img/weapons-DavidLewisJohnson-400x233.jpg 400w, {{site.baseurl}}/img/weapons-DavidLewisJohnson-700x407.jpg 700w, {{site.baseurl}}/img/weapons-DavidLewisJohnson-1200x698.jpg 1200w" class="border-thin" alt="Weapons" title="Weapons - Public domain image by David Lewis Johnson">
-</div>
+</div-->
 
-<h2 class="new-page">Adventuring Equipment</h2>
+<!-- h2 class="new-page">Adventuring Equipment</h2 -->
 
 {% include tables/equipment-table.html %}
 
