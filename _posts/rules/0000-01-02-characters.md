@@ -28,11 +28,11 @@ permalink: /core-rules/characters/
 
 {% include tables/skill-packages-table.html %}
 
-<div class="ph-ins-50 tab-ins-50 cmp-ins-33">
+<div class="ph-ins-50 tab-ins-50 cmp-ins-33 print-ins-33">
 <img src="{{site.baseurl}}/img/pd-knight-headshot-500x414.png" class=" flip" alt="Historic woodcut of a knight" title="Historic woodcut of a knight - Public domain">
 </div>
 
-<h5 id="character-points">Character Points</h5>
+<h5 id="character-points" class="new-page">Character Points</h5>
 <p>Starting characters are built, and experienced characters are improved, using Character Points (CP). The optional <strong>Crunchy Characters</strong> rules provide a complete system for creating customized characters from scratch using Character Points. Though starting Core Rules characters are created using Stat Arrays and Skill Packages, these prepared arrays and packages were designed using the Character Point system. Because of this, Core Rules and Crunchy characters are balanced against each other, and may be played side-by-side in your campaign if you have some players who prefer convenience, and others who prefer customization.</p>
 
 <p>Once a hero enters play, he earns additional Character Points as rewards for territory explored, monsters defeated, foes outsmarted, and objectives achieved, or as lessons from dramatic failures. Typically, heroes earn 1 CP for an ordinary two- to four-hour play session, with additional bonuses for major objectives achieved, like the completion of a multi-session storyline or other epic adventure. Complete guidelines for awarding Character Points are presented in the section of these rules covering gamemastering (still to come).</p>
