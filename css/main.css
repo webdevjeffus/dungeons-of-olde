@@ -222,7 +222,6 @@ a.button:active {
   box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
 
-  .new-page { page-break-before: always; }
 
 /* Media query to tweak position of sidebar on larger screens */
 
@@ -248,9 +247,21 @@ a.button:active {
 
 @media print {
   html {
-    font-size: 12px;
+    font-size: 9pt;
     width: auto;
   }
+
+  @page {
+    size: 8.25in 11in;
+    margin: 0.5in 0.5in 0.5in 0.5in;
+    padding: 0.3in 0;
+  }
+
+  header p,
+  header nav,
+  .prev-next,
+  .sub-nav,
+  .print-hide { display: none;}
 
   html,
   body,
@@ -263,54 +274,27 @@ a.button:active {
     box-shadow: none;
   }
 
-/*
-  @page {
-    size: 8.25in 11in;
-    margin: 0.5in 0.5in 0.5in;
-  }
-
-  html, body {
-    width: 7.5in;
-    height: 10in;
-  }
-
-  header: {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    transform: translateY(0.5in);
-  }
-*/
-
-  header p,
-  header nav,
-  .prev-next,
-  .sub-nav,
-  .print-hide { display: none;}
-
-  .print-block {
-    display: block;
-  }
-
   header div {
-    float: none;
+    width: 100%;
     text-align: center;
+    border-bottom: 2pt gray solid;
+  }
+
+  .print-copyright {
+    display: block;
+    width: 100%;
+    border-top: 2pt gray solid;
     margin: 0 auto;
+    padding: 0;
+    padding-top: 0.6rem;
   }
 
-  header h1 {
-    font-size: 1.5rem;
-  }
+  .new-page { page-break-before: always; }
 
-  main h1 { margin-top: 0; }
+  main h1 {
+    margin-top: 0;
+    padding-top: 0;
+  }
 
   main {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
@@ -322,38 +306,62 @@ a.button:active {
     -webkit-column-rule: 0.1rem solid silver; /* Chrome, Safari, Opera */
     -moz-column-rule: 0.1rem solid silver; /* Firefox */
     column-rule: 0.1rem solid silver;
+    column-fill: balance;
   }
 
-  main table {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 11px;
-  }
+  main table { font-size: 9pt;}
 
-  main table,
+  /*main table,*/
   main table tr td,
   main table tr th {
     page-break-inside: avoid; /* For Firefox. */
     -webkit-column-break-inside: avoid; /* For Chrome & friends. */
     break-inside: avoid; /* For standard browsers like IE. :-) */
   }
-
+/*
   main table.breakable {
-    page-break-inside: auto; /* For Firefox. */
-    -webkit-column-break-inside: auto; /* For Chrome & friends. */
-    break-inside: auto; /* For standard browsers like IE. :-) */
-  }
+    page-break-inside: auto; /* For Firefox. *
+    -webkit-column-break-inside: auto; /* For Chrome & friends. *
+    break-inside: auto; /* For standard browsers like IE. :-) *
+  }*/
 
   main table.wide {
     font-family: "Arial Narrow", Arial, sans-serif;
-    font-size: 10px;
+    font-size: 8pt;
+  }
+
+  main table.long li {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+
+
+  /* Insert block element (e.g. image, quote) into text */
+  .print-ins-25,
+  .print-ins-33,
+  .print-ins-50 {
+    float: right;
+    padding-left: 1.2rem;
+  }
+
+  .print-ins-25 { width: 25%; }
+  .print-ins-33 { width: 33%; }
+  .print-ins-50 { width: 50%; }
+
+
+
+/* STYLES PROBABLY OBSOLETED BY @PAGE REFACTOR--DELETE EVENTUALLY
+  main table {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
   }
 
   main aside.box {
     border: 2px solid #444;
     padding: 1.2rem;
-    page-break-inside: avoid; /* For Firefox. */
-    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
-    break-inside: avoid; /* For standard browsers like IE. :-) */
+    page-break-inside: avoid; /* For Firefox. *
+    -webkit-column-break-inside: avoid; /* For Chrome & friends. *
+    break-inside: avoid; /* For standard browsers like IE. :-) *
   }
 
   .column-content {
@@ -361,4 +369,5 @@ a.button:active {
     width: 100%;
   }
 
+*/
 }
