@@ -17,7 +17,7 @@
 - category: Critical Success
   ranks:    "3 or more"
   roll:     "+6 to +8"
-  effect:  "Bonus"
+  effect:  "Two minor bonuses"
   cp:       1
   cmbt-category: "Critical Hit"
   core-atk-effects:
@@ -51,16 +51,16 @@
 
 - category: Failure
   ranks:    "1"
-  roll:     -1 to -3
+  roll:     -1 to -2
   effect:  "Simple failure"
   cp:       0
   cmbt-category: "Miss"
   core-atk-effects:
     - "Attack has no effect"
 
-- category: Clear Failure
+- category: Decisive Failure
   ranks:    "2"
-  roll:     -4 to -6
+  roll:     -3 to -5
   effect:   "Minor penalty"
   cp:       0
   cmbt-category:  "Clean Miss"
@@ -69,17 +69,17 @@
 
 - category: Critical Failure
   ranks:    "3"
-  roll:     -7 to -9
-  effect:  "Penalty"
+  roll:     -6 to -8
+  effect:  "Two minor penalties"
   cp:       1
   cmbt-category: "Critical Miss"
   core-atk-effects:
     - "Attacker drops his weapon"
     - "Attacker trips and falls prone"
 
-- category: Disastrous Failure
+- category: Catastrophic Failure
   ranks:    "4 or more"
-  roll:     -10 or more
+  roll:     -9 or more
   effect:  "Major penalty"
   cp:       2
   cmbt-category:  "Disastrous Miss"

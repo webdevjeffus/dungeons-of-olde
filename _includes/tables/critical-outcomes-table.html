@@ -3,17 +3,17 @@
     <th colspan="5">Critical Outcomes</th>
   </tr>
   <tr>
-    <th>Category</th>
+    <th>Check Roll vs.<br>Challenge Rating</th>
     <th>Ranks</th>
-    <th>Check roll</th>
+    <th>Category</th>
     <th>Outcome</th>
     <th>Character Points<br>Awarded</th>
   </tr>
   {% for outcome in site.data.critical-outcomes %}
     <tr>
-      <td>{{outcome.category}}</td>
-      <td>{{outcome.ranks}}</td>
       <td>{{outcome.roll}}</td>
+      <td>{{outcome.ranks}}</td>
+      <td>{{outcome.category}}</td>
       <td>{{outcome.effect}}</td>
       <td>{{outcome.cp}}</td>
     </tr>
