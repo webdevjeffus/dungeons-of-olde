@@ -1,0 +1,21 @@
+<table>
+  <tr>
+    <th colspan="5">Large Dice</th>
+  </tr>
+  <tr>
+    <th>Die Rank</th>
+    <th>1d<em>R</em></th>
+    <th>2d<em>R</em></th>
+    <th>3d<em>R</em></th>
+    <th>4d<em>R</em></th>
+  </tr>
+  {% for die in site.data.large-dice %}
+    <tr>
+      <td>{{die.rank}}</td>
+      <td>{{die.one}}</td>
+      <td>{{die.two}}</td>
+      <td>{{die.three}}</td>
+      <td>{{die.four}}</td>
+    </tr>
+  {% endfor %}
+</table>

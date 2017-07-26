@@ -181,13 +181,10 @@ div.warning {
 }
 
 .table-notes {
+  margin-top: -0.9rem;
   padding: 0 0 1.2rem;
   font-family: Arial, sans-serif;
   font-size: 0.85em;
-}
-
-.table-notes h6 {
-  margin-top: -0.6rem;
 }
 
 .flip {
