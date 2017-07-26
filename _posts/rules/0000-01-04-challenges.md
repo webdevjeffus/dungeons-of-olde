@@ -30,7 +30,7 @@ permalink: /core-rules/challenges/
 
 <h6>Adjusting Check Rolls</h6>
 <p>Certain skills, items or other circumstances may adjust the result of a Check roll. <a href="{{site.baseurl}}/core-rules/dice/#adjustments">Adjustments</a> may add to or subtract from the result of the Check roll, and are applied once only, after any exploding dice have been resolved.</p>
-<p>Note that <a href="{{site.baseurl}}/core-rules/dice/#modifying-dice">Modifications</a> change the <a href="{{site.baseurl}}/core-rules/dice/#die-rank">Die Rank</a> of the dice to be rolled, and are applied <em>before</em> the dice are thrown. Adjustments, on the other hand, change the <em>result</em> of the roll, and are applied <em>after</em> the dice are thrown and totalled.</p>
+<p>Note that <a href="{{site.baseurl}}/core-rules/dice/#modifying-dice">modifications</a> change the <a href="{{site.baseurl}}/core-rules/dice/#die-rank">die rank</a> of the dice to be rolled, and are applied <em>before</em> the dice are thrown. Adjustments, on the other hand, change the <em>result</em> of the roll, and are applied <em>after</em> the dice are thrown and totalled.</p>
 
 <h6 id="success-failure">Success and Failure</h6>
 <p>If the result of a character's check roll equals or exceeds the challenge rating of the task he's attempting, he has succeeded in that attempt. If the check roll is less than the challenge rating, the character has failed in his attempt. The margin between the challenge rating for the attempt and his check roll determines how many <strong>ranks of success or failure</strong> he achieves, which may affect the outcome of his attempt.</p>
@@ -41,16 +41,17 @@ permalink: /core-rules/challenges/
 
 {% include tables/critical-outcomes-table.html %}
 
-
-<h6>Suggested Bonuses and Penalties for Critical Outcomes</h6>
-<ul>
-  <li><strong>Major bonus:</strong> Choose: Consumable materials not consumed; or useful or valuable materials recovered.</li>
-  <li><strong>Minor bonus:</strong> Choose: Task takes half the usual time; half the normal materials consumed; or product is unusually beautiful, valuable or effective.</li>
-  <li><strong>Simple success:</strong> Task succeeds, and any consumable materials are spent.</li>
-  <li><strong>Simple failure:</strong> Task fails, and any consumable materials are lost.</li>
-  <li><strong>Minor penalty:</strong> Choose: task takes twice the normal amount of time; task consumes twice the normal amount of materials; or tools or equipment are damaged, imposing -2 penalty on future attempts until damaged tools are repaired or replaced.</li>
-  <li><strong>Major penalty:</strong> Choose: Failure damages or destroys the object of the attempt; tools or equipment are destroyed, making future attempts impossible until lost tools are replaced.</li>
-</ul>
+<div class="table-notes">
+  <h6>Suggested Bonuses and Penalties for Critical Outcomes</h6>
+  <ul>
+    <li><strong>Major bonus:</strong> Choose: Consumable materials not consumed; or useful or valuable materials recovered.</li>
+    <li><strong>Minor bonus:</strong> Choose: Task takes half the usual time; half the normal materials consumed; or product is unusually beautiful, valuable or effective.</li>
+    <li><strong>Simple success:</strong> Task succeeds, and any consumable materials are spent.</li>
+    <li><strong>Simple failure:</strong> Task fails, and any consumable materials are lost.</li>
+    <li><strong>Minor penalty:</strong> Choose: task takes twice the normal amount of time; task consumes twice the normal amount of materials; or tools or equipment are damaged, imposing -2 penalty on future attempts until damaged tools are repaired or replaced.</li>
+    <li><strong>Major penalty:</strong> Choose: Failure damages or destroys the object of the attempt; tools or equipment are destroyed, making future attempts impossible until lost tools are replaced.</li>
+  </ul>
+</div>
 
 <p>When a critical outcome is indicated in an attempt by a player hero, the player should describe the nature of the success or failure, and choose a bonus or penalty from the suggestions above or suggest an alternative. Of course, the gamemaster has the authority to alter or overrule the player's suggestion according to the circumstances. For example, a hero scores a Solid Success (Rank 2) on his Disable attempt to pick the lock on the Duke's bedchamber, earning a minor bonus. Since he knows there are guards that patrol the residential wing of the Duke's manor, the player sugggests that the lock turns out to be nearly identical to one he's disabled in the past, so he's able to pick it in just a few seconds (half the normal time); the gamemaster feels the player's suggestion is appropriate to the circumstances, and allows it.</p>
 <p>Alternately, if the player had suffered a Decisive Failure (Rank 2) on the same attempt, he'd take a minor penalty. The player suggests that one of his lockpicks became stuck in the lock, and he needed double the normal amount of time to free it. The gamemaster agrees that the pick became stuck in the lock, but before the hero has time to free it, he hears a guard approaching around the corner. The GM tells the hero he must choose one of three options: snap the pick off in the lock before hiding in a nearby alcove; leave the pick sticking out of the lock where it might noticed by the guard, but hiding himself in the alcove; or taking the time to free the lockpick, knowing that he'll be seen by the guard as he rounds the corner.</p>
