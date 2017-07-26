@@ -1,0 +1,18 @@
+Dungeons of Olde Glossary
+
+Attempt - A single effort to achieve a task or overcome an obstacle. Resolved with a check roll against a challenge rating.
+
+Challenge Rating (CR) - the difficulty of a task, expressed as a number. A character must equal or exceed the task's CR on his check roll in order to succeed at the task.
+
+Check dice - The dice rolled by a character to determine success or failure in an attempt at a task; check dice are exploding dice. The die rank of check dice are determined by the character's value in the associated Stat. For even stat values, a character rolls two dice of that rank as his check dice; for odd stat values, a character rolls two dice of the next higher rank, and subtracts one from the total. Thus, a character with Brawn 8 rolls 2d8! for all attempts related to the Brawn attribute, while a character with Brawn 7 rolls 2d8!-1.
+
+Check roll - a die roll determining the success or failure of a character's attempt at a task, made using the check dice for one of a character's stats.
+
+Effect die - The die rolled by a character to determine the net effectiveness when he succeeds in many sorts of attempts; effect dice are exploding dice. The die rank of the effect die is based on the character's value in the associated stat. For even stat values, the character rolls one die of that rank; for odd stat values, the character rolls one die of the next lower rank, and adds one to the result. For example, a basic healing spell heals damage equal to one Nerve effect die. If the healer has a Nerve stat of 6, he rolls 1d6! to determine the effect of the spell; if his Nerve stat is 5, he rolls 1d4!+1 to determine its effect.
+
+Scaling Challenge - a challenge in which success or failure by a wide margin can produce enhanced results; each "level" of success or failure produces an additional "level" of benefit or harm.
+
+Stat
+
+
+
