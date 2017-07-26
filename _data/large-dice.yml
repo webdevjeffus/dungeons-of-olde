@@ -1,0 +1,36 @@
+- rank:  13
+  one:   1d12+1
+  two:   2d12+1
+  three: 3d12+2
+  four:  4d12+2
+
+- rank:  14
+  one:   2d6+1
+  two:   2d12+2
+  three: 3d12+3
+  four:  4d12+3
+
+- rank:  15
+  one:   2d8-1
+  two:   3d10
+  three: 4d12-2
+  four:  5d12-1
+
+- rank:  16
+  one:   2d8
+  two:   3d10+1
+  three: 4d12
+  four:  6d10+1
+
+- rank:  17
+  one:   2d8+1
+  two:   3d12-1
+  three: 4d12+1
+  four:  5d12+3
+
+- rank:  18
+  one:   3d6
+  two:   3d12
+  three: 4d12+3
+  four:  6d12-1
+
